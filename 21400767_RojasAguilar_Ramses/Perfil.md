@@ -2,6 +2,9 @@
 ### ℹ️ Información general
 
 Mi nombre es Ramses Rojas Aguilar. Tengo 22 años y soy estudiante de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico de Tepic.
+<br>
+          
+#
 
 ### 👍 Intereses
 
@@ -9,7 +12,9 @@ Mi nombre es Ramses Rojas Aguilar. Tengo 22 años y soy estudiante de la carrera
 - Dibujo
 - Arquitectura 
 - Box
-
+<br>
+          
+# 
 
 ### 🧰 Tecnologías que conozco
 
@@ -34,8 +39,24 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailw
 
 
 <img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-<br>
+
+
+<img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+
+
+
+<img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" />
           
+
+<img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+          
+
+<img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" />
+          
+
+
+<br>
+
 # 
 
 ### 🧰 Cómo contactarme
