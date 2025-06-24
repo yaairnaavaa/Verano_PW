@@ -1,3 +1,4 @@
+<img src = "https://avatars.githubusercontent.com/u/83684673?v=4">
 
 ### ℹ️ Información general
 
