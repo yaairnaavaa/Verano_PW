@@ -2,16 +2,16 @@
 | -------------- | --------------------------------------------------------------------- | ----------------------------------------------------------- |
 | `git init`     | Crea un nuevo repositorio Git en un directorio.                       | `git init` para iniciar control de versiones en tu carpeta. |
 | `git clone`    | Copia un repositorio remoto a tu máquina local.                       | `git clone https://github.com/user/proyecto.git`            |
-| `git status`   | Muestra el estado de los archivos (cambios, sin seguimiento, etc.).   | `git status` para ver qué archivos modificaste.             |
+| `git status`   | Muestra el estado de los archivos (cambios, sin seguimiento, etc.).   | `git status` para ver qué archivos han sido modificados.             |
 | `git add`      | Agrega archivos al área de preparación (staging).                     | `git add index.html`                                        |
 | `git commit`   | Guarda los cambios del staging en el historial de versiones.          | `git commit -m "Agrega navbar responsive"`                  |
 | `git log`      | Muestra el historial de commits.                                      | `git log --oneline`                                         |
-| `git diff`     | Muestra diferencias entre archivos modificados y los últimos commits. | `git diff` para ver qué cambiaste sin hacer commit aún.     |
+| `git diff`     | Muestra diferencias entre archivos modificados y los últimos commits. | `git diff` para ver qué cambios se hicieron sin hacer commit aún.     |
 | `git branch`   | Lista, crea o elimina ramas.                                          | `git branch feature/login`                                  |
 | `git checkout` | Cambia de rama o revierte archivos.                                   | para crear una rama y cambiar a ella: `git checkout -b feature/login` para restaurar un archivo a la última version confirmada: `git checkout -- archivo.txt`                                          |
 | `git merge`    | Une cambios de una rama con otra.                                     | `git merge feature/footer`                                  |
 | `git pull`     | Descarga y fusiona cambios del repositorio remoto.                    | `git pull origin main`                                      |
-| `git push`     | Sube tus commits al repositorio remoto.                               | `git push origin main`                                      |
+| `git push`     | Sube los commits del repositorio local al repositorio remoto.                               | `git push origin main`                                      |
 | `git remote`   | Administra repositorios remotos.                                      | `git remote -v` para ver a qué URLs estás conectado.        |
 | `git reset`    | Quita archivos del staging o deshace commits.                         | `git reset archivo.html`                                    |
 | `git rm`       | Elimina archivos del proyecto y del seguimiento de Git.               | `git rm script.js`                                          |
