@@ -31,7 +31,6 @@ _Séptimo Semestre_
 #### 🌐 Desarrollo web
 ![HTML5](https://img.shields.io/badge/-HTML5-333?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-333?style=for-the-badge&logo=css3)
-![React](https://img.shields.io/badge/-React-333?style=for-the-badge&logo=react)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333?style=for-the-badge&logo=bootstrap)
 
 #### 🛢️ Bases de datos
