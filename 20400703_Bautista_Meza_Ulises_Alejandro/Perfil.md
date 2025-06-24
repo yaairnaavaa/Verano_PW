@@ -13,7 +13,7 @@
 - Creación de base de datos
 - Administración de base de datos
 
-## 🛠 Tecnologías que conozco
+## Tecnologías que conozco
 - JavaScript
 - Java
 - MongoDB, MySQL
