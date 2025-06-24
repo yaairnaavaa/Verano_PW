@@ -1,7 +1,4 @@
-Comando
-Descripcion Comando
-Ejemplo de caso de uso
-# Comandos de Git
+ # Comandos de Git
 
 |**No.**| **Comando** | **Descripción** | **Ejemplo de uso** |
 |--------|-------------|-----------------|--------------------|
