@@ -1,14 +1,13 @@
 Configuración Básica 
 
 git config --global user.name
-
 Nombre que sale en los commits
 git config --global user.name "User"
-
+-----------------------------
 git config --global user.emai
 Configurar Email
 git config --global user.email user@gamil.com
-
+------------------------------------------
 git config  --global color.ui
 Marco de colores para los comandos 
 git config  --global color.ui true 
@@ -21,38 +20,32 @@ Inicializando repo
 git init
 Iniciamos git en la carpeta donde esta el proyecto
 git init
-
-
+----------------------------------
 git clone
 Clonar repositorio de github
 git clone <URL>
-
-
+---------------------------------
 git add 
 Añadimos los archivos para el commit 
 git add ./<archivo>/-all/*.txt
-
-
+-------------------------------
 git commit -m
 Hace un commit 
 git commit -m "Commit 1"
-
-
+-----------------------------
 git push
 Sube al repositorio los cambios, en la rama master
 git push origin master 
-
-
+----------------------------
 git log
 Muestra todos los commits realizados en un repositorio en orden cronologico 
 git log 
-
-
+---------------------------
 git log --online --stat 
 Resume cada comit en una sola linea
 Ejemplo: git log --oneline --stat
 
-
+--------------------------
 
 git log --online --graph 
 Agrega un grafico de ramas
@@ -63,18 +56,17 @@ Ejemplo: git log --oneline --graph
 git diff
 Muestra los cmabios en los archivos que no han sido indexados
 Ejemplo: git diff
-
+------------------------------
 
 git diff --staged
 Muestra las diferencias entre los archivos que ya han sido guardados al staging 
 Ejemplo: git diff --staged
 
-
+--------------------------
 
 git reset HEAD
 Saca un archivo del commit 
 git reset HEAD <archivo>
-
 Ejemplo: git reset HEAD index.html
 
 
@@ -86,13 +78,13 @@ git reset --soft  HEAD^
 Devuelve el ultimo commit que se hizo y pone los cambios en staging
 Ejemplo: git reset --soft HEAD^
 
-
+--------------------------
 
 git reset --hard HEAD^
 Devuelve el ultimo commit y todos los cambios
 Ejemplo: git reset --hard HEAD^
 
-
+-------------------------
 
 git reset --hard HEAD^^
 Devuelve los 2 ultimo commit y todos los cambios 
@@ -108,11 +100,12 @@ git remote add origin
 Agregar repositorio remoto
 git remote add origin <URL>
 
+----------------------------
 
 git remote set-url origin
 Cambiar de remote 
 git remote set-url origin <URL>
-
+--------------------------
 
 git remote rm 
 Mover repositorio 
@@ -143,19 +136,19 @@ git rebase
 Aqui actua ante algun concfligto y dependiendo de la opcion hace varias cosas
 Ejemplo: git rebase main
 
-
+--------------------------------
 
 git rebase --continue
 Continia la secuencia del rebase donde se pauso
 Ejemplo: git rebase --continue
 
-
+------------------------------
 
 git rebase --skip
 omite el confligto y continua 
 Ejemplo: git rebase --skip
 
-
+---------------------------
 
 git reabse --abort
 Devuelve todo al principio del rebase 
@@ -173,7 +166,7 @@ git status
 Lista un estado actual del repositorio con lista de archivos modificados o agregados
 Ejemplo: git status
 
-
+-----------------------------------------------
 
 git pull origin <nameBrach>
 Busca nuevos cambios y actualiza el repositorio 
