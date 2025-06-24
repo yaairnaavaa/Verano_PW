@@ -33,7 +33,3 @@
 19. git stash: guarda temporalmente los cambios sin necesidad de hacer commit, permitiendo que cambies de rama sin perder trabajo. Es útil si estás en medio de algo y necesitas moverte.
 
 20. git stash pop: recupera los cambios guardados con `git stash` y los vuelve a aplicar al proyecto. Sirve para retomar el trabajo temporal guardado.
-
-21. git config --global user.name "Tu Nombre": configura el nombre de usuario global que aparecerá en todos tus commits. Es importante para identificar al autor.
-
-22. **`git config --global user.email "tu@email.com"`** configura tu correo electrónico global, también necesario para asociarte como autor de los commits en los repositorios.
