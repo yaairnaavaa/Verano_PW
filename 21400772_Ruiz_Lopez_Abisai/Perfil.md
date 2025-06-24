@@ -17,6 +17,6 @@
 - SQLserver, MySQL
 - Git y GitHub
 
-## 📫 Cómo contactarme\
+## 📫 Cómo contactarme
 - Correo: abruizlo@ittepic.edu.mx
 - GitHub: [@RuiloAbyss] (https://github.com/RuiloAbyss)
