@@ -1,21 +1,23 @@
 
-INFORMACIÓN GENERAL:
-Nombre: Luna García Ángel Yaniv.
-Sexo: Masculino
-Edad: 22 años
-Semestre: Octavo
-Cursando Ingeniería en sistemas.
+<img src="https://avatars.githubusercontent.com/u/185749708?v=4" width="150" alt="Foto de perfil de Luna Garcia" />
 
-Intereses:
-Videojuegos
-Lectura
-Cocina
-Escuchar música 
+# 🎓 INFORMACIÓN GENERAL 🎓
+-  Nombre: Luna García Ángel Yaniv.
+-  Sexo: Masculino
+-  Edad: 22 años
+-  Semestre: Octavo
+-  Cursando Ingeniería en sistemas.
 
-Tecnología que conozco:
-Lenguajes de programación: Java, Python
-Herramientas de desarrollo web: PHP, Javascript, Json.
+## 💻 Intereses 💻 
+-  Desarrollo web
+-  Desarrollo de videojuegos
+-  Desarrollo de aplicaciones
 
-Como Contactarme:
-Correo: anyalunaga@ittepic.edu.mx
-Teléfono: 311-340-58-99
+## 🛠 Tecnología que conozco 🛠
+-  Lenguajes de programación: Java, Python
+-  Herramientas de desarrollo web: PHP, Javascript, Json.
+
+##  📫 Contactame 📫
+-  Correo: anyalunaga@ittepic.edu.mx
+- GitHub: [@Annavy-Galu](https://github.com/Annavy-Galu)
+
