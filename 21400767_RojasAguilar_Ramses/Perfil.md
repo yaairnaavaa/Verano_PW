@@ -1,0 +1,1 @@
+Mi nombre es Ramses Rojas Aguilar. Tengo 22 años y soy estudiante de la carrera de Ingeniería en Sistemas Computacionales en el Tecnológico de Tepic.
