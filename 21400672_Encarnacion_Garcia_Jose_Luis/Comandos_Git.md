@@ -106,13 +106,13 @@
 
 ### 18. git config --global user.name "TuNombre"  
 **Descripción:** Configura tu nombre de usuario de forma global.  
-**Ejemplo:** `git config --global user.name "Jesús Robles"`
+**Ejemplo:** `git config --global user.name "Jose Luis"`
 
 ---
 
 ### 19. git config --global user.email "correo@ejemplo.com"  
 **Descripción:** Configura tu correo electrónico global para Git.  
-**Ejemplo:** `git config --global user.email "jesus@example.com"`
+**Ejemplo:** `git config --global user.email "jole@example.com"`
 
 ---
 
