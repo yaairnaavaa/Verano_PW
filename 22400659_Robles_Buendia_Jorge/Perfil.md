@@ -9,11 +9,14 @@
 
 ## 💻 Intereses
 - Desarrollo web
-- Desarrollo full stack
-- Metal
+- Desarrollo backend<br></br>
+ <img src="./img/imgBackEnd.webp" width="250" alt="Orquesta" />
+- Soy músico <br></br>
+ <img src="./img/imagen1.jpg" width="250" alt="Orquesta" />
 - Ver peliculas
 - Zelda 
-- trabajar en equipo
+- trabajar en equipo <br></br>
+ <img src="./img/img3.webp" width="250" alt="equipo" />
 
 ## 🛠 Tecnologías que conozco
 - JavaScript, 
