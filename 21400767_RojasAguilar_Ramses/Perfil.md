@@ -34,7 +34,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailw
 
 
 <img align= "left" alt = "JS" width = "30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-          
+<br>          
 # 
 
 ### 🧰 Cómo contactarme
