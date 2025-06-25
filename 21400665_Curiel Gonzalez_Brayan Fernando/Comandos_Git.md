@@ -32,4 +32,4 @@
 
 19. git stash: guarda temporalmente los cambios sin necesidad de hacer commit, permitiendo que cambies de rama sin perder trabajo. Es útil si estás en medio de algo y necesitas moverte.
 
-20. git stash pop: recupera los cambios guardados con `git stash` y los vuelve a aplicar al proyecto. Sirve para retomar el trabajo temporal guardado.
+20. git stash pop: recupera los cambios guardados con `git stash` y los vuelve a aplicar al proyecto. Sirve para retomar el trabajo temporal guardado....
