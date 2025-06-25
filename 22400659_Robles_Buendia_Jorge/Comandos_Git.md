@@ -57,7 +57,7 @@
 - `git pull origin main`  
   Descarga y fusiona cambios de la rama principal
 
-### Otros comandos útiles
+### Otros comandos 
 - `git rm [archivo]`  
   Elimina un archivo del repositorio
 
