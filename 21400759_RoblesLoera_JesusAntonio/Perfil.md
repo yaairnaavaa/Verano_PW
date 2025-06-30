@@ -17,4 +17,3 @@
 ##  Cómo contactarme
 - Correo: jeanrobleslo@ittepic.edu.mx
 - GitHub: [@Wrek3r](https://github.com/Wrek3r)
-|
