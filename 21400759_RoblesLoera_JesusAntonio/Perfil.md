@@ -1,4 +1,4 @@
-<img src="https://avatars.githubusercontent.com/u/159507173?s=400&u=1e7a6d08d63093a5b64e8ac68077d09fba3532cf&v=4" width="150" alt="Foto de perfil de Jesus Antonio" />
+<img src="https://avatars.githubusercontent.com/u/159507173?s=400&u=bdcc21fa16be4cc144a5dc25d5e73ee70d7c4dd0&v=4" width="150" alt="Foto de perfil de Jesus Antonio" />
 #  Hola, mi nombre es Jesus Antonio
 ## Información general
 -  Carrera: Ingeniería en Sistemas Computacionales
