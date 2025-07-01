@@ -1,4 +1,4 @@
-# 👋 ¡Hola! Soy Kevin Amezcua
+# 👋 Mi nombre es Kevin Amezcua
 
 ## 🎓 Información general
 - 📚 Carrera: Ingeniería en Sistemas Computacionales
