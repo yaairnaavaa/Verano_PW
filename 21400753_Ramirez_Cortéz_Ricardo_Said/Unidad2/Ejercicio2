@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Los Aguas Aguas</title>
+</head>
+<body>
+    <h1>Los Aguas Aguas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, dolorem officiis voluptatem dolores in earum beatae, perspiciatis vel eaque incidunt officia neque, ipsa ea asperiores reiciendis nam illo doloremque amet. Officia asperiores laborum illum facilis quibusdam eum assumenda recusandae, accusamus suscipit dolorum nulla odio voluptatum repudiandae architecto aliquid cupiditate error magni fugit corrupti. Doloribus nemo officiis autem velit earum sapiente.</p>
+    
+    <h2 id="indice">Índice</h2>
+    <ol>
+        <li><a href="#foto">Fotografía del grupo</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#disco">Discografía</a></li>
+        <li><a href="#enlaces">Enlaces</a></li>
+    </ol>
+
+    <h2 id="foto">Fotografía del grupo</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Los_Aguas_Aguas.jpg" alt="Los Aguas Aguas" width="500">
+
+    <h2 id="integrantes">Integrantes</h2>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Instrumento</th>
+        </tr>
+        <tr>
+            <td>Jorge Castro</td>
+            <td>Vocalista y guitarra</td>
+        </tr> 
+        <tr>
+            <td>Javier Olondriz</td>
+            <td>Bajo</td>
+        </tr>
+        <tr>
+            <td>Jose Juan Molina</td>
+            <td>Batería</td>
+        </tr>
+    </table>
+
+    <h2 id="disco">Discografía</h2>
+    <table border="1">
+        <tr>
+            <th>Título</th>
+            <th>Año</th>
+        </tr>
+        <tr><td>Los Aguaguas</td><td>1997</td></tr>
+        <tr><td>VolumenII</td><td>2000</td></tr>
+    </table>
+
+    <h2 id="enlaces">Enlaces</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/results?search_query=Los+Aguaguas">Sitio Oficial</a></li>
+        <li><a href="https://es.wikipedia.org/wiki/Los_Aguas_Aguas">Wikipedia</a></li>
+        <li><a href="https://www.discogs.com/artist/5584923-Los-Aguaguas">Playstore</a></li>
+    </ul>
+
+    <p>Todos los derechos reservados.</p>
+</body>
+</html>
