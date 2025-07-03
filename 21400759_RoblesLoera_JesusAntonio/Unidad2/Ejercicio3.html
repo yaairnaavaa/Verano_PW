@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "es"
+<head>
+    <meta charset="UTF-8">
+    <title> Ejercicio 3</title>
+</head>
+<body>
+    <fieldset>
+<legend>Articulo</legend>
+<form action="#" method="post" >
+<! -- Nombre -->
+<label for="Nombre">Nombre</label>
+<input name="Nombre" type="text" required>
+<br>
+<br>
+<! -- Precio -->
+<label for="Precio ">Precio</label>
+<input name="Precio" type="number" step=".01" required> 
+<br>
+<br>
+<! -- Imagen -->
+<label for="Imagen">Imagen</label>
+<input name="Imagen" type="file" accept="image/*" required>
+<br>
+<br>
+<! -- Color -->
+<label for="Color">Color</label> 
+<input name="Color" type="color" required><br>
+<br>
+
+<! -- Text Area -->
+<label for="Descripción">Descripción</label> <br>
+<textarea  name="Descripción"   rows="10" cols="30" placeholder="Pon una Descripción aqui" required></textarea>
+<br>
+<br>
+<! -- Cantidad -->
+<label  for="Cantidad">Cantidad</label> 
+<input name="Cantidad" type="number" min="1" max=" 100">
+<br>
+<br>
+<! -- RadioButton -->
+<br>
+<label for="Nuevo">Nuevo</label>  <input name="Nuevo" type="radio" value="Nuevo" checked  required> 
+<br>
+ <label for="Usado">Usado</label> <input name="Usado" type="radio" value="Usado" required>
+<br>
+<br>
+
+<! -- Botones -->
+<input name="Publicar" type="submit" value="Publicar"> 
+<input name="Restablecer" type="reset" value=" Restablecer">
+<br>
+<br>
+
+</fieldset>
+</body>
