@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Estructura Base</title>
+    </head>
+    <body>
+        <form id="Formulario" action="#" method="post">
+            <fieldset>
+                <legend>Artículo</legend>
+                <label for="nombre">Nombre </label>
+                <input type="text" id="nombre" required>
+                <br><br>
+                <label for="precio">Precio </label>
+                <input type="number" id="precio" step="0.01" required>
+                <br><br>
+                <label for="imagen">Imagen </label>
+                <input type="file" id="imagen" accept="image/png, image/jpeg" required>
+                <br><br>
+                <label for="color">Color </label>
+                <input type="color" id="color" required>
+                <br><br>
+                <label for="descripcion">Descripción</label>
+                <br>
+                <textarea rows="13" cols="73" id="descripcion" placeholder="Escriba la descripción aquí." required></textarea>
+                <br><br>
+                <label for="cantidad">Cantidad </label>
+                <input type="number" id="cantidad" min="1" max="100" required>
+                <br><br>
+                <label for="nuevo">Nuevo</label>
+                <input type="radio" value="Nuevo" id="nuevo" name="estado" checked>
+                <br>
+                <label for="usado">Usado</label>
+                <input type="radio" value="Usado" id="usado" name="estado">
+                <br><br>
+                <input type="submit" value="Publicar">
+                <input type="reset" value="Restablecer">
+            </fieldset>
+        </form>
+    </body>
+</html>

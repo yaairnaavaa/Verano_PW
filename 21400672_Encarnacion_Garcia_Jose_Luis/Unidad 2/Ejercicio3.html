@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Articulo</legend>
+            <form action="#" method="post">
+                <br>
+                <!-- Nombre -->
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" required>
+                <br><br>
+                <!-- Precio -->
+                <label for="Precio">Precio</label>
+                <input type="text" name="Precio" step="0.01" min="0" required>
+                <br><br>
+                <!-- Imagen -->
+                <label for="Imagen">Imagen</label>
+                <input type="file" name="Imagen" accept="image/*" required>
+                <br><br>
+                <!-- Color -->
+                <label for="Color">Color</label>
+                <input type="color" name="Color">
+                <br><br>
+                <!-- Descripcion -->
+                <label for="Descripcion">Descripcion</label><br>
+                <textarea name="Descripcion" rows="4" cols="50" placeholder="Inserta Descripcion..." required></textarea>
+                <br><br>
+                <!-- Cantidad -->
+                <label for="Cantidad">Cantidad</label>
+                <input type="number" name="Cantidad" min="1" max="100" value="1" required>
+                <br><br>
+                <!-- Nuevo o Usado -->
+                <label for="Nuevo">Nuevo</label>
+                <input type="radio" name="Nuevo" value="Nuevo" checked><br>
+                <label for="Usado">Usado</label>
+                <input type="radio" name="Usado" value="Usado"> 
+                <br><br>    
+                <!-- Botones -->
+                <input type="submit" value="Publicar">
+                <input type="reset" value="Restablecer">
+            </form>
+        </fieldset> 
+    </body>
+</html>
