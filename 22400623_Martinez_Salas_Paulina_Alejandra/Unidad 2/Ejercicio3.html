@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Artículo</legend>
+         
+            <!-- Sección Nombre-->
+            <label>Nombre</label>
+            <input type="text" id="Nombre" required>
+            <br><br>
+        
+            <!-- Sección Precio-->
+            <label for="Precio">Precio</label>
+            <input type="number" id="Precio" step="0.01" required>
+            <br><br>
+           
+            <!-- Sección Imagen-->
+            <label for="Imagen">Imagen</label>
+            <input type="file" id="Imagen" accept="image/*" required>
+            <br><br>
+          
+            <!-- Sección Color-->
+            <label for="Color">Color</label>
+            <input type="color" required>
+            <br><br>
+
+            <!-- Sección Descripción-->
+            <label for="Descripción">Descripción</label> <br>
+            <textarea rows="10" cols="40" id="Descripción" placeholder="Escribe Aquí" required></textarea>
+            <br><br>
+
+            <!-- Sección Cantidad-->
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" id="Cantidad" min="1" max="100" required>
+            <br><br>
+
+            <!-- Sección Radio-->
+            <label for="Nuevo">Nuevo</label>
+            <input type="radio" id="Nuevo" value="Nuevo" name="Nuevo" checked><br>
+            <label for="Usado">Usado</label>
+            <input type="radio" id="Usado" value="Usado" name="Usado"><br><br>
+
+            <!-- Sección Botones-->
+            <button type="submit">Publicar</button>
+            <button type="reset">Restablecer</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
