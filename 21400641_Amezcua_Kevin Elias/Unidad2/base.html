@@ -23,7 +23,9 @@
             temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia nulla alias ad accusamus eligendi, 
             vel officiis laudantium reprehenderit? Animi quasi ullam placeat culpa eos explicabo sint aut deleniti laudantium.</p>
             <hr>
+            
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj7cyiblt27C0oBPY7_380M2xNSNuWkX0PJA&s" alt="NASA">
+            
             <h3 id="listas">Listas</h3>
             <h3>Lista No Ordenada</h3>
             <ul>
@@ -37,6 +39,7 @@
                 <li>Elemento de lista 2</li>
                 <li>Elemento de lista 3</li>
             </ol>
+
             <h3>Tabla</h3>
             <table border="1">
                 <tr>
@@ -53,10 +56,86 @@
                     <td>Tepic</td>
                 </tr>
             </table>
+
             <hr>
+
             <h3>Enlaces</h3>
             <a href="https://www.google.com/" target="_blank" title="Google.com">Ir a Google.com</a><br>
             <a href="#encabezados">Ir a Encabezados</a><br>
             <a href="#listas">Ir a Listas</a>
+
+            <hr>
+
+            <h3>Formularios</h3>
+            <form action="#" method="post">
+                <!--Texto-->
+                <label for="">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Nombre" required> <br> <br>
+
+                <!--Email-->
+                <label for="">Correo:</label>
+                <input type="email" name="correo" placeholder="Correo Electrónico" required> <br> <br>
+
+                <!--Password-->
+                <label for="">Contraseña:</label>
+                <input type="password" name="contrasena" placeholder="Contraseña" required> <br> <br>
+
+                <!--Color-->
+                <label for="">Color:</label>
+                <input type="color" name="" id=""> <br> <br>
+
+                <!--Date-->
+                <label for="">Fecha de Nacimiento:</label>
+                <input type="date" name="" id=""> <br> <br>
+                
+                <!--Radio-->
+                <label for="">Género:</label>
+                <input type="radio" name="genero" value="masculino" id="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" value="femenino" id="femenino" checked>
+                <label for="femenino">Femenino</label> <br> <br>
+
+                <!--Checkbox-->
+                <label for="intereses">Si</label>
+                <input type="checkbox" name="" id="">
+                <label for="intereses">No</label>
+                <input type="checkbox" name="" id=""> <br> <br>
+
+                <!--Range-->
+                <label for="">Rango:</label>
+                <input type="range" min="0" max="100"> <br>  <br>
+
+                <!--Number-->
+                <label for="">Numero:</label>
+                <input type="number" name="" id="" placeholder="Número"> <br> <br>
+
+                <!--File-->
+                <label for="">Archivos:</label>
+                <input type="file" name="" id=""> <br> <br>
+
+                <!--Time-->
+                <label for="">Hora:</label>
+                <input type="time"> <br> <br>
+
+                <!--Select-->
+                <label for="">Pais:</label>
+                <select name="pais" id="pais">
+                    <option value="mexico">México</option>
+                    <option value="usa">Estados Unidos</option>
+                    <option value="canada">Canadá</option>
+                    <option value="españa">España</option>
+                </select> <br> <br>
+
+                <!--Textarea-->
+                <label for="">Text Area:</label> <br>
+                <textarea name="" id=""></textarea>
+
+                <br> <br>
+                <!--Botones-->
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+
+                <hr>
+            </form>
         </body>
 </html>
