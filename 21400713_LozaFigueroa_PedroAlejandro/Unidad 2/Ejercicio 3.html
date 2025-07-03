@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>Artículo</legend>
+        <!--Nombre-->
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" required>
+        <br><br>
+        <!--Precio-->
+        <label for="Precio">Precio</label>
+        <input type ="number" step="0.01" name="Precio" required>
+        <br><br>
+        <!--Imagen-->
+        <label for="Imagen">Imagen</label>
+        <input type="file" name="Imagen" accept="image/*" required>
+        <br><br>
+        <!--Color-->
+        <label for="Color">Color</label>
+        <input type="color" name="Color" required>
+        <br><br>
+        <!--Descripción-->
+        <label for="Descripcion">Descripción</label><br>
+        <textarea rows="5" cols="10" name="Descripcion" placeholder="agrega Descripción" required></textarea>
+        <br><br>
+        <!--Cantidad-->
+        <label for="Cantidad">Cantidad</label>
+        <input type="number" name="Cantidad" min="1" max="100" required>
+        <br><br>
+        <!--Nuevo-->
+        <label for="Nuevo">Nuevo</label>
+        <input type="radio" value="Nuevo" name="Nuevo" checked required><br>
+        <label for="Usado">Usado</label>
+        <input type="radio" value="Usado" name="Usado" required>
+        <br><br>
+        <!--Botones-->
+        <input type="submit" value="Publicar"><br><br>
+        <input type="reset" value="Restablecer">
+        </fieldset>
+        </form>
+    </body>
+</html>
