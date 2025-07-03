@@ -9,27 +9,27 @@
     <Fieldset>
         <legend>Articulo</legend>
         <label for="Nombre">Nombre</label>
-        <input type="text" required>
+        <input type="text" name="Nombre" required>
         <br><br>
         <label for="Precio">Precio</label>
-        <input type="number" step="0.01" min="0" required>
+        <input type="number" name="Precio" step="0.01" min="0" required>
         <br><br>
         <label for="Imagen">Imagen</label>
-        <input type="file" accept="image/*" required>
+        <input type="file" name="Imagen" accept="image/*" required>
         <br><br>
         <label for="Color">Color</label>
-        <input type="color" required>
+        <input type="color" name="Color" required>
         <br><br>    
         <label for="Descripcion">Descripcion</label><br>
-        <textarea placeholder="Describe" required></textarea>
+        <textarea placeholder="Describe" name="Descripcion" required></textarea>
         <br><br>
         <label for="cantidad">Cantidad</label>
-        <input type="number" min="1" max="100" required>
+        <input type="number" name="cantidad" min="1" max="100" required>
         <br><br>
         <label for="Nuevo">Nuevo</label>
-        <input type="radio" checked required>
+        <input type="radio" name="Nuevo" checked required>
         <label for="Usado">Usado</label>
-        <input type="radio" required>
+        <input type="radio" name="Usado" required>
         <br><br>
         <input type="submit" value="Publicar">
         <input type="reset" value="Restablecer">
