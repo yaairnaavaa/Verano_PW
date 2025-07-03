@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <!-- -->
+    <head>  
+        <meta charset="UTF-8">
+        <title>Ejercicio 3 - Carim</title>
+    </head>
+
+    <body>  
+        <fieldset title="Articulo" lang="es" style="border: 1px solid black; padding: 10px; margin: 20px;">
+            <legend>Articulo</legend>
+
+        <form action="#" method="post" margin="20px" border="1" padding="10px">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+                <br><br>
+            </div>
+
+            <label for="precio">Precio</label>
+            <input type="number" id="precio" step=".01" required>
+            <br><br>
+
+            <label for="imagen">Imagen</label>
+            <input type="file" id="imagen" required accept="image/png, image/gif, image/jpeg">
+            <br><br>
+
+            <label for="color">Color</label>
+            <input type="color" id="color" required>
+            <br><br>
+
+            <label for="desc">Descripción</label> <br> 
+            <textarea id="desc" rows="12" cols="30" required placeholder="Escribir aquí"></textarea>
+            <br><br>
+
+            <label for="cant">Cantidad</label>
+            <input type="number" id="cant" min="1" max="100" required>
+            <br><br>
+
+            <label for="nuevo">Nuevo</label>
+            <input type="radio" id="nuevo" name="tipo" value="nuevo" checked>
+            <br> <label for="usado">Usado</label>
+            <input type="radio" id="usado" name="tipo" value="usado"> 
+            <br><br>
+
+            <input type="submit" value="Publicar"> 
+            <input type="reset" value="Restablecer">
+        </form>
+
+        </fieldset>
+    </body>
+</html>
