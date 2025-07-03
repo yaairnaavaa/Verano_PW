@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!--Estructura basica-->
+<html lang="es"> <!--Idioma de programacion-->
+
+<head> <!--Seccion Head-->
+    <meta charset="UTF-8"> <!--Para permitir caracteres especiales-->
+    <title>Formulario</title> <!--Titulo-->
+</head>
+
+<body>
+    <fieldset><!--Panel-->
+        <legend>Articulo</legend><!--Titulo al Panel-->
+        <form><!--Formulario-->
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+            <br><br>
+
+            <label for="Precio">Precio</label>
+            <input type="number" id="Precio" name="Precio" step="0.01" required>
+            <br><br>
+
+            <label for="Imagen">Imagen</label>
+            <input type="file" id="Imagen" name="Imagen" accept="image/*" required>
+            <br><br>
+
+            <label for="Color">Color
+            <input type="color" id="Color" name="Color" required>
+            <br><br>
+
+            <label for="Descripcion">Descripcion</label>
+            <br><br>
+            <textarea rows="4" cols="50" id="Descripcion" name="Descripcion" placeholder="Ingresa una descripción" required></textarea>
+            <br><br>
+
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" id="Cantidad" name="Cantidad" min="1" max="100" required>
+            <br><br>
+
+            <label for="Nuevo">Nuevo</label>
+            <input type="radio" value="Nuevo" id="Nuevo" name="Nuevo" required checked> 
+            <br><br>
+            <label for="Usado">Usado</label>
+            <input type="radio" value="Usado" id="Usado" name="Usado" required>
+            <br><br>
+
+            <input type="submit" value="Publicar">
+            <input type="reset" value="Restablecer">
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
