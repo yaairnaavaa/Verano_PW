@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Articulo</legend>
+        <label for="nombre">Nombre</label>
+        <input name="nombre" required type="text" /> <br />
+        <br />
+
+        <label for="precio">Precio</label>
+        <input name="precio" step="0.01" pattern="^\d*(\.\d{2})?$" required type="number" /> <br />
+        <br />
+
+        <label for="imagen">Imagen</label>
+        <input accept="image/png, image/jpeg" name="imagen" required type="file" /> <br />
+        <br />
+
+        <label for="color">Color</label>
+        <input name="color" type="color" /> <br />
+        <br />
+
+        <label for="descripcion">Descripcion</label> <br />
+        <br />
+        <textarea rows="8" name="descripcion" id="" placeholder="Ingresa una descripcion"></textarea> <br />
+        <br />
+
+        <label for="cantidad">Cantidad</label>
+        <input name="cantidad" max="100" type="number" /> <br />
+        <br />
+
+        <label for="nuevo">Nuevo</label>
+        <input name="estado" id="nuevo" checked type="radio" value="nuevo" /> 
+        <label for="usado">Usado</label>
+        <input name="estado" id="usado" type="radio" value="usado" /> <br />
+        <br />
+
+        <button type="submit">Publicar</button>
+        <button type="reset">Reestablecer</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
