@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <!-- -->
+    <head>  
+        <meta charset="UTF-8">
+        <title>Ejercicio 4 - Carim</title>
+    </head>
+
+    <body>  
+        <h1>Conferencia Tech 2025</h1>
+
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#ponentes">Ponentes</a></li>
+            <li><a href="#registro">Registro</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        
+        <h2 id="inicio">Sobre la Conferencia</h2>
+        <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!</p> 
+        <p>La conferencia abordará temas como:</p> 
+
+        <ul>
+            <li>Inteligencia Artifical</li>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                </ul>
+            <li>Desarrollo Web</li>
+                <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                </ul>
+            <li>Seguridad Informática</li>
+            <li>Innovación en Hardware</li>
+        </ul>
+
+        <h2 id="agenda">Agenda del Evento</h2>
+        <table border="1">
+            <tr>
+                <th>Día</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Inteligencia Artificial</td>
+                <td>Dr. Laura Gómez</td>
+            </tr>
+            
+            <tr>
+                <td>10/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Seguridad Informática</td>
+                <td>Ing. Juan Pérez</td>
+            </tr>
+            
+            <tr>
+                <td>11/10/2025</td>
+                <td>9:00 - 10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+            </tr>
+            
+            <tr>
+                <td>11/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro León</td>
+            </tr>
+        </table>
+
+        <h2 id="ponentes">Ponentes Destacados</h2>
+
+        <p>&emsp;&emsp;<strong>Dr. Laura Gómez: </strong>Experta en Inteligencia Artificial con más de 15 años de experiencia.</p>
+        <p>&emsp;&emsp;<strong>Ing. Juan Peréz: </strong>Especialista en ciberseguridad, ponente internacional.</p>
+        <p>&emsp;&emsp;<strong>Lic. Ana Ruiz: </strong>Desarrolladora full-stack, fundadora de TechWeb</p>
+        <p>&emsp;&emsp;<strong>MSc. Pedro León: </strong>Investigador en hardware de alto rendimiento.</p>
+
+        <h2 id="registro">Registro al Evento</h2>
+        <h3>¡Regístrate para asistir!</h3>
+        <p>Los campos marcados con * son obligatorios</p>
+
+        <fieldset id="registro" title="Formulario de Registro" lang="es" style="border: 1px solid black;">
+            <legend>Formulario de Registro</legend>
+
+            <form action="#" method="post">
+                <label for="nombre">Nombre Completo*:</label> <br>
+                <input type="text" id="nombre" required>
+                <br><br>
+
+                <label for="edad">Edad*:</label> <br>
+                <input type="number" id="edad" required>
+                <br><br>
+ 
+                <label for="correo">Correo Electrónico*:</label> <br>
+                <input type="mail" id="correo" required>
+                <br><br>
+ 
+                <label for="telefono">Teléfono (opcional):</label> <br>
+                <input type="tel" id="telefono">
+                <br><br>
+                
+                <label>Género:</label> <br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label> <br>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label> <br>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label> <br> <br>
+
+                <div class="checkbox-group required">
+                    <label>Selecciona las conferencias a las que deseas asistir*:</label> <br> <br>
+                    <input type="checkbox" id="ia" name="conferencias" value="ia" >
+                    <label for="ia">IA</label> <br>
+                    <input type="checkbox" id="web" name="conferencias" value="web" >
+                    <label for="web">Desarrollo Web</label> <br>
+                    <input type="checkbox" id="seguridad" name="conferencias" value="seguridad"> 
+                    <label for="seguridad">Seguridad Informática</label> <br>
+                    <input type="checkbox" id="hardware" name="conferencias" value="hardware">
+                    <label for="hardware">Hardware Innovador</label> <br><br>
+                </div>
+                
+
+                <label for="nivel">Nivel de experiencia en tecnología:</label> <br>
+                <select id="nivel">
+                    <option value="principiante">Principiante</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                </select>
+
+                <br> <br>
+
+                <label for="comentarios">Comentarios adicionales (máx. 300 caracteres):</label> <br>
+                <textarea id="comentarios" rows="4" cols="50" maxlength="300" placeholder="Escribir aquí..."></textarea> 
+
+                <br> <br>
+
+                <label for="pdf">Adjuntar CV o Portafolio (PDF):</label> <br>
+                <input type="file" id="pdf" accept=".pdf">
+
+                <br> <br>
+
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los terminos y condiciones*</label>
+
+                <br><br>
+
+                <input type="submit" value="Enviar Registro">
+            </form>
+        </fieldset>
+    </body>
+</html>
