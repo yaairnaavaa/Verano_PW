@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+
+<body>
+    <h1><Strong>Conferencia Tech 2025</Strong></h1>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Agenda del Evento">Agenda</a></li>
+        <li><a href="#Ponentes">Ponentes</a></li>
+        <li><a href="#Registro">Registro</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+
+    <h2 id="Inicio"><Strong>Sobre la Conferencia</Strong></h2>
+    <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!</p>
+    <p>La conferencia abordará temas como:</p>
+    <ul>
+        <li>Inteligencia Artificial</li>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+        </ul>
+        </li>
+        <li>Desarrollo web </li>
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+        </ul>
+        <li>Seguridad Informatica</li>
+        <li>Innovacion en Hardware</li>
+    </ul>
+    <h2 id="Agenda del Evento"><strong>Agenda del Evento</strong></h2>
+    <table border="1">
+        <tr>
+            <th><Strong>Dia</Strong></th>
+            <th><Strong>Hora</Strong></th>
+            <th><Strong>Tema</Strong></th>
+            <th><Strong>Ponente</Strong></th>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:00</td>
+            <td>Inteligencia Artificial</td>
+            <td>Dr. Laura Gomez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Seguridad Informatica</td>
+            <td>Ing. Juan Perez</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Desarrollo Web</td>
+            <td>Lic. Ana Ruiz</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Hardware Innovador</td>
+            <td>Msc. Pedro Leon</td>
+        </tr>
+    </table>
+    <h2 id="Ponentes"><strong>Ponentes Destacados</strong></h2>
+    <p style="text-indent: 2%;"><strong>Dr. Laura Gomez:</strong>Experta en Inteligencia Artificial con mas de 15 años
+        de experiencia.</p>
+    <p style="text-indent: 2%;"><strong>Ing. Juan Perez:</strong>Especialista en Ciberseguridad, ponente internacional.
+    </p>
+    <p style="text-indent: 2%;"><strong>Lic. Ana Ruiz:</strong>Desarrolladora full-stack, fundadora de TechWeb.</p>
+    <p style="text-indent: 2%;"><strong>Msc. Pedro Leon:</strong>Investigador en hardware de alto rendimiento.</p>
+    <br>
+    <h2 id="Registro"><strong>Registro del Evento</strong></h2>
+    <p><Strong>!Registrate para asistir!</Strong></p>
+    <p>Los campos marcados con * son obligatorios.</p>
+
+    <fieldset>
+        <legend>Formulario de Registro</legend>
+        <form action="#" method="post">
+            <label for="Nombre">Nombre completo*:</label>
+            <br>
+            <input type="text" name="Nombre" required>
+            <br><br>
+            <label for="Edad">Edad*:</label>
+            <br>
+            <input type="number" name="Edad" required>
+            <br><br>
+            <label for="Correo">Correo electrónico*:</label>
+            <br>
+            <input type="email" name="Correo" required>
+            <br><br>
+            <label for="Telefono">Teléfono(opcional):</label>
+            <br>
+            <input type="tel" name="Telefono">
+            <br><br>
+            <label for="Genero">Género:</label>
+            <br>
+            <input type="radio" name="Genero" value="Masculino"> Masculino<br>
+            <input type="radio" name="Genero" value="Femenino"> Femenino<br>
+            <input type="radio" name="Genero" value="Otro"> Otro<br>
+            <br>
+            <label for="Conferencias">Selecciona las conferencias a las que deseas asistir:</label>
+            <br><br>
+            <input type="checkbox" name="Conferencias" value="IA"> IA<br>
+            <input type="checkbox" name="Conferencias" value="SW"> Desarrollo Web<br>
+            <input type="checkbox" name="Conferencias" value="SI"> Seguridad Informática<br>
+            <input type="checkbox" name="Conferencias" value="HI"> Hardware Innovador<br>
+            <br>
+            <label for="Nivel">Nivel de experiencia en tecnología:</label>
+            <br>
+            <select name="Nivel">
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select>
+            <br><br>
+            <label for="Comentarios">Comentarios adicionales(max, 300 caracteres):</label>
+            <br>
+            <textarea name="Comentarios" rows="4" cols="50" maxlength="300"></textarea>
+            <br>
+            <p>Adjuntar CV o Portafolio(PDF):</p>
+            <input type="file" name="Archivo" accept=".pdf">
+            <br><br>
+            <input type="checkbox" name="Terminos" required>
+
+            <label for="Terminos">Acepto los términos y condiciones*</label>
+            <br><br>
+            <input type="submit" value="Enviar registro">
+
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
