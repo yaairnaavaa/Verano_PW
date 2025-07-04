@@ -9,33 +9,33 @@
         <form>
             <fieldset><legend>Articulo</legend>
             <label>Nombre</label>
-            <input type="name" id="nombre">
+            <input type="name" id="nombre" required>
             <br>
             <br>
             <label>Precio</label>
-            <input type="price" id="Precio">
+            <input type="price" id="Precio" required type="number">
             <br>
             <br>
             <label>Imagen</label>
-            <input type="file" id="Imagen">
+            <input type="file" id="Imagen" required accept="/imagen">
             <br>
             <br>    
             <label>Color</label> 
-            <input type="color" id="color">
+            <input type="color" id="color" required>
             <br>
             <br>
             <label>Descripcion</label><br>
-            <textarea rows="5" cols="40" placeholder="describe el articulo..." id="Descripcion"></textarea>
+            <textarea rows="5" cols="40" placeholder="describe el articulo..." id="Descripcion" required></textarea>
             <br>
             <br>
             <label>Cantidad</label>
-            <input placeholder="1" id="Cantidad">
+            <input placeholder="1" id="Cantidad" required min="1" max="20">
             <br>
             <br>
             <label>Nuevo</label>
-            <input type="radio" id="Nuevo">
+            <input type="radio" id="Nuevo" required name="used">
             <label>Usado</label>
-            <input type="radio" id="Usado">
+            <input type="radio" id="Usado" required name="used">
             <br>
             <br>
             <input type="submit" value="publicar">
