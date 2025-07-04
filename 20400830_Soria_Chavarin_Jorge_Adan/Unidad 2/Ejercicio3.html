@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- seccion head -->
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+<fieldset>
+    <legend>Formulario</legend>
+<form action="#" method="post">
+ <label for="nom">Nombre</label>
+    <input type="text" id="nom" name="nom" required>
+    <br><br>
+<label for="Pre">Precio</label>
+    <input type="number" id="Pre" name="Pre" step="0.01" min="0" max="10" required>
+    <br><br>
+
+    <label for="arc">Archivos</label>
+    <input type="file" accept="image/*" id="arc" name="arc" required>
+    <br><br>
+    
+    <label for="color">Color</label>
+    <input type="color" id="color" name="color" required>
+    <br><br>
+    <label for="desc">Descripcion</label><br>
+    <textarea rows="5" id="desc" name="desc" placeholder="escribiendo" required></textarea>
+    <br><br>
+
+    <label for="cant">Cantidad</label>
+    <input type="text" id="cant" name="cant" min="1" max="100" required>
+    <br><br>
+
+<label for="nuevo">Nuevo</label>
+    <input type="radio" value="nuevo" id="nuevo" name="estado" checked required> <br>
+ <label for="usado">Usado</label>   
+    <input type="radio" value="usado" id="usado" name="estado" required>
+    <br><br>
+    <label for="boton">Botones</label>
+    <br> <br>
+    <input type="button" value="Publicar" id="boton" name="boton" required>
+    <input type="reset" value="Establecer" id="boton" name="boton" required>
+    <br><br>
+    
+
+</form>
+</fieldset>
+</body>
+
+</html>

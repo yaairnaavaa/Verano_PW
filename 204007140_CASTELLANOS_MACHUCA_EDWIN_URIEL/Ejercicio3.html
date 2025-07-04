@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="#" method="post">
+    <fieldset>
+    <legend>Articulo</legend>
+    <br>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" required>
+    <br><br>
+    <label for="precio">Precio</label>
+    <input type="number" id="precio" step="0.01" required>
+    <br><br>
+    <label for="imagen">Imagen</label>
+    <input type="file" accept="image/*" title="Selecionar archivo" id="imagen" required>
+    <br><br>
+    <label for="color">Color</label>
+    <input type="color" required id="color">
+    <br><br>
+    <label for="descripcion">Descripción</label><br>
+    <textarea id="descripcion" rows="10" cols="20" required placeholder="Descripción del artículo"></textarea>
+    <br><br>
+    <label for="cantidad">Cantidad</label>
+    <input type="number" id="cantidad" required min="1" max="100">
+    <br><br>
+    <label for="nuevo">Nuevo</label>
+    <input  checked type="radio" id="nuevo" value="nuevo" required><br>
+    <label for="usado">Usado</label>
+    <input type="radio" id="usado" value="usado" required>
+    <br><br>
+    <input type="submit" value="Publicar">
+    <input type="reset" value="Restablecer">
+    </fieldset>
+</form>
+
+
+
+
+</body>
+</html>
