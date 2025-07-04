@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Articulo</title>
+    </head>
+    <body>
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Articulo</legend>
+        <label>Nombre</label>
+        <input type="text" required>
+        <br><br>
+        <label>Precio</label>
+        <input type="number" required>
+        <br><br>
+        <label>Imagen</label>
+        <input type="file" accept=".png" required>
+        <br><br>
+        <label>Color</label>
+        <input type="color" id="Color" required>
+        <br><br>
+        <label>Descripción</label><br>
+        <textarea rows="13" cols="35" required></textarea>
+        <br><br>
+        <label>Cantidad</label>
+        <input type="number" name="cantidad" min="1" max="100" required>
+        <br><br>
+        <label>Nuevo</label>
+        <input type="radio" id="nuevo" name="estado" value="nuevo" checked required><br>
+        <label>Usado</label>
+        <input type="radio">
+        <br><br>
+        <input type="submit" value="Publicar">
+        <input type="reset" value="Restablecer">
+        </fieldset>
+    </form>
+    </body>
+</html>
