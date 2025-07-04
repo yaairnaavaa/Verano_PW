@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio3</title>  
+</head>
+<body>
+    <fieldset > 
+        <legend>Articulo</legend>
+    <form action="#">
+        <label for="texto">Nombre</label>
+        <input id="texto" type="text" required>
+        <br><br>
+
+        <label for="precio">Precio</label>
+        <input id="precio" type="number" step="0.01" required>
+        <br><br>
+
+        <label for="img">Imagen</label>
+        <input id="img" type="file" accept=".png, .jpg, .jpeg" required>
+        <br><br>
+
+        <label for="color">Color</label>
+        <input id="color" type="color" required>
+        <br><br>
+
+        <label for="desc">Descripcion</label><br>
+        <textarea id="desc" rows="15" cols="50" placeholder="Escribe texto aqui porfavor..." required></textarea>
+        <br><br>
+
+        <label for="cantidad">Cantidad</label>
+        <input id="cantidad" type="number" min="1" max="100" required>
+       <br><br>
+
+       <label for="nuevo">Nuevo</label>
+       <input id="nuevo" type="radio" required checked><br>
+       <label for="usado">Usado</label >
+       <input id="usado" type="radio" required>
+        <br><br>
+
+        <input type="submit" value="Publicar">
+        <input type="reset">
+
+    </form></fieldset>
+    <br><br><br>
+
+</body>
+</html>
