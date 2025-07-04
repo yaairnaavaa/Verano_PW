@@ -1,0 +1,37 @@
+<html lang="es">
+    <body>
+        <fieldset>
+            <legend>Artículo</legend>
+        <form action="#" method="post">
+            <!--text--->
+            <label for="nom">Nombre</label>
+            <input id="nom" type="text" required>
+            <br><br>             
+            <label for="precio" >Precio</label>
+            <input id="precio" type="number" step="0.01" required>
+            <br><br>
+            <label for="img">Imagen</label>
+            <input id="img" type="file" accept="image/*" required>
+            <br><br>            
+            <label for="color">Color</label>
+            <input id="color" type="color" required>
+            <br><br>
+            <label for="desc">Descripcion</label><br>
+            <textarea id="desc" cols="36" rows="8" placeholder="Escriba aquí" required></textarea>
+            <br><br>
+            <label for="cant">Cantidad</label>
+            <input id="cant" type="number" min="1" max="100" required>
+            <br><br>
+            <label for="R_nuevo">Nuevo</label>
+            <input id="R_nuevo" type="radio" name="opcion" value="1" checked required>
+            <br>
+            <label for="R_usado">Usado</label>
+            <input id="R_usado" type="radio" name="opcion" value="2" required>
+            <br>            
+            <input type="submit">
+            <input type="reset">
+            </fieldset>
+        </form>
+
+    </body>
+
