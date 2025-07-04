@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conferencia Tech 2025</h1>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Agenda">Agenda</a></li>
+        <li><a href="#Ponentes">Ponentes</a></li>
+        <li><a href="#Registro">Registro</a></li>
+    </ul>
+
+    <h2 id="Inicio">Sobre la Conferencia</h2>
+    <i>!Bienvenido a la Conferencia Internacional de Tecnologia¡</i>
+    <p>La conferencia abordara:</p>
+    <ul>
+        <li>Inteligencia artificial</li>
+        <ul>
+            <li>Machin Lerning</li>
+            <li>Deep Learning</li>
+        </ul>
+        <li>Desarrollo web</li>
+        <ul>
+            <li>Frontend</li><li>Backend</li>
+        </ul>
+        <li>Seguridad Informatica</li>
+        <li>Innovacion en hardwere</li>
+    </ul>
+    <h2 id="Agenda">Agenda del Evento</h2>
+    <table border="1">
+        <tr>
+            <th>Dia</th><th>Hora</th><th>Tema</th><th>Ponente</th>
+        </tr>
+        <tr>
+            <td>10/10/2025</td><td>09: - 10:30</td><td>Inteligencia Artificial</td><td>Dr. laura gomez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td><td>11:00 - 12:30</td><td>Seguridad Informatica</td><td>Ing. Juan Perez</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td><td>09: - 10:30</td><td>Desarrollo web</td><td>Lic. anaruiz</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td><td>11:00 - 12:30</td><td>hardwere innovador</td><td>Msc.pedro leon</td>
+        </tr> 
+    </table>
+    <h2 id="Ponentes">Ponentes Destacados</h2>
+    <blockquote>
+        <p><strong>Dr. Laura Gomez</strong> EXperta en Inteligiencia artificial con mas de 15 anios de experiencia</p>
+        <p><strong>Ing. Juan Lopez</strong> Especialista en cibberseguridad, ponente internacional</p>
+        <p><strong>Lic. Ana Ruiz</strong> Dessarrolladora full-stack, fundadorea de tech web</p>
+        <p><strong>MSc Pedro Leon</strong> Investigador de hardwere de alto rendimiento</p>
+    </blockquote>
+    <h1 id="Registro">Regstro al Evento</h1>
+    <h5>!Registrate para asistir¡</h5>
+    <p>Los campos marcados con * son obligatorios. </p>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Formulario de Registo</legend>
+
+            <!--Nombre-->
+            <label for="Nombre completo">Nombre completo *:</label><br>
+            <input type="text" id="Nombre" required>
+            <br>
+            <!--Edad-->
+            <label for="Edad">Edad *:</label><br>
+            <input type="text" id="Edad" required>
+            <br>
+            <!--Correo electronico-->
+            <label for="Correo electronico">Correo electronico *:</label><br>
+            <input type="text" id="Correo electronico" required>
+            <br>
+            <!--Telefono Opcional-->
+            <label for="Telefono Opcional">Telefono Opcional</label><br>
+            <input type="tel" id="Telefono Opcional" >
+            <br>
+            <!--Genero-->
+            <label for="Genero">Genero</label><br>
+            
+            <input type="radio" value="Masculino" id="Masculino"><label for="Masculino">Masculino</label><br>
+            <input type="radio" value="Femenino" id="Femenino"><label for="Femenino">Femenino</label><br>
+            <input type="radio" value="Otro" id="Otro"><label for="Otro">Otro</label><br>
+            <br>
+
+            <!--Conferencia-->
+            <label >Selecciona las conferencias a las que deseas insribir *:</label><br>
+            <input type="checkbox" value="IA"><label for="IA">IA</label><br>
+            <input type="checkbox" value="Desarrollo Web"><label for="Desarrollo Web">Desarrollo Web</label><br>
+            <input type="checkbox" value="Seguridad Informatica"><label for="Seguridad Informatica">Seguridad Informatica</label><br>
+            <input type="checkbox" value="hardwere innovador"><label for="hardwere innovador">hardwere innovador</label><br>
+            <br>
+            <!--Nivel-->
+            <label for="pdf">Nivel de experiencia en tecnologia</label>
+            <select >
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select>
+            <br>
+            <br>
+            <!--TextArea-->
+            <label for="comentarios">Comentarios adicionales (max300 caracteres)</label><br>
+            <textarea rows="9" cols="10" placeholder="plasholder"></textarea><br>
+
+            <!--pdf-->
+            <label for="pdf">Adjunta tu Cv o portafolio (pdf)</label><br>
+            <input type="file" required accept="application/pdf" id="pdf">
+            <br>
+            <br>
+            <input type="checkbox" required value="terminosCondicicones"><label for="terminosCondicicones">Terminos Condicicones</label>
+            <br><br>
+
+            <input type="submit" value="Enviar Registro">
+
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+</html>
