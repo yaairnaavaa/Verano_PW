@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Articulo</p>
+
+    <form action="#" method="post" >
+        <fieldset>
+            <legend>Articulo</legend>
+            <!--Nombre-->
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" required><br>
+            <!--Precio-->
+            <label for="Precio">Precio</label>
+            <input type="number" id="Precio" step=".01" required><br>
+            <!--imagen-->
+            <label for="imagen">Imagen</label>
+            <input type="file" accept="image/*" id="imagen" required><br>
+            <!--Color-->
+            <label for="Color">Color</label>
+            <input type="color" id="Color" required><br>
+            <!--decripcion-->
+            <label for="decripcion">Descripcion</label><br>
+            <textarea rows="20" cols="40" placeholder="INGRESA TU DESCRIPCION AQUI" id="decripcion" required></textarea><br>
+            <!--Cantidad-->
+            <label for="Cantidad">Cantidad</label>
+            <input type="number" min="1" max="100" id="Cantidad" required><br>
+            <!--Estado-->
+            <label>Nuevo</label>
+            <input type="radio" checked ><br>
+            <label>Usado</label>
+            <input type="radio"><br>
+
+            <!--Botones-->
+
+            <input type="submit" value="Publicar">
+            <input type="reset" value="Restablecer">
+
+        </fieldset>
+
+
+    </form>
+
+
+</body>
+</html>
