@@ -1,0 +1,155 @@
+<html lang="es">
+    <body>
+        <fieldset>
+            <legend>Artículo</legend>
+        
+    <h1>Conferencia Tech 2025</h1>
+    <ul>
+            <li><a href="#Inicio">Imagen del Grupo</a></li>
+            <li><a href="#Agenda">Integrantes</a></li>
+            <li><a href="#Ponentes">Discografia</a></li>
+            <li><a href="#Registro">Discografia</a></li>
+            <li><a href="#Contacto">Discografia</a></li>
+    </ul>      
+
+    <h2>Sobre la Conferencia</h2>
+    Placeholder<br>
+    Placeholder<br>
+    Placeholder<br>
+        
+        <ul>
+            <li>Inteligencia Artificial
+                <ul><li>Machine Learning</li>
+                <li>Deep Learning    </li></ul>
+            </li>
+            <li>Desarrollo Web
+                <ul><li>Frontend</li>
+                <li>Backend</li></ul>
+            </li>
+            <li>Seguridad Informática</li>
+            <li>Innovción en Hardware</li>   
+        </ul>   
+        
+        <table border="2px solid">
+            <tr>
+                <td><strong>Día</strong></td>                
+                <td><strong>Hora</strong></td>
+                <td><strong>Tema</strong></td>                
+                <td><strong>Ponente</strong></td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>10/10/2025</td>                
+                    <td>09:00 - 10:30</td>
+                    <td>Inteligencia Artificial</td>                
+                    <td>Dr. Laura Gómez</td>
+                </tr>
+                <tr>
+                    <td>10/10/2025</td>                
+                    <td>11:00 - 12:30</td>
+                    <td>Seguridad Informática</td>                
+                    <td>Ing. Juan Pérez</td>
+                </tr>
+                <tr>
+                    <td>11/10/2025</td>                
+                    <td>09:00 - 10:30</td>
+                    <td>Desarrollo Web</td>                
+                    <td>Lic. Ana Ruiz</td>
+                </tr>
+                <tr>
+                    <td>11/10/2025</td>                
+                    <td>11:00 - 12:30</td>
+                    <td>Hardware Innovador</td>                
+                    <td>MSc. Pedro León</td>
+                </tr>
+            </tbody>
+            </table>
+            
+            <h2>Ponentes Destacados</h2>
+            <strong>Dr. Laura Gómez: </strong>Experta en Inteligencia
+            Artificial con más de 15 años de experiencia.<br>
+            <strong>Ing. Juan Pérez: </strong>Especialista en 
+            ciberseguridad,ponente internacional.<br>
+            <strong>Lic. Ana Ruiz: </strong> Desarrolladora full-stack,
+            fundadora de TechWeb.<br>
+            <strong>MSc. Pedro León: </strong> Investigador en Hardware
+            de alto rendimiento.<br>
+            </fieldset>            
+            
+            <br><br><br><br>
+
+            <h1>Registro al Evento</h1>
+            <br>
+            <h3>¡Regístrate para asistir!</h3>
+            <br>Los campos marcados con * son obligatorios.
+            <br>
+            <fieldset>
+                <legend>Formulario de registro</legend>
+            
+            <form action="#" method="post">
+            <!--text--->
+            <label for="nom">Nombre Completo*:</label><br>
+            <input id="nom" type="text" required>
+            <br><br>             
+            <label for="edad" >Edad*</label><br>
+            <input id="edad" type="number" min="1" max="120" required style="width: 180px ">
+            <br><br>
+            <label for="mail">Correo Electrónico*:</label><br>
+            <input id="mail" type="text" required>
+            <br><br>             
+            <label for="tel" >Teléfono (opcional):</label><br>
+            <input id="tel" type="number" l minlength="10" maxlength="10">
+            <br><br>
+            Género*:<br><br>
+            <input id="R_Masc" type="radio" name="opcion" value="1" >
+            <label for="R_Masc">Masculino</label>
+            <br>
+            <input id="R_Fem" type="radio" name="opcion" value="2">
+            <label for="R_Fem">Femenino</label>
+            <br>  
+            <input id="R_Otro" type="radio" name="opcion" value="3">
+            <label for="R_Otro">Otro</label>
+            <br><br><br>
+            Selecciona las conferencias a las que deseas asistir*:<br>
+            <fieldset>
+            <input id="C_IA" type="checkbox" name="tema" value="1">
+            <label for="C_IA">Inteligencia Artificial</label>
+            <br><br>            
+            <input id="C_DesWeb" type="checkbox" name="tema" value="2">
+            <label for="C_DesWeb">Desarrollo Web</label>
+            <br><br>
+            <input id="C_SegInfo" type="checkbox" name="tema" value="3">
+            <label for="C_SegInfo">Seguridad Informática</label>
+            <br><br>
+            <input id="C_Hardware" type="checkbox" name="tema" value="4">
+            <label for="C_Hardware">Hardware Innovador</label>
+            </fieldset>
+            <br><br>
+            
+            <label for="Exp">Nivel de Experiencia en tecnología:</label>
+            <select>
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+
+            </select>
+            <br><br>
+            <label for="desc">Comentarios adicionales (máx. 300 caracteres):</label><br>
+            <textarea id="desc" cols="70" rows="6" placeholder="Escriba aquí" required></textarea>
+            <br><br>
+
+            <label for="img">Adjuntar CV o Portafolio(PDF):</label><br>
+            <input id="img" type="file" accept="PDF/*" required>
+            <br><br>            
+           
+             <input id="C_terminos" type="checkbox" name="terminos" value="1" required>
+            <label for="C_terminos">Acepto los términos y condiciones *</label>
+            </fieldset>
+                    
+            <input type="submit">
+            <input type="reset">
+            </fieldset>
+        </form>
+
+    </body>
+
