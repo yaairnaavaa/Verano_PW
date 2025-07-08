@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro al Evento</title>
+</head>
+<body>
+<h1 id="inicio">Conferencia Tech 2025</h1>
+<ul>
+     <li><a href="#inicio">Inicio</a></li>
+     <li><a href="#Agenda">Agenda</a></li>
+     <li><a href="#Pon">Ponentes</a></li>
+     <li><a href="#Reg">Resgistro</a></li>
+</ul>
+<!--Conferencia-->
+<h1>Sobre la conferencia</h1>
+<p>Bienvenido a la conferecnia internacional de Tecnología 2025!</p>
+<p>La conferecnia abordara temas como:</p>
+<ul>
+    <li>Inteligencia artifical
+        <ul>
+            <li>Machine learning</li>
+            <li>Deep learning</li>
+        </ul>
+    </li>
+    <li>Desarrollo Web
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+        </ul>
+    </li>
+    <li>Seguridad informática</li>
+    <li>Inovación de hardware</li>
+
+</ul>
+<!--Agenda-->
+<h3 id="Agenda">Agenda del evento</h3>
+      
+<table border="1">
+     <tr>
+       <th>Día</th>
+       <th>Hora</th>
+       <th>Tema</th>
+       <th>Ponente</th>
+      </tr>
+      <tr>
+        <td>10/10/2025</td>
+        <td>09:00 - 10:30</td>
+        <td>Intelogencia Artifical</td>
+        <td>Dra Luna Gómez</td>
+      </tr>
+      <tr>
+        <td>10/10/2025</td>
+        <td>11:00 - 12:00</td>
+        <td>Seguridad informática</td>
+        <td>Ing. Juan Pérez</td>
+      </tr>
+      <tr>
+        <td>11/10/2025</td>
+        <td>09:00 - 10:30</td>
+        <td>Desarrollo Web</td>
+        <td>Lic. Pedro León</td>
+      </tr>
+</table>
+<!--Ponentes destacados-->
+<h3 id="Pon">Ponentes Destacados</h3>
+<blockquote><strong>Dr. Luna Gómez:</strong>Experta en inteligencia artificial con más de 15 años de experiencia</blockquote>
+<blockquote><strong>Ing. Juan Pérez:</strong>Especialista en ciberseguridad, ponente internacional</blockquote>
+<blockquote><strong>Lic. Ana Ruiz:</strong>Desarrolladora full stack, fundadora de TechWeb</blockquote>
+<blockquote><strong>MSc. Pedro León:</strong>Investigador en hardware de alto rendimiento</blockquote>
+<!--Registro del evento-->
+<h1 id="Reg">Registro del evento</h1>
+<h3>¡Regsitrate para asistir!</h3>
+<p>Los campos marcados con( * ) son obligatorios</p>
+<fieldset>
+    <legend>Formulario de registro</legend>
+    <from>
+      <!--Nombre-->
+      <label for="nombre">Nombre completo*:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br>
+      <!--Correo-->
+      <label for="email">Correo*:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <!--Teléfono-->
+      <label for="tel">Teléfono</label><br>
+      <input type="number" id="tel" name="tel"><br>
+      <!--Género-->
+      <br>
+      <input type="radio" value="opcion1" id="radios" name="radios">
+      <label for="radios">Masculino</label><br>
+      <input type="radio" value="opcion2" id="radios" name="radios">
+      <label for="Usado">Femenino</label><br>
+      <input type="radio" value="opcion3" id="radios" name="radios">
+      <label for="Usado">Otro</label>
+      <br><br>
+      <!--Selección-->
+      <p>Seleccióna las conferencias a las que deseas asistir*:</p>
+      <input type="checkbox" value="opcion1" id="check" name="check" required>
+      <label for="check">IA</label><br>
+      <input type="checkbox" value="opcion2" id="check" name="check">
+      <label for="checkbox">Desarrollo Web</label><br>
+      <input type="checkbox" value="opcion3" id="check" name="check">
+      <label for="checkbox">Seguridad informática</label><br>
+      <input type="checkbox" value="opcion2" id="check" name="check">
+      <label for="checkbox">Hardware inovador</label>
+      <br><br>
+      <!--Nivel-->
+      <label>Nivel de experiencia en tecnología</label>
+       <select>
+         <option value="opcion1">Principinte</option>
+         <option value="opcion2">Intermedio</option>
+         <option value="opcion3">Avanzado</option>
+       </select>
+      <br><br>
+      <!--Text area-->
+      <label>Comentarios adicionales (máx 300 cáracteres)</label><br>
+      <textarea rows="5" cols="10" max="300" placeholder="Queremos tu opinion"></textarea>
+      <br><br>
+      <!--CV-->
+      <label for="cv">Adjuntar CV o portafolio</label>
+      <input type="file" id="cv" accept=".pdf"><label>Sin archivos seleccionados</label>
+      <br><br>
+      <!--condiciones-->
+      <input type="checkbox" value="opcion1" id="checkT" name="checkT" required>
+      <label for="checkT">Acepto los términos y condiciones *</label><br>
+      <br><br>
+      <input type="submit" value="Enviar registro">
+    </from>
+</fieldset>
+</body>
+</html>
