@@ -19,7 +19,7 @@
         <h5> Encabezado H5 </h5>
         <h6> Encabezado H6 </h6>
         <hr>
-        <p><strong>Lorem ipsum dolor </strong>sit amet <em>consectetur adipisicing elit. Nam dolor dignissimos rem mollitia veniam ipsa cum laudantium beatae velit et amet tenetur perferendis, natus nemo dolore quidem delectus explicabo quaerat! </p>
+        <p><strong>Lorem ipsum dolor </strong>sit amet <em>consectetur adipisicing elit. Nam dolor dignissimos rem mollitia veniam ipsa cum laudantium beatae velit et amet tenetur perferendis, natus nemo dolore quidem delectus explicabo quaerat! </em></p>
         <hr>
         <img src="https://cdn.pixabay.com/photo/2013/06/09/17/04/fire-123784_1280.jpg" width="300px">
         <hr>
@@ -30,7 +30,7 @@
             <li>Elemento de la lista 2</li>
             <li>Elemento de la lista 3</li>
         </ul>
-        
+        <hr>
         <h3>Lista ordenada<h3></h3> <!--en automatico pone los numeros-->
         <ol>
             <li>Elemento de la lista 1</li>
@@ -61,6 +61,73 @@
         <a target="_self" tittle="Ir a Encabezados" href="#Encabezados">Encabezados</a><br>
         <a target="_self" tittle="Ir a Listas" href="#Listas">Listas</a>
         <!--el br es para salto de linea-->
+
+        <hr> <!--formularios clase 02/07/2025--> 
+        <h3>Formularios</h3>
+        <form action="#" method="post">
+            <!--text-->
+            <label>Texto</label>
+            <input type ="text">
+            <br><br>
+            <!--email-->
+            <label>Email</label>
+            <input type ="email">
+            <br><br>
+            <!--password-->
+            <label>Password</label>
+            <input type ="password"> <!--para texto dentro del input se usa: placeholder-->
+            <br><br>
+            <!--numero-->
+            <label>Numero</label>
+            <input type = "number">
+            <br><br>
+            <!--rangos-->
+            <label>Rango</label>
+            <input type ="range">
+            <br><br>
+            <!--fecha-->
+            <label>Fecha</label>
+            <input type ="date">
+            <br><br>
+            <!--hora-->
+            <label>Hora</label>
+            <input type ="time">
+            <br><br>
+            <!--color-->
+            <label>Color</label>
+            <input type ="color">
+            <br><br>
+            <!--checkbox-->
+            <label>Checkbox</label>
+            <input type="checkbox">
+            <br><br>
+            <!--radio-->
+            <label>Radio</label><br>
+            <input type ="radio" value="opcion1">
+            <label>Opcion 1</label><br>
+            <input type ="radio" value="opcion2">
+            <label>Opcion 2</label><br>
+            <br><br>
+            <!--select box-->
+            <label>Selecciona una opcion</label>
+            <select>
+                <option value="opcion1">Opcion 1</option>
+                <option value="opcion2">Opcion 2</option>
+                <option value="opcion3">Opcion 3</option>
+            </select>
+            <br><br>
+            <!--textarea-->
+            <label>Textarea</label>
+            <textarea rows="4" cols="10"></textarea>
+            <br><br>
+            <!--seleccionar archivos-->
+            <label>Archivo</label>
+            <input type="file">
+            <br><br>
+            <!--botones-->
+            <input type="submit" value="Enviar"><br><br>
+            <input type="reset" value="Limpiar">
+        </form>
     </body>
 
 </html>

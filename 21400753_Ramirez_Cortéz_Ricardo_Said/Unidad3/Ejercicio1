@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Receta Pan Francés</title>
+</head>
+<body>
+    <h1>Receta Pan Francés</h1>
+    <p>En esta página te explicaremos cómo hacer pan francés en tu casa.</p>
+    <img src="https://editorialtelevisa.brightspotcdn.com/dims4/default/badea77/2147483647/strip/true/crop/560x560+220+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2019%2F08%2Fpan-frances-tradicional.jpg">
+    <p>Esta receta rinde hasta para nueve rebanadas de pan.</p>
+    
+    <h2>Ingredientes</h2>
+    <ul>
+        <li>1 taza de leche.</li>
+        <li>2 huevos.</li>
+        <li>1 cucharada de vainilla.</li>
+        <li>Aceite.</li>
+        <li>Pan de barra.</li>
+    </ul>
+    
+    <h3>Pasos</h3>
+    <ol>
+        <li>En un tazón añadir la leche, los huevos y la vainilla.</li>
+        <li>Mezclar los ingredientes.</li>
+        <li>Calentar un sartén con aceite.</li>
+        <li>Remojar el pan en la mezcla.</li>
+        <li>Freír el pan por ambos lados en el sartén.</li>
+        <li>Agregar azúcar o mermelada al gusto.</li>
+    </ol>
+</body>
+</html>
