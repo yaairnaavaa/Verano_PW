@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <!---seccion head--->
+     <head>
+
+          <meta charset="UTF-8" />
+
+          <title>Estructura Base</title>
+
+     </head>
+
+     <body>
+        <div style="background-color: rgb(86, 211, 58);">
+        <h3 id="Encabezados" style="color: blue;"> Encabezados   </h3>
+        
+        <h1> Encabezado H1 </h1>
+        <h2> Encabezado H2 </h2>
+        <h3> Encabezado H3 </h3>
+        <h4> Encabezado H4 </h4>
+        <h5> Encabezado H5 </h5>
+        <h6> Encabezado H6 </h6>
+        </div>
+        <hr>
+        <p style="font-size: 20px; color: rgb(32, 75, 195); text-align: center;"><strong>Lorem ipsum dolor </strong>sit amet <em>consectetur adipisicing elit. Nam dolor dignissimos rem mollitia veniam ipsa cum laudantium beatae velit et amet tenetur perferendis, natus nemo dolore quidem delectus explicabo quaerat! </p>
+        <hr>
+        <div style="text-align: center; padding: 20px;">
+        <img src="https://i.guim.co.uk/img/media/bb28e10a32508064e89ec182f317a17266a4cd21/311_1024_1071_856/master/1071.jpg?width=465&dpr=1&s=none&crop=none" style="width: 400px;">
+        </div>
+        <hr>
+        <div style="background-color: black; color: white;">
+            <h3>Lista no ordenada<h3>
+        <ul>
+            <li style="margin-bottom: 5px;">Elemento 1</li>
+            <li style="margin-bottom: 5px;">Elemento 2</li>
+            <li style="margin-bottom: 5px;">Elemento 3</li>
+        </ul>
+        
+        <div style="display: flex; justify-content: center;">
+            <div style="background-color: brown; height: 2px; width: 25%;"></div>
+        </div>
+        <h3>Lista ordenada<h3></h3>
+        <ol>
+            <li style="margin-top: 5px;">Elemento 1</li>
+            <li style="margin-top: 5px;">Elemento 2</li>
+            <li style="margin-top: 5px;">Elemento 3</li>
+        </ol>
+        </div>
+
+        </div>
+        
+
+
+        <h3 id="Listas"> Listas   </h3>
+        
+        <hr>
+
+        <h3>Tabla</h3>
+    <table border="1">
+        <tr>    
+            <th colspan="3">Tabla</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+        </tr>
+        <tr>
+            <td>Bayron</td>
+            <td>22</td>
+            <td>Tepic</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Enlaces</h3>
+    <a target="_blank" title="Ir a google" href="https://www.google.com/">Google</a> <br>
+
+    <a href="#Encabezados">Ir a Encabezados </a><br>
+
+    <a href="#Listas">Ir a Listas </a>
+    </body>
+
+    <h3>Formulario</h3>
+<form action="#" method="post" >
+<! -- Text -->
+<label >Texto</label>
+<input type="text">
+<br>
+<br>
+<! -- Email -->
+<label >Email</label>
+<input type="email">
+<br>
+<br>
+</form>
+<! -- Password -->
+<label >Password</label>
+<input type="password" placeholder="contraseña">
+<br>
+<br>
+<! -- Numero -->
+<label >Numero</label>
+<input type="number">
+<br>
+<br>
+<! -- Rangos -->
+<label >Rango</label>
+<input type="range" >
+<br>
+<br>
+<! -- Fecha -->
+<label >Fecha</label>
+<input type="date">
+<br>
+<br>
+<! -- Hora   -->
+<label >Hora</label>
+<input type="time">
+<br>
+<br>
+<! -- Color  -->
+<label >Color</label>
+<input type="color">
+<br>
+<br>
+<! -- Checkbox -->
+<label >Checkbox</label>
+<input type="checkbox">
+<br>
+<br>
+<! -- RadioButton -->
+<label >RadioButton</label>
+<br>
+<input type="radio" value="Opcion1"> 
+<label >Opcion 1</label> <br>
+<input type="radio" value="Opcion2"> 
+<label >Opcion 2</label> <br>
+<input type="radio" value="Opcion3"> 
+<label >Opcion 3</label> <br>
+<br>
+<br>
+<! -- Select -->
+<label >Selecciona Una Opcion</label>
+<select>
+    <option value="Opcion1">Opcion 1</option>
+    <option value="Opcion2">Opcion 2</option>
+    <option value="Opcion3">Opcion 3</option>
+</select>
+<br>
+<br>
+<! -- Text Area -->
+<label >Text Area</label>
+<textarea rows="5" cols="10"></textarea>
+<br>
+<br>
+
+<! -- Archivo -->
+<label >Archivo</label>
+<input type="file">
+<br>
+<br>
+
+<! -- Botones -->
+<input type="submit" value="Enviar"> <br> <br>
+<input type="reset" value=" Limpiar">
+<br>
+<br>
+
+</form>
+</html>
