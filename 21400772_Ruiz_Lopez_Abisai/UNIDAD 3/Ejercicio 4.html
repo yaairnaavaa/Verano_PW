@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conferencia Tech 2025</title>
+    </head>
+    <body>
+    <!--Conferencia Tech 2025-->
+        <h1 id = "Inicio">Conferencia Tech 2025</h1>
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Ponentes">Ponentes</a></li>
+            <li><a href="#Registros">Registros</a></li>
+        </ul>
+    <!--Sobre la conferencia-->
+        <h3>Sobre la Conferencia</h3>
+        <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!<p>
+        <p>La conferencia abordará temas como:</p>
+        <ul>
+            <li>Inteligencia Artificial</li>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+            <li>Desarrollo Web</li>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+            </ul>
+            <li>Seguridad Informática</li>
+            <li>Innovación en Hardware</li>
+        </ul>
+        <!--Agenda del Evento-->
+        <h3 id = "Agenda">Agenda del Evento</h3> 
+        <table border = "1">
+            <tr>
+                <th>Día</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Inteligencia Artificial</td>
+                <td>Dr. Laura Gómez</td>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Seguridad Informática</td>
+                <td>Ing. Juan Pérez</td>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro León</td>
+            </tr>
+        </table>
+        <!--Ponentes-->
+        <h3 id = "Ponentes">Ponentes Destacados</h3>
+        <blockquote><strong>Dr. Laura Gómez:</strong>Experta en Inteligencia Artificial con más de 15 años de experiencia.</blockquote>
+        <blockquote><strong>Ing. Juan Pérez:</strong>Especialista en ciberseguridad, ponente internacional.</blockquote>
+        <blockquote><strong>Lic. Ana Ruiz:</strong>Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
+        <blockquote><strong>MSc. Pedro León:</strong>Investigador en hardware de alto rendimiento.</blockquote>
+        <!--Registros-->
+        <h3 id = "Registros">Registro al Evento</h3>
+        <h5>¡Registrate para asistir!</h5>
+        <p>Los campos marcados con * son obligatorios.</p>
+        <form>
+            <fieldset>
+                <legend>Formulario de Registro</legend>
+                <Label for = "Nombre">Nombre Completo*:</Label><br>
+                <input type="text" id = "Nombre" name = "Nombre"required><br><br>
+
+                <label for = "Edad">Edad*:</label><br>
+                <input type="number" id = "Edad" name = "Edad" required><br><br>
+
+                <Label for = "Correo">Correo Electrónico*:</Label><br>
+                <input type="email" id = "Correo" name = "Correo" required><br><br>
+
+                <Label for = "Telefono">Teléfono(opcional):</Label><br>
+                <input type="tel" id="Telefono" name = "Telefono"><br><br>
+
+                <Label for = "Genero">Género:</Label><br>
+                <input type = "radio" value = "Masculino" name = "Genero" id = "Genero">
+                <label for = "Genero">Masculino</label><br>
+                <input type = "radio" value = "Femenino" name = "Genero" id = "Genero">
+                <label for = "Genero">Femenino</label><br>
+                <input type = "radio" value = "Otro" name = "Genero" id = "Genero">
+                <label for = "Genero">Otro</label><br><br>
+
+                <label>Selecciona las conferencias a las que deseas asistir*:</label><br><br>
+                <input type= "checkbox" value = "IA" name = "conferencias" id = "conferencias1">
+                <label for = "conferencias">IA</label><br>
+                <input type= "checkbox" value = "Desarrollo web" name = "conferencias" id = "conferencias2">
+                <label for = "conferencias">Desarrollo Web</label><br>
+                <input type= "checkbox" value = "Seguridad Informática" name = "conferencias" id = "conferencias3">
+                <label for = "conferencias">Seguridad Informática</label><br>
+                <input type= "checkbox" value = "Hardware Innovador" name = "conferencias" id = "conferencias4">
+                <label for = "conferencias">Hardware Innovador</label><br><br>
+
+                <label for = "Experiencia">Nivel de experiencia en tecnología:</label><br>
+                <select name = "Experiencia" id = "Experiencia" name = "Experiencia">
+                    <option value="Principiante">Principiante</option>
+                    <option value="Intermedio">Intermedio</option>
+                    <option value="Avanzado">Avanzado</option>
+                </select><br><br>
+
+                <label for = "Comentarios">Comentarios adicionales (máx. 300 caracteres): </label><br>
+                <textarea rows = "5" cols = "50" placeholder = "Comentarios..." name = "Comentarios" id = "Comentarios">  </textarea><br>
+
+                <label for = "Archivo">Adjuntar CV o Portafolio (PDF):</label><br>
+                <input type = "file" accept=".PDF" name = "Archivo id = "Archivo"><br><br>
+
+                <input type= "checkbox" value = "IA" name = "Aceptar" id = "Aceptar" required>
+                <label for = "Aceptar">Acepto los términos y condiciones *</label><br><br>
+
+                <input type ="submit" value = "Enviar Registro">
+            </fieldset>
+        </form>
+    </body>
+</html>
