@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+<style>
+body{
+
+    margin: 0;
+background-image: url("https://img.freepik.com/vector-premium/fondo-tecnologia-digital-diseno-moderno-tecnologico-digital-abstracto-sistema-comunicacion-sitio-web-negocios-computadora-fondo-color-azul-oscuro-concepto-tecnologia-digital-alta-tecnologia_501791-536.jpg");
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+    background-color: #4ec51f;
+    border-radius: 20px;
+    max-width: 1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(218, 221, 41);
+    margin: auto;
+     background-color: #4ec51f98;
+    border-radius: 20px;
+    max-width: 1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+}
+
+form{
+    background: linear-gradient(to left,red,white,green);
+}
+form>p{
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form>label{
+        color: rgb(0, 0, 0);   
+
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+} 
+th,tr{
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+th{
+  background: #a10b0b;  
+  color: #121212;
+}
+tr:nth-child(even){
+  background: #4ec51f;
+}
+tr:hover{
+  background: #8bc407;
+  cursor: pointer;
+}
+a{
+  color: cyan;
+  text-decoration:none;
+}
+a:hover{
+  color: #ff9800;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+    <h1 id="Inicio"> Conferencia Tech 2025</h1>
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Agenda">Agenda</a></li>
+        <li><a href="#Ponentes">Ponentes</a></li>
+        <li><a href="#Registro">Registro</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+
+<div>
+<h2>Sobre la conferencia</h2>
+<p>!Bienvenido a la Conferencia Internacional de Tecnologia 2025!</p>
+<p>La conferencia abordará temas como:</p>
+<ul>
+<li>Inteligencia Artificial</li>
+<ul>
+    <li>Machine Learning</li>
+    <li>Deep Learning</li>
+</ul>
+<li>Desarrollo Web</li>
+<ul>
+ <li>Frontend</li>
+ <li>Backend</li>
+</ul>
+<li>Seguridad Informatica</li>
+<li>Inovacion Hardware</li>
+</ul>
+</div>
+<h2 id="Agenda">Agenda Evento</h2>
+
+<br>
+    <table border="1">
+        <tr>
+            <th>Dia</th><th>Hora</th><th>Tema</th><th>Ponente</th>
+        </tr>
+        <tr>
+            <td>10/10/2025</td><td>09:00-10:30</td><td>Inteligencia Artificial</td><td>Dr.Laura Gomez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td><td>11:00-12:30</td><td>Seguridad Informatica</td><td>Ing. Juan Perez</td>
+        </tr>
+         <tr>
+            <td>11/10/2025</td><td>09:00-10:30</td><td>Desarrollo Web</td><td>Lic.Ana Ruiz</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td><td>11:00-12:30</td><td>Hardware Innovador</td><td>MSc.Pedro Leon</td>
+        </tr>
+    </table>
+    <br>
+
+<h2 id="Ponentes">Ponentes Destacados</h2>
+<br>
+ <p style="text-indent: 30px;"><strong> Dr.Laura Gomez:</strong>Experta en Inteligencia Artificial con mas de 15 años de experiencia</p>
+<p style="text-indent: 30px;"><strong>Ing. Juan Perez:</strong>Especialista en ciberseguridad,ponente internacional</p>
+<p style="text-indent: 30px;"><strong>Lic.Ana Ruiz:</strong>Desarrolladora full-stack,fundadora de TechWeb</p>
+<p style="text-indent: 30px;"><strong>MSc.Pedro Leon:</strong>Investigador en hardware de alto rendimiento</p>
+<br>
+<h2 id="Registro">Registro al Evento</h2>
+
+ <fieldset style="border: #ff9800;">
+<legend style="border: #ff9800;">Formulario Registro</legend>
+<form action="#" method="post">
+ <p><strong>!Registrate para asistir!</strong></p>
+ <p>Los campos con * son obligatorios.</p>
+<label for="Nombre">Nombre Completo*:</label> <br>
+<input name="Nombre" type="text" required>
+<br>
+<label for="Correo">Correo Electronico*:</label> <br>
+<input name="Correo" type="email" required>
+<br>
+<label for="Telefono">Telefono (opcional):</label> <br>
+<input name="Telefono" type="tel">
+<br>
+
+<p>Género:</p>
+ <input name="Masculino" type="radio" value="Masculino"> <label for="Masculino">Masculino</label> 
+<br>
+ <input name="Femenino" type="radio" value="Femenino"> <label for="Femenino">Femenino</label> 
+<br>
+ <input name="Otro" type="radio" value="Otro"> <label for="Otro">Otro</label> 
+<br>
+<br>
+<p>Selecciona las conferencias a las que deseas asistir*:</p>
+<input type="checkbox" ><label >IA</label> <br>
+<input type="checkbox" ><label >Desarrollo Web</label> <br>
+<input type="checkbox" ><label >Seguridad Informatica</label> <br>
+<input type="checkbox" ><label >Hardware Innovador</label> <br>
+<br>
+
+<p>Nivel de experiencia en Tecnologia</p>
+<select>
+    <option value="Principiante">Principiante</option>
+    <option value="Intermedio">Intermedio</option>
+    <option value="Avanzado">Avanzado</option>
+</select>
+<br>
+<br>
+<label for="Comentarios">Comentarios Adicionales (max. 300 caracteres)</label> <br>
+<textarea  name="Comentarios"   rows="5" cols="60" placeholder="Comentarios......" maxlength="300"></textarea>
+<br>
+<br>
+<label for="pdf">Adjuntar CV o Portafolio (PDF)</label> <br>
+<input name="pdf" type="file" accept=".pdf" required>
+<br>
+<br>
+<input name="Terminos" type="checkbox" required><label for="Terminos" >Acepto los terminos y condiciones*</label> <br>
+<br>
+<br>
+<input name="Publicar" type="submit" value="Enviar Registro"> 
+</form>
+
+
+</fieldset>
+</html>
