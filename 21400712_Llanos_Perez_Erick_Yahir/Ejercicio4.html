@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+</head>
+
+<body>
+    <h2 id="inicio">Conferencia tech 2025</h2>
+    <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#ponente">Ponentes</a></li>
+        <li><a href="#registro">Registros</a></li>
+    </ul>
+    <h2>Sobre la Conferencia</h2>
+    <p>¡Bienvenidos a la Conferencia internaciona de Tecnologia 2025!</p>
+    <p>La conferencia abordara temas como </p>
+
+    <ul>
+        <li>
+            Inteligencia Artificial
+            <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+        </li>
+        <li>
+            Desarrolo web
+            <ul>
+                <li>Fronted</li>
+                <li>Backend</li>
+            </ul>
+        </li>
+        <li>Seguridad Informatica</li>
+        <li>Inovacion en Hardware</li>
+    </ul>
+
+    <h2 id="agenda">Agenda del Evento</h2>
+        <table border="1">
+            <tr>
+                <th>Día</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Inteligencia Artificial</td>
+                <td>Dr. Laura Gómez</td>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Seguridad Informática</td>
+                <td>Ing. Juan Pérez</td>
+            </tr>
+            <tr>
+                <td>11/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+            </tr>
+            <tr>
+                <td>11/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro León</td>
+            </tr>
+        </table>
+        <h2 id="ponente">Ponentes Destacados</h2>
+        <p><dd><strong>Dr.Laura gomez: </strong> Experta en Inteligencia artificla con mas de 15 años de experiencia</dd></p>
+        <p><dd><strong>Ing.Juan Perez: </strong> Especialista en cibreseguridad, Ponente internaciona</dd></p>
+        <p><dd><strong>Lic.Ana Ruiz: </strong> Desarrolladora full-stack, Fundadora de TechWeb</dd></p>
+        <p><dd><strong>Msc.Pedro leon: </strong>Investigadores en Hardware de alto rendimiento</p></dd> <br>
+
+
+        <h2 id="registro">Registro al Evento</h2>
+        <p><strong>¡Registrate para asistir!</strong></p>
+        <p>los campos marcados con * son obligatorios </p>
+        
+        <form action="#" method="post">
+            <fieldset style="width: 1000px;">
+                <legend><strong>Formulario de Registro</strong></legend>
+                <label for="nombre">Nombre Completo:*</label><br>
+                <input type="text" required><br><br>
+
+                <label for="edad">Edad:*</label><br>
+                <input type="number" required> <br> <br>
+
+                <label for="correo">Correo Electronico:*</label> <br>
+                <input type="text" required><br><br>
+
+                <label for="telefono">Telefono(Opcional):</label> <br>
+                <input type="text" ><br><br>
+
+                <label for="Genero">Genero</label> <br>
+                <input type="radio">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio">
+                <label for="femenino">Femenino</label><br>
+                <input type="radio">
+                <label for="otro">Otro</label><br>
+
+                <p>Seleccione las conferencia que desea asistir*:</p>
+                <input type="checkbox" required><label for="">IA</label><br>
+                <input type="checkbox" required><label for="">Desarrollo Web</label><br>
+                <input type="checkbox" required><label for="">Seguridad Informatica</label><br>
+                <input type="checkbox" required><label for="">Hardware Innovador</label><br> <br>
+
+                <label for="">Nivel de experiencia en tecnologia: </label><br>
+                <select name="experiencia" id="experiencia" >
+                    <option value="">Principiantes</option>
+                    <option value="">Mid</option>
+                    <option value="">Senior</option>
+                </select><br><br>
+
+                <label for="">Comentarios adicionales (Max. 300 caracteres)</label><br>
+                <textarea name="Comentarios" id="Comentarios" maxlength="300" placeholder="10 asegurado" rows="5" cols="40"></textarea>
+                <br><br>
+
+                <label for="">Adjuntar CV o portafolio(PDF) </label> <br>
+                <input type="file"><br><br>
+
+                <input type="checkbox" required><label for="">Acepto Terminos y condiciones*</label>
+                <br><br>
+                <button>Enviar Registro</button>
+            </form>
+
+
+        
+</body>
+
+</html>

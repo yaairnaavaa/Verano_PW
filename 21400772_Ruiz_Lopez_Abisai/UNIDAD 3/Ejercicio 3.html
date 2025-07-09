@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulario </title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Articulo</legend>
+                <!--Nombre-->
+                <label for = "Nombre">Nombre</label>
+                <input type = "text" name = "nombre" id = "nombre" required><br><br>
+                <!--Precio-->
+                <label for = "Precio">Precio</label>
+                <input type = "number" step = "0.01" name = "Precio" id = "Precio" required><br><br>
+                <!--Imagen-->
+                <label for = "Imagen">Imagen</label>
+                <input type = "file" name = "Imagen" accept="image/*" id = "Imagen" required><br><br>
+                <!--Color-->
+                <label for = "Color">Color</label>
+                <input type = "color" name = "color" id = "color"><br><br>
+                <!--Descripcion-->
+                <label for = "Descripcion">Descripción</label><br>
+                <textarea rows="10" cols="30" name = "Descripcion" placeholder="Descripción..." id = "Descripcion" required></textarea><br><br>
+                <!--Cantidad-->
+                <label for = "Cantidad">Cantidad</label>
+                <input type = "number" min = "0" max = "100" name = "Cantidad" id = "Cantidad"><br><br>
+                <!--radio-->
+                <label for = "Estado">Nuevo</label>
+                <input type = "radio" value = "Opcion1" name = "Estado" id = "Estado" checked>
+                <label for = "Estado">Usado</label>
+                <input type = "radio" value = "Opcion2" name = "Estado" id = "Estado"><br><br>
+                <!--Botones-->
+                <input type ="submit" value = "Publicar">
+                <input type ="reset" value = "Reestablecer"><br>
+                </fieldset>
+        </form>
+    </body>
+</html>

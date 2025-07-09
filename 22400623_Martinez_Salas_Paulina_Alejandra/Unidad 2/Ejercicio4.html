@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4</title>
+</head>
+
+<body>
+    <h2 id="Inicio">Conferencia Tech 2025</h2>
+    <ul>
+        <li><a href="#Inicio"> Inicio</a> </li>
+        <li><a href="#Agenda">Agenda</a></li>
+        <li><a href="#Ponentes">Ponentes</a></li>
+        <li><a href="#Registro"> Registro</a></li>
+    </ul>
+    <h3>Sobre la Conferencia</h3>
+    <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!</p>
+    <p>La conferencia abordará temas como:</p>
+    <ul>
+        <li>Inteligencia Artificial</li>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+        </ul>
+        <li>Desarrollo Web</li>
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+        </ul>
+        <li>Seguridad Informática</li>
+        <li>Innovación en Hardware</li>
+    </ul>
+    <h3 id="Agenda">Agenda del Evento</h3>
+    <table border="1">
+
+        <tr>
+            <th>Día</th>
+            <th>Hora</th>
+            <th>Tema</th>
+            <th>Ponente</th>
+
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Inteligencia Artificial</td>
+            <td>Dr. Laura Gómez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Seguridad Informática</td>
+            <td>Ing. Juan Pérez</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Desarrollo Web</td>
+            <td>Lic. Ana Ruiz</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Hardware Innovador</td>
+            <td>MSc. Pedro León</td>
+        </tr>
+    </table>
+
+    <h3 id="Ponentes">Ponentes Destacados</h3>
+    <blockquote> <strong>Dr. Laura Gómez: </strong>Experta en Inteligencia Artificial con más
+        de 15 años de experiencia. </blockquote>
+    <blockquote> <strong>Ing. Juan Pérez: </strong>Especialista en ciberseguridad, ponente
+        Internacional.</blockquote>
+    <blockquote> <strong>Lic. Ana Ruiz: </strong>Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
+    <blockquote> <strong>MSc. Pedro León: </strong>Investigador en hardware de alto rendimiento.</blockquote>
+    <h3 id="Registro">Registro</h3>
+    <p> <strong>¡Regístrate para asistir!</strong></p>
+    <p>Los campos marcados con * son obligatorios.</p>
+
+    <form>
+        <fieldset>
+            <legend>Formulario de Registro</legend>
+            <!-- Sección Nombre -->
+            <label for="Nombre">Nombre Completo*:</label><br>
+            <input type="text" id="Nombre" name="Nombre" required>
+            <br><br>
+            <!-- Sección Edad -->
+            <label for="edad">Edad*:</label><br>
+            <input type="number" id="edad" name="edad" required>
+            <br><br>
+            <!-- Sección Correo Electrónico -->
+            <label for="correo">Correo Electrónico*:</label><br>
+            <input type="email" id="correo" name="correo" required>
+            <br><br>
+            <!-- Sección Teléfono -->
+            <label for="telefono">Teléfono (Opcional):</label><br>
+            <input type="tel" id="telefono" name="telefono">
+            <br><br>
+            <!--Sección Género-->
+            <label>Género:</label><br>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="femenino" name="genero" value="Femenino">
+            <label for="femenino" name="genero">Femenino</label><br>
+            <input type="radio" id="otro" name="genero" value="Otro">
+            <label for="otro">Otro</label><br>
+            <br>
+            <br>
+            <!-- Sección Preferencias de Asistencia -->
+            <label for="asistencia">Selecciona las conferencias a las que deseas
+                asistir*:</label><br> <br>
+            <input type="checkbox" id="ia" name="asistencia" value="IA">
+            <label for="ia">IA</label><br>
+            <input type="checkbox" id="DW" name="asistencia" value="IA">
+            <label for="DW">Desarrollo Web</label><br>
+            <input type="checkbox" id="SI" name="asistencia" value="IA">
+            <label for="SI">Seguridad Informática</label><br>
+            <input type="checkbox" id="HI" name="asistencia" value="IA">
+            <label for="HI">Hardware Innovador</label><br>
+
+            <br>
+            <!-- Sección Nivel Experiencia -->
+            <label for="experiencia">Nivel de experiencia en tecnología:</label><br>
+            <select id="experiencia" name="experiencia">
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select>
+            <br><br>
+            <!-- Sección Comentarios -->
+            <label for="comentarios">Comentarios (máx. 300 caracteres):</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"
+                maxlength="300" placeholder="Escribe aquí"></textarea>
+            <br><br>
+            <!-- Sección CV o portafolio -->
+            <label for="cv">Adjuntar tu CV o portafolio (PDF):</label><br>
+            <input type="file" id="cv" name="cv" accept=".pdf">
+            <br><br>
+            <!-- Sección términos y condiciones -->
+            <input type="checkbox" id="terminos" name="terminos" required>
+            <label for="terminos">Acepto los términos y condiciones *</label>
+            <br><br>
+            <!-- Sección Botones -->
+            <button type="submit">Enviar Registro</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
