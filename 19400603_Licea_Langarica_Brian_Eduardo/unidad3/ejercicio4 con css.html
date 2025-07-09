@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ejercicio 4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                background: rgb(48, 47, 47);
+                color: white;
+                line-height: 1.6;
+            }
+            h1{
+                color: white;
+                text-align: center;
+                font-size: 50px;
+            }
+            h2{
+                font-size: 35px;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                color: crimson;                
+            }
+            a:hover{
+                color: blue;
+            }
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                margin: auto;
+
+            }
+            ul>li{
+                background: #1e1e1e;
+                margin: 10px 0;
+                padding: 10px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            ul>li:hover{
+                background: #333;
+                cursor: pointer;
+            }
+            li{
+                text-align: center;
+            }   
+            table{
+                border-collapse: collapse;
+                width: 80%;
+                max-width: 900px;
+                margin: auto;
+                background: #1e1e1e;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            th,td{
+                border: 1px solid #444;
+                padding: 10px;
+                text-align: center;
+            }
+            th{/**/
+                background: #ff9800;
+                color: black;
+            }
+            tr:nth-child(even){
+                background: #2a2a2a;
+            }
+            tr:hover{/*hace que el mouse raccione al seleccionar una tabla*/
+                background: #333;
+                cursor: pointer;
+            }
+            strong{
+                padding-left: 300px;
+                color: orange;
+            }
+            form{
+                align-items: center;
+                text-align: center;
+            }
+            div{
+                border-left: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Conferencia Tech 2025</h1>
+        <div>
+        <ul>
+            <li> <a href="#Inicio">Inicio</a></li>
+            <li><a href="#Agenda">Agenda</a> </li>
+            <li><a href="#ponentes">Ponentes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        </div>
+        <h2>Sobre la Conferencia</h2>
+        <p>¡Bienvenido a la Conferencia Internaciona de Tecnologia 2025!</p>
+        <br>
+        <p>La conferencia abordara temas como:</p>
+        <br>
+        <ul>
+            <li>Inteligencia Artificial</li>
+            <ul>
+                <li>machine learning</li>
+                <li>Deep learning</li>
+            </ul>
+            <li>Desarrollo Web</li>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+            </ul>
+            <li>Seguridad Informatica</li>
+            <li>Innovacion en hardware</li>
+        </ul>
+        <h2>Agenda del Evento</h2>
+        <table border="1">
+            <tr>
+                <th>Dia</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00-10:30</td>
+                <td>inteligencia Artificial</td>
+                <td>Dr. Laura Gomez</td>
+            </tr>
+            <tr>
+                <td>10/10/25</td>
+                <td>11:00-12:30</td>
+                <td>Seguridad Informatica</td>
+                <td>Ing. Juan Perez</td>
+            </tr>
+            <tr>
+                <td>11/10/25</td>
+                <td>09:00-10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+            </tr>
+            <tr>
+                <td>11/10/25</td>
+                <td>11:00-12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro Leon</td>
+            </tr>                        
+        </table>
+        <h2>Ponentes destacados</h2>
+        <p><dd><strong>Dr. Laura Gomez:</strong> Experta en inteligencia Artificial con mas de 15 años de Experiencia</p></dd>
+        <p><dd><strong>Ing. Juan Perez:</strong> Especialista en ciberseguridad, ponente Internacional.</dd></p>
+        <p><dd><strong>Lic. Ana Ruiz:</strong> Especialista en ciberseguridad. ponente internacional</dd></p>
+        <p><dd><strong>MSSc. Pedro Leon</strong> Investigador en hardware de alto rendimiento</dd></p>
+        <h2>Registro al Evento</h2>
+        <P>¡Registrate para asistir!</P>
+        <p>Los campos marcados con * son obligatorios.</p>
+        <form>
+            <fieldset><legend>Formulario de registro</legend>
+            <label>Nombre Completo*:</label><br>
+            <input type="text" required><br><br>
+            <label> Edad*:</label><br>
+            <input type="number" required maxlength="2"><br><br>
+            <label>Correo Electronico*:</label><br>
+            <input type="text" required><br><br>
+            <label>Telefono(opcional):</label><br>
+            <input maxlength="10"><br>
+            <br>
+            <label>Genero:</label><br>
+            <input type="radio" name="Genero"><label>Masculino</label><br>
+            <input type="radio" name="Genero"><label>Femenino</label><br>
+            <input type="radio" name="Genero"><label>otros</label><br>
+            <br>
+            <label> selecciona las conferencias a las que deseas asistir*:</label>
+            <br><br>
+            <input type="checkbox"><label>IA</label><br>
+            <input type="checkbox"><label>Desarrollo Web</label><br>
+            <input type="checkbox"><label>Seguridad Informatica</label><br>
+            <input type="checkbox"><label>Hardware Innovador</label><br>
+            <br><br>
+            <label>Nivel de experiencia en Tecnologia</label><br>
+        
+            <select name="experiencia" id="Nivel">
+                <option>Principiante</option>
+                <option>Intermedio</option>
+                <option>Experto</option>
+            </select><br>
+            <label>Comentarios adicionales(max. 300 caracteres):</label><br>
+            <textarea name="Comentarios" id="comments" rows="5" cols="50"></textarea>
+            <br>
+            <br>
+            <label>Adjuntar CV o Portafolios(PDF):</label><br>
+            <input type="file"><br>
+            <br>
+            <input type="checkbox" required><label>Acepto los terminos y condiciones *</label>
+            <br><br>
+            <input type="submit" value="Enviar Registros">
+
+
+        </fieldset>
+        </form>
+
+    </body>
+</html>
