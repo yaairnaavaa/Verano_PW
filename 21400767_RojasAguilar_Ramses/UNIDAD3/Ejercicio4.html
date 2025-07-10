@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .banner {
+      background: linear-gradient(#763f73, #ffc3ff);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: white;
+      padding-bottom: 2rem;
+    }
+    .titulo {
+      width: fit-content;
+      font-size: 1.3rem;
+      text-align: center;
+      color: white;
+      text-align: justify;
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+      list-style-type: none;
+      height: fit-content;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding-bottom: 0.3rem;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #ffc3ff;
+      color: #ffc3ff;
+    }
+
+    .sobre-conferencia h2 {
+      color: white;
+      font-size: 2rem;
+      padding: 0;
+    }
+
+    .sobre-conferencia {
+      padding-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0 15rem;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      /* background-color: red; */
+      gap: 8rem;
+      padding: 1rem 15rem;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.2rem;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 0.9rem;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+    .lista-temas {
+      display: flex;
+      gap: 1rem;
+      color: white;
+      font-size: small;
+      padding: 0;
+      margin: 0;
+    }
+
+    .temas {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0 1rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: fit-content;
+    }
+
+    .headers {
+      border-bottom: 1px solid #9e9e9e;
+      background-color: #bdbdbd;
+    }
+
+    td {
+      padding: 0.5rem 1rem;
+      margin: 0;
+    }
+
+    .agenda {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    img {
+      height: 5rem;
+      width: 5rem;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .ponentes-lista {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 1rem;
+    }
+    .ponentes {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .persona {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .persona-texto {
+      padding: 0.2rem 0;
+      max-width: 60%;
+    }
+
+    .formulario {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    fieldset {
+      background-color: white;
+      border-radius: 0.5rem;
+      border: none;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background-color: #e0e0e0;
+      padding: 0 15rem;
+    }
+
+    .tit-sub-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .titles-container {
+      display: flex;
+      flex-direction: row;
+      gap: 8rem;
+      align-items: center;
+    }
+    .titles-container p {
+      align-self: end;
+    }
+
+    .datos-personales {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 4rem;
+      row-gap: 1rem;
+      height: fit-content;
+    }
+
+    .campo {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .campo input {
+      border-radius: 0.4rem;
+      padding: 0.5rem 0.5rem;
+      border: solid 1px #bdbdbd;
+    }
+
+    .datos-conferencia {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 4rem;
+    }
+
+    .comentarios {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .comentarios textarea {
+      border: solid 1px #bdbdbd;
+      border-radius: 0.4rem;
+      padding: 0.5rem 0.6rem;
+    }
+
+    button {
+      width: 35%;
+      align-self: center;
+      border-radius: 1rem;
+      padding: 1rem 0;
+      font-weight: 700;
+      font-size: medium;
+      /* background-color: #763f73; */
+      background: linear-gradient(#ffc3ff, 20%, #763f73);
+      border: none;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="banner">
+      <!--TITULO -->
+      <nav>
+        <h1 class="titulo" id="inicio">
+          Conferencia <br />
+          Tech 2025
+        </h1>
+
+        <!--LINKS-->
+
+        <ul class="links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#ponentes">Ponentes</a></li>
+          <li><a href="#registro">Registro</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- SOBRE CONFERENCIA -->
+
+      <div class="sobre-conferencia">
+        <div>
+          <h2>Sobre la Conferencia</h2>
+          <p>!Bienvenido a la Conferencia Internacional de Tecnología 2025!</p>
+        </div>
+
+        <div class="temas">
+          <p>La conferencia abordará temas como:</p>
+          <ul class="lista-temas">
+            <li>
+              Intelingencia Artificial
+              <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+              </ul>
+            </li>
+
+            <li>
+              Desarrollo Web
+              <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+              </ul>
+            </li>
+            <li>Seguridad Informática</li>
+            <li>Innovación en Hardware</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="agenda">
+        <h2 id="agenda">Agenda del Evento</h2>
+
+        <table>
+          <tr class="headers">
+            <th>Día</th>
+            <th>Hora</th>
+            <th>Tema</th>
+            <th>Ponente</th>
+          </tr>
+          <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Inteligencia Artificial</td>
+            <td>Dr. Laura Gómez</td>
+          </tr>
+          <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Seguridad Informática</td>
+            <td>Ing. Juan Pérez</td>
+          </tr>
+          <tr>
+            <td>11/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Desarrollo Web</td>
+            <td>Lic. Ana Ruiz</td>
+          </tr>
+
+          <tr>
+            <td>11/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Hardware Innovador</td>
+            <td>MSc. Pedro León</td>
+          </tr>
+        </table>
+      </div>
+      <div class="ponentes">
+        <h2 id="ponentes">Ponentes Destacados</h2>
+        <div class="ponentes-lista">
+          <div class="persona">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <div class="persona-texto">
+              <strong>Dr. Laura Gómez</strong>
+              <p>Experta en Inteligencia Artificial con más de 15 años de experiencia.</p>
+            </div>
+          </div>
+
+          <div class="persona">
+            <img
+              src="https://img1.wsimg.com/isteam/ip/56c0cc13-b423-4d20-93f5-b95b2a675d4e/Robert-Fishman.jpg"
+              alt=""
+            />
+            <div class="persona-texto">
+              <strong>Ing. Juan Pérez:</strong>
+              <p>Especialista en ciberseguridad, ponente internacional.</p>
+            </div>
+          </div>
+
+          <div class="persona">
+            <img
+              src="https://www.photostudio308.com/wp-content/uploads/2022/01/IMG_2164-683x1024.jpg"
+              alt=""
+            />
+            <div class="persona-texto">
+              <strong>Lic. Ana Ruiz:</strong>
+              <p>Desarrolladora full-stack, fundadora de TechWeb.</p>
+            </div>
+          </div>
+
+          <div class="persona">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9b_u54JNRxi87Sk4eVhIzrB3B8AJAWMNqw&s"
+              alt=""
+            />
+            <div class="persona-texto">
+              <strong>MSc. Pedro León:</strong>
+              <p>Investigador en hardware de alto rendimiento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulario">
+        <div class="titles-container">
+          <div class="tit-sub-form">
+            <h2 id="registro">Registro al evento</h2>
+
+            <h3>!Regístrate para asistir!</h3>
+          </div>
+
+          <p>Los campos marcados con * son obligatorios.</p>
+        </div>
+
+        <form action="">
+          <fieldset>
+            <legend>Formulario de registro</legend>
+            <div class="datos-personales">
+              <div class="campo">
+                <label for="nombre">Nombre Completo*:</label>
+                <input id="nombre" required type="text" />
+              </div>
+
+              <div class="campo">
+                <label for="edad">Edad*:</label>
+                <input class="edad" id="edad" required type="number" />
+              </div>
+
+              <div class="campo">
+                <label for="correo">Correo Electrónico*:</label>
+                <input class="correo" id="correo" required type="email" />
+              </div>
+
+              <div class="campo">
+                <label for="telefono">Telefono (opcional):</label>
+                <input id="telefono" type="tel" />
+              </div>
+
+              <div class="campo">
+                <span>Género</span>
+
+                <div>
+                  <input id="masculino" name="genero" type="radio" />
+                  <label for="masculino">Masculino</label>
+
+                  <input id="femenino" name="genero" type="radio" />
+                  <label for="femenino">Femenino</label>
+
+                  <input id="otro" name="genero" type="radio" />
+                  <label for="otro">Otro</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="datos-conferencia">
+              <div class="check-conferencias">
+                <p>Selecciona las conferencias a las que desas asistir*:</p>
+                <div class="check">
+                  <input id="ia" type="checkbox" />
+                  <label for="ia">IA</label>
+                </div>
+                <div class="check">
+                  <input id="dw" type="checkbox" />
+                  <label for="dw">Desarrollo Web</label>
+                </div>
+                <div class="check">
+                  <input id="si" type="checkbox" />
+                  <label for="si">Seguridad Informática</label>
+                </div>
+                <div class="check">
+                  <input id="hi" type="checkbox" />
+                  <label for="hi">Hardware Innovador</label>
+                </div>
+              </div>
+
+              <div class="nivel-tecno">
+                <label for="nivel">Nivel de experiencia en tecnología:</label>
+                <div class="select">
+                  <select name="" id="nivel">
+                    <option value="principiante">Principiante</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="comentarios">
+              <label for="comentarios"
+                >Comentarios adicionales(máx. 300 caracteres):</label
+              >
+
+              <textarea
+                placeholder="Agrega un comentario"
+                name=""
+                id="comentarios"
+                maxlength="300"
+                rows="4"
+                cols="56"
+              ></textarea>
+            </div>
+
+            <div class="cv">
+              <label for="cv">Adjuntar CV o Portafolio (PDF):</label>
+
+              <input type="file" name="" accept=".pdf" id="cv" />
+            </div>
+
+            <div class="condiciones">
+              <input type="checkbox" id="acepto" />
+              <label for="acepto">Acepto los términos y condiciones *</label>I
+            </div>
+
+            <button type="submit">Enviar Registro</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

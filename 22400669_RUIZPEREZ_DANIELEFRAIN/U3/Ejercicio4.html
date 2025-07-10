@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conferencia Tech 2025</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: #00e676;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            border-bottom: 2px solid #00e676;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        p, label {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+        a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00e676;
+            text-decoration: underline;
+        }
+
+        nav {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            display: block;
+            background: #1e1e1e;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #333;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        th, td {
+            border: 1px solid #456;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: #00bfa5; 
+            color: #121212;
+        }
+
+        tr:nth-child(even) {
+            background: #2c2c2c;
+        }
+
+        tr:hover {
+            background: #00897b;
+            cursor: pointer;
+        }
+        
+        .topics-list {
+            list-style-type: disc;
+            max-width: 760px;
+            margin: 20px auto;
+            padding-left: 40px;
+        }
+
+        .topics-list ul {
+             list-style-type: circle;
+             margin-left: 20px;
+        }
+
+        fieldset {
+            max-width: 800px;
+            margin: 20px auto;
+            border: 1px solid #00e676;
+            border-radius: 8px;
+            padding: 20px;
+            background: #1e1e1e;
+        }
+
+        legend {
+            color: #00e676;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            background: #333;
+            color: #fff;
+        }
+        
+        input[type="radio"], input[type="checkbox"]{
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background: #00e676;
+            color: #121212;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background: #00bfa5;
+        }
+
+        footer {
+            text-align: center;
+            max-width: 100%;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px dashed #555;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conferencia Tech 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#ponentes">Ponentes</a></li>
+                <li><a href="#registro">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Sobre la Conferencia</h2>
+            <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025! Un evento de dos días diseñado para reunir a los mejores y más brillantes en el mundo de la tecnología. La conferencia abordará los temas más relevantes y vanguardistas del momento.</p>
+            <p>Los temas principales incluyen:</p>
+            <ul class="topics-list">
+                <li>Inteligencia Artificial
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                    </ul>
+                </li>
+                <li>Desarrollo Web
+                    <ul>
+                        <li>Frontend</li>
+                        <li>Backend</li>
+                    </ul>
+                </li>
+                <li>Seguridad Informática</li>
+                <li>Innovación en Hardware</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda del Evento</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Tema</th>
+                        <th>Ponente</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>09:00 - 10:30</td>
+                        <td>Inteligencia Artificial</td>
+                        <td>Dr. Laura Gómez</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>11:00 - 12:30</td>
+                        <td>Seguridad Informática</td>
+                        <td>Ing. Juan Pérez</td>
+                    </tr>
+                    <tr>
+                        <td>11/10/2025</td>
+                        <td>09:00 - 10:30</td>
+                        <td>Desarrollo Web</td>
+                        <td>Lic. Ana Ruiz</td>
+                    </tr>
+                    <tr>
+                        <td>11/10/2025</td>
+                        <td>11:00 - 12:30</td>
+                        <td>Hardware Innovador</td>
+                        <td>MSc. Pedro León</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="ponentes">
+            <h2>Ponentes Destacados</h2>
+            <p><strong>Dr. Laura Gómez:</strong> Experta en Inteligencia Artificial con más de 15 años de experiencia.</p>
+            <p><strong>Ing. Juan Pérez:</strong> Especialista en ciberseguridad, ponente internacional.</p>
+            <p><strong>Lic. Ana Ruiz:</strong> Desarrolladora full-stack, fundadora de TechWeb.</p>
+            <p><strong>MSc. Pedro León:</strong> Investigador en hardware de alto rendimiento.</p>
+        </section>
+
+        <section id="registro">
+            <h2>Registro al Evento</h2>
+            <p>¡No te quedes fuera! Regístrate para asistir. Los campos marcados con * son obligatorios.</p>
+            <fieldset>
+                <legend>Formulario de Registro</legend>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre Completo*:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="edad">Edad*:</label><br>
+                    <input type="number" id="edad" name="edad" required>
+                    
+                    <label for="correo">Correo Electrónico*:</label><br>
+                    <input type="email" id="correo" name="correo" required>
+                    
+                    <label for="telefono">Teléfono (opcional):</label><br>
+                    <input type="text" id="telefono" name="telefono">
+                    
+                    <label>Género:</label><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label><br><br>
+                    
+                    <label>Selecciona las conferencias a las que deseas asistir*:</label><br>
+                    <input type="checkbox" id="ia" name="conferencia" value="ia">
+                    <label for="ia">IA</label><br>
+                    <input type="checkbox" id="desarrollo" name="conferencia" value="desarrollo">
+                    <label for="desarrollo">Desarrollo Web</label><br>
+                    <input type="checkbox" id="seguridad" name="conferencia" value="seguridad">
+                    <label for="seguridad">Seguridad Informática</label><br>
+                    <input type="checkbox" id="hardware" name="conferencia" value="hardware">
+                    <label for="hardware">Hardware Innovador</label><br><br>
+                    
+                    <label for="nivel">Nivel de experiencia en Tecnología:</label><br>
+                    <select id="nivel" name="nivel">
+                        <option value="principiante">Principiante</option>
+                        <option value="intermedio">Intermedio</option>
+                        <option value="avanzado">Avanzado</option>
+                    </select>
+                    
+                    <label for="comentarios">Comentarios adicionales (máx. 300 caracteres):</label><br>
+                    <textarea id="comentarios" name="comentarios" cols="90" rows="6" placeholder="Comenta aquí:" maxlength="300"></textarea>
+                    
+                    <label for="cv">Adjuntar CV o Portafolio (PDF):</label><br>
+                    <input type="file" id="cv" name="cv" accept="application/pdf"><br><br>
+                    
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto Términos y Condiciones *</label><br><br>
+                    
+                    <input type="submit" value="Enviar Registro">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Conferencia Tech. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

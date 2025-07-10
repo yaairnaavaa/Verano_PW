@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conferencia Tech 2025</title>
+    <style>
+    body{
+        margin: 0;
+        background: #060d1b;
+        color: #7b9489;
+        line-height: 1.6;
+        padding: 20px;
+        border:dashed;
+    }
+
+    h1{
+    text-align: center;
+    font-size: 50px;
+    color: #163247;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid #163247;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    color: white
+}
+
+    p{
+        max-width: 800px;
+        margin: auto;
+        text-align: justify;
+        color: white;
+    }
+
+    ul, ol{
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: left;
+    }
+
+    ul > li, ol > li{
+    background: #1e1e1e;
+    margin: 10 px 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    }
+
+    ul > li:hover, ol >:hover{
+    background-color: #7b9489;
+    cursor: pointer;
+    } 
+
+    a{
+    color: #Afc3f7;
+    text-decoration: none;
+    }
+
+    a:hover{
+        color: #0b192a;
+        text-decoration: underline;
+    }
+    </style>
+        <h1 id="Inicio" >Conferencia Tech 2025</h1>
+        <ul>
+            <li ><a target="_self" title="Inicio" href="#Inicio">Inicio</a></li>
+            <li ><a target="_self" title="Agenda" href="#Agenda">Agenda</a></li>
+            <li ><a target="_self" title="Ponente" href="#Ponente">Ponente</a></li>
+            <li ><a target="_self" title="Registro" href="#Registro">Registro</a></li>
+            <li ><a target="_self" title="Contacto" href="#Contacto">Contacto</a></li>
+        </ul>
+        <h2>Sobre la Conferencia</h2>
+        <p>¡Bienvenido a la Comferencia Internacional de Tecnologia 2025!</p>
+        <p>La conferencia abordará temas como:</p>
+        <ul>
+            <li>Inteligencia Artificial</li>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+            <li>Desarrollo Web</li>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+            </ul>
+            <li>Seguridad Informática</li>
+            <li>Innovación en Hardware</li>
+        </ul>
+        <h2 id="Agenda">Agenda del Evento</h2>
+        <table border="1">
+            <tr>
+                <th>Día</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Inteligencia Artificial</td>
+                <td>Dr. Laura Gómez</td>
+                <tr>
+                <td>10/10/2025</td> 
+                <td>11:00 - 12:30</td>
+                <td>Seguridad Informática</td>
+                <td>Ing. Juan Pérez</td>
+                <tr>
+                <td>11/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+                </tr>  
+                <tr>
+                <td>11/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro León</td>
+                </tr>
+                </tr>
+            </tr>
+        </table>
+        <h2 id="Ponente">Ponentes Destacados</h2>
+        <blockquote><strong>Dr. Laura Gómez: </strong>Experta en Inteligencia Artificial con mas de 15 años de experiencia.</blockquote>
+        <blockquote><strong>Ing. Juan Pérez: </strong>Especialista en ciberseguridad, ponente internacional.</blockquote>
+        <blockquote><strong>Lic. Ana Ruiz: </strong>Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
+        <blockquote><strong>MSc. Pedro León: </strong>Investigador en hardware de alto rendimiento.</blockquote>
+        <h2 id="Registro">Registro al Evento</h2>
+        <p><strong>¡Regístrate para asistir!</strong></p>
+        <p>Los campos marcados con * son obligatorios.</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulario de registro</legend>
+                <label>Nombre Completo*:</label><br>
+                <input type="text" name="Nombre" required>
+                <br><br>
+                <label>Edad*:</label><br>
+                <input type="number" name="Edad" required>
+                <br><br>
+                <label>Correo Electrónico*:</label><br>
+                <input type ="email" name="email" required>
+                <br><br>
+                <label>Teléfono (opcional):</label><br>
+                <input type="tel">
+                <br><br>
+                <label>Género:</label><br>
+                <input type ="radio" value="Masculino">
+                <label>Masculino</label><br>
+                <input type ="radio" value="Femenino">
+                <label>Femenino</label><br>
+                <input type ="radio" value="Otro">
+                <label>Otro</label><br><br>
+                <p>Selecciona las conferencias a las que deseas asistir*:</p>
+                <input type="checkbox">
+                <label>IA</label><br>
+                <input type="checkbox">
+                <label>Desarrollo Web</label><br>
+                <input type="checkbox">
+                <label>Seguridad Informática</label><br>
+                <input type="checkbox">
+                <label>Hardware Innovador</label>
+                <br><br>
+                <label>Nivel de experiencia en tecnología:</label><br>
+                <select>
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+                </select>
+                <br><br>
+                <label>Comentarios adicionales (máx. 300 caracteres):</label><br>
+                <textarea rows="5" cols="60" placeholder="deja tus comentarios"></textarea><br><br>
+                <label>Adjuntar CV o Portafolio (PDF): <br></label>
+                <input type="file" name="Archivo" accept=".PDF" required><br><br>
+                <input type="checkbox" name="Terminos" required>
+                <label>Acepto los términos y condiciones *</label><br><br>
+                <input type="submit" value="Enviar Registro">
+            </fieldset>
+        </form>
+    </body>
+</html>
