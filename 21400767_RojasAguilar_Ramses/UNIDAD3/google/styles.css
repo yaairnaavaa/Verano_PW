@@ -1,0 +1,90 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+nav button {
+  border: none;
+  color: white;
+  background-color: #2962ff ;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  height: fit-content;
+}
+
+.cont-busqueda {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* background-color: red; */
+  /* width: 50vh; */
+  align-items: center;
+  /* width: fit-content; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+img {
+  width: 18rem;
+  object-fit: cover;
+}
+
+input {
+  border: 1px solid #e0e0e0;
+  border-radius: 2rem;
+  width: 35%;
+  padding: 0.8rem 1.2rem;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 15%);
+}
+
+.alt {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.alt button {
+  border: none;
+  background-color: #fafafa;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.8rem;
+}
+
+.uno {
+  padding: 0.5rem 1.5rem;
+  background-color: #eeeeee;
+  border-bottom: 1px solid #e0e0e0;
+}
+.dos {
+  padding: 0.5rem 1.5rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dos div {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
