@@ -1,0 +1,58 @@
+.google-logo {
+  display: flex;
+  font-size: 2.5rem;
+  font-family: product-sans, sans-serif;
+  width: 100px;
+  height: 100px;
+  justify-content: center; 
+  align-items: center;     
+  margin: 190px auto 0 auto; 
+}
+
+.g{
+    color: blue;
+}
+
+.o{
+    color: red;
+}
+
+.o2{
+    color: yellow;
+}
+
+.g2{
+    color: blue
+}
+
+.l{
+    color: green;
+}
+
+.e{
+    color: red;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+}
+
+.buscador input{
+    padding: 10px 200px 10px 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.buscador button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
