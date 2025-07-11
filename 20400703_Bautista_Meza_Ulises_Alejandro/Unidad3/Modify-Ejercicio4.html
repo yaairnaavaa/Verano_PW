@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferencia Tech 2025</title>
+    <style>
+        :root {
+            --primary: #00f0ff;
+            --secondary: #ff00e6;
+            --dark: #0a0a1a;
+            --light: #e0e0ff;
+            --accent: #7b2dff;
+            --glass: rgba(15, 15, 35, 0.7);
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark);
+            color: var(--light);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1, h2, h3 {
+            color: var(--primary);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        nav {
+            background-color: var(--glass);
+            padding: 15px 0;
+            margin-bottom: 30px;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            gap: 20px;
+        }
+        
+        nav a {
+            color: var(--light);
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 5px 10px;
+        }
+        
+        nav a:hover {
+            color: var(--primary);
+        }
+        
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: var(--glass);
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid var(--accent);
+        }
+        
+        th {
+            background-color: rgba(123, 45, 255, 0.2);
+            color: var(--primary);
+        }
+        
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        fieldset {
+            border: 1px solid var(--accent);
+            border-radius: 5px;
+            padding: 20px;
+        }
+        
+        legend {
+            color: var(--primary);
+            padding: 0 10px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            color: var(--light);
+        }
+        
+        input[type="submit"] {
+            background-color: var(--primary);
+            color: var(--dark);
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: var(--secondary);
+            color: white;
+        }
+        
+        dd {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        
+        b {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Conferencia Tech 2025</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#confe">Inicio</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#ponentes">Ponentes</a></li>
+                <li><a href="#registro">Registro</a></li>
+            </ul>
+        </nav>
+        
+        <section id="confe">
+            <h2>Sobre la conferencia</h2>
+            <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!</p>
+            <p>La conferencia abordará temas como:</p>
+            <ul>
+                <li>Inteligencia Artificial</li>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                </ul>
+                <li>Desarrollo Web</li>
+                <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                </ul>
+                <li>Seguridad informática</li>
+                <li>Innovación en Hardware</li>
+            </ul>
+        </section>
+        
+        <section id="agenda">
+            <h2>Agenda de Eventos</h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Hora</th>
+                    <th>Tema</th>
+                    <th>Ponente</th>
+                </tr>
+                <tr>
+                    <td>10/10/2025</td>
+                    <td>09:00 - 10:30</td>
+                    <td>Inteligencia Artificial</td>
+                    <td>Dr. Laura Gómez</td>
+                </tr>
+                <tr>
+                    <td>10/10/2025</td>
+                    <td>11:00 - 12:30</td>
+                    <td>Seguridad informática</td>
+                    <td>Ing. Juan Pérez</td>
+                </tr>
+                <tr>
+                    <td>11/10/2025</td>
+                    <td>09:00 - 10:30</td>
+                    <td>Desarrollo Web</td>
+                    <td>Lic. Ana Ruiz</td>
+                </tr>
+                <tr>
+                    <td>11/10/2025</td>
+                    <td>11:00 - 12:30</td>
+                    <td>Hardware Innovador</td>
+                    <td>MSc. Pedro León</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="ponentes">
+            <h2>Ponentes Destacados</h2>
+            <dd><b>Dr. Laura Gómez:</b> Experta en Inteligencia Artificial con más de 15 años de experiencia</dd>
+            <dd><b>Ing. Juan Pérez:</b> Especialista en ciberseguridad, ponente Internacional</dd>
+            <dd><b>Lic. Ana Ruiz:</b> Desarrolladora full-stack fundadora de TechWeb.</dd>
+            <dd><b>MSc. Pedro León:</b> Investigador en Hardware de alto rendimiento</dd>
+        </section>
+        
+        <section id="registro">
+            <h2>Registro al Evento</h2>
+            <h3>¡Regístrate para asistir!</h3>
+            <p>Los campos marcados con * son obligatorios</p>
+            <form>
+                <fieldset>
+                    <legend>Formulario de registro</legend>
+                    <label for="nombre">Nombre Completo*</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="edad">Edad*</label>
+                    <input type="number" id="edad" name="edad" required>
+                    
+                    <label for="correo">Correo Electrónico*</label>
+                    <input type="email" id="correo" name="correo" required>
+                    
+                    <label for="telefono">Teléfono (opcional):</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    
+                    <label>Género:</label>
+                    <div style="margin: 10px 0;">
+                        <input type="radio" id="masculino" name="genero" value="masculino" checked required>
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" id="femenino" name="genero" value="femenino" style="margin-left: 15px;" required>
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" id="otro" name="genero" value="otro" style="margin-left: 15px;" required>
+                        <label for="otro">Otro</label>
+                    </div>
+                    
+                    <p>Selecciona las conferencias a las que deseas asistir*:</p>
+                    <div>
+                        <input type="checkbox" id="ia" name="conferencia" value="ia">
+                        <label for="ia">Inteligencia Artificial</label>
+                        <input type="checkbox" id="desarrollo" name="conferencia" value="desarrollo" style="margin-left: 15px;">
+                        <label for="desarrollo">Desarrollo Web</label>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <input type="checkbox" id="seguridad" name="conferencia" value="seguridad">
+                        <label for="seguridad">Seguridad Informática</label>
+                        <input type="checkbox" id="hardware" name="conferencia" value="hardware" style="margin-left: 15px;">
+                        <label for="hardware">Hardware Innovador</label>
+                    </div>
+                    
+                    <label for="nivel-xp">Nivel de experiencia en tecnología*</label>
+                    <select name="nivel-xp" id="nivel-xp" required>
+                        <option value="principiante">Principiante</option>
+                        <option value="medio">Medio</option>
+                        <option value="avanzado">Avanzado</option>
+                    </select>
+                    
+                    <label for="texto">Comentarios adicionales (máx. 300 caracteres):</label>
+                    <textarea id="texto" name="descripcion" maxlength="300" rows="5" placeholder="Nos gustaría escucharte..."></textarea>
+                    
+                    <label for="archivo">Adjuntar CV o Portafolio (PDF):</label>
+                    <input type="file" id="archivo" name="archivo" accept=".pdf">
+                    
+                    <div style="margin: 20px 0;">
+                        <input type="checkbox" id="accept" name="accept" value="accept" required>
+                        <label for="accept">Acepto los términos y condiciones *</label>
+                    </div>
+                    
+                    <input type="submit" value="Enviar Registro">
+                </fieldset>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
