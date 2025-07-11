@@ -1,0 +1,86 @@
+.contenedor{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.izq{
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.der{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.image{
+    width: 300px;
+    height: 45%;
+    border-radius: 2rem;
+    margin: 8rem 2rem;
+    display: flex;
+}
+
+.slogan{
+    font-size: 4.3rem;
+    font-family: product-sans, sans-serif;
+    margin: 2rem 0rem 0rem 0rem;
+    text-align: left;
+}
+
+h2{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: product-sans, sans-serif;
+}
+
+.btn-google{
+    width: 250px;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: product-sans, sans-serif;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btn-apple{
+    width: 250px;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: product-sans, sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.create{
+    width: 250px;
+    height: 50px;
+    background-color: #3bcdf1;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: product-sans, sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+}
