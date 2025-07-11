@@ -103,6 +103,7 @@ p{
 /*Pseudo-Classes*/
 a:hover {
     text-decoration: underline;
+    text-align: center;
 }
 
 .btn-login:hover{
