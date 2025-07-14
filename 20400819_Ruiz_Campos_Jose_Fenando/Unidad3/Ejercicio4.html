@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 4</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background-color: #EAEFEF;
+            color: #212529;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-color: #dddcdc;
+            border-style: solid;
+        }
+
+        h1 {
+            color: #343a40;
+            margin-top: auto;
+            text-align: center;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 10px;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: #343a40;
+            text-align: center;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 10px;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        body>ul {
+            padding: 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        body>ul>li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        th,
+        td {
+            border: 1px solid #dee2e6;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e9ecef;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #dee2e6;
+            margin: 2rem 0;
+        }
+
+        form{
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color: #000000;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #343a40;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea,
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conferencia Tech 2025</h1>
+        <ul style="list-style: disc;">
+            <li><a href="#Introduccion">Introducción</a></li>
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Ponentes">Ponentes</a></li>
+            <li><a href="#Registro">Registro</a></li>
+            </ul>
+        <h2>Sobre la conferencia</h2>
+        <p>Bienvenido a la Conferencia Internacional de Tecnologia 2025!</p>
+        <p>La conferencia abordará temas como:</p>
+        <ul style="list-style: disc;">
+            <li>Inteligencia Artificial</li>
+            <ul style="list-style: circle;">
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+            <li>Desarrollo Sostenible</li>
+            <ul style="list-style: circle;">
+                <li>Frontend</li>
+                <li>Backend</li>
+            </ul>
+            <li>Innovación Tecnológica</li>
+            <li>Seguridad Cibernética</li>
+        </ul>
+        <h2>Agenda Del Evento</h2>
+        <table border="1" cellpadding="5" cellspacing="1">
+            <tr>
+                <th>Dia</th>
+                <th>Hora</th>
+                <th>Tema</th>
+                <th>Ponente</th>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Inteligencia Artificial</td>
+                <td>Dr. Laura Gómez</td>
+            </tr>
+            <tr>
+                <td>10/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Seguridad Informática</td>
+                <td>Ing. Juan Pérez</td>
+            </tr>
+            <tr>
+                <td>11/10/2025</td>
+                <td>09:00 - 10:30</td>
+                <td>Desarrollo Web</td>
+                <td>Lic. Ana Ruiz</td>
+            </tr>
+            <tr>
+                <td>11/10/2025</td>
+                <td>11:00 - 12:30</td>
+                <td>Hardware Innovador</td>
+                <td>MSc. Pedro León</td>
+            </tr>
+        </table>
+        <h2 id="Ponentes">Ponentes</h2>
+        <ul>
+            <li><b>Dr. Laura Gómez</b>: Especialista en Inteligencia Artificial</li>
+            <li><b>Ing. Juan Pérez</b>: Experto en Seguridad Informática</li>
+            <li><b>Lic. Ana Ruiz</b>: Desarrolladora Web Full Stack</li>
+            <li><b>MSc. Pedro León</b>: Innovador en Hardware</li>
+        </ul>
+        <hr>
+        <h1 id="Registro">Registro</h1>
+        <h2><b>¡Registrate para asistir!</b></h2>
+        <p>Los campos marcados con * son obligatorios.</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Formulario de Registro</legend>
+                <label for="nombre">Nombre Completo*</label>
+                <input type="text" id="nombre" name="nombre" required />
+                <br /><br />
+                <label for="Edad">Edad*</label>
+                <input type="number" id="edad" name="edad" min="18" max="100" required />
+                <br /><br />
+                <label for="email">Correo Electrónico*</label>
+                <input type="email" id="email" name="email" required />
+                <br /><br />
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" />
+                <br /><br />
+                <label for="Genero">Género</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <br /><br />
+                <label for="Conferencias">Selecciona las conferencias a las que deseas asistir*:</label>
+                <br />
+                <input type="checkbox" id="ia" name="conferencias" value="ia" />
+                <label for="ia">IA</label>
+                <br />
+                <input type="checkbox" id="desarrollo" name="conferencias" value="desarrollo" />
+                <label for="desarrollo">Desarrollo Web</label>
+                <br />
+                <input type="checkbox" id="seguridad" name="conferencias" value="seguridad" />
+                <label for="seguridad">Seguridad Informática</label>
+                <br />
+                <input type="checkbox" id="Hardware" name="conferencias" value="Hardware" />
+                <label for="desarrollo">Hardware Innovador</label>
+                <br /><br />
+                <label for="experiencia">Nivel de experiencia en tecnología:</label>
+                <br />
+                <select>
+                    <option value="opcion1">Principiante</option>
+                    <option value="opcion2">Intermedio</option>
+                    <option value="opcion3">Avanzado </option>
+                </select>
+                <br /><br />
+                <label for="comentarios">Comentarios adicionales (máx. 300 caracteres):</label>
+                <br />
+                <textarea id="Comentarios" cols="80" rows="8"></textarea>
+                <br /><br />
+                <label for="CV">Adjuntar CV o Portafolio (PDF):</label>
+                <input type="file" id="cv" name="cv" accept=".pdf" />
+                <br /><br />
+                <label for="terminos">
+                    <input type="checkbox" id="terminos" name="terminos" required />
+                    Acepto los términos y condiciones*
+                </label>
+                <br /><br />
+                <input type="submit" value="Enviar Registro" />
+            </fieldset>
+        </form>
+        <hr>
+        <p>Realizo: Jose Fernando Ruiz Campos</p>
+    </div>
+</body>
+
+</html>

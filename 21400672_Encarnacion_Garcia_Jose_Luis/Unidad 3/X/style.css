@@ -1,4 +1,5 @@
 .contenedor{
+    height: 500px;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -6,25 +7,25 @@
 }
 
 .izq{
-    width: 50%;
-    height: 100vh;
-    background-color: black;
+    width: 700px;
+    height: 500px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
 .der{
-    width: 50%;
-    height: 100vh;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     color: white;
 }
 
 .image{
-    width: 300px;
+    width: 220px;
     height: 45%;
     border-radius: 2rem;
     margin: 8rem 2rem;
@@ -32,55 +33,90 @@
 }
 
 .slogan{
-    font-size: 4.3rem;
+    font-size: 2.7rem;
     font-family: product-sans, sans-serif;
     margin: 2rem 0rem 0rem 0rem;
     text-align: left;
 }
 
 h2{
+    margin-top: 2rem;
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: product-sans, sans-serif;
+    margin-bottom: 1rem;
 }
 
 .btn-google{
     width: 250px;
-    height: 50px;
+    height: 32px;
     background-color: #ffffff;
     color: black;
     border: none;
     border-radius: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: product-sans, sans-serif;
     cursor: pointer;
-    margin-top: 2rem;
 }
 
 .btn-apple{
     width: 250px;
-    height: 50px;
+    height: 32px;
     background-color: #ffffff;
     color: black;
     border: none;
     border-radius: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: product-sans, sans-serif;
     cursor: pointer;
-    margin-top: 1rem;
+    margin-top: 0.7rem;
+}
+
+.split{
+    margin-top: 0.5rem;
+    margin-left: 7.5rem;
 }
 
 .create{
     width: 250px;
-    height: 50px;
+    height: 32px;
     background-color: #3bcdf1;
-    color: black;
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
     font-family: product-sans, sans-serif;
     cursor: pointer;
     margin-top: 1rem;
+    font-weight: bold;
+}
+
+.terminos{
+    margin-top: 0.8rem;
+    font-size: 11px;
+}
+
+.terminos a{
+    color: #4493ee;
+    text-decoration: none;
+}
+
+.cuenta{
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+
+.sesion{
+    width: 250px;
+    height: 32px;
+    background-color: #000000;
+    color: #4493ee;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-family: product-sans, sans-serif;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: bold;
 }

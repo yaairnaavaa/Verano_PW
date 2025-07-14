@@ -1,0 +1,185 @@
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), 
+    url(/14400975_Nava_Hernandez_Irving_Yair/netflix/hero-background.jpg);
+    background-size: 1500px 720px;
+    font-family: product-sans, sans-serif;
+    margin: 0;
+}
+
+.sec1{
+    height: 700px;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones-arriba{
+    display: flex;
+    justify-content: flex-end;  
+    margin: 1rem 1rem;
+}
+
+.logoN{
+    width: 100px;
+    margin: 1rem 1rem;
+}
+
+.idioma{
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    padding: 0rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.idioma:hover{
+    cursor: pointer;
+    background-color: rgb(32, 31, 31);
+}
+
+.iniciasesion{
+    background-color: red;
+    color: white;
+    margin-left: 1rem;
+    padding: 0rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.iniciasesion:hover{
+    cursor: pointer;
+}
+
+.contenido{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.email{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 0rem 0.5rem;
+    width: 22rem;
+    height: 2rem;
+}
+
+.comenzar{
+    background-color: red;
+    color: white;
+    margin-left: 0.2rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.sec2{
+    height: 400px;
+    background-color: rgb(29, 27, 27);
+    padding: 0.3rem 1.5rem;
+    color: white;
+}
+
+.tendencias{
+    color: white;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.pelis{
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.p1{
+    background-image: url(/14400975_Nava_Hernandez_Irving_Yair/netflix/poster1.jpg);
+    padding: 5.8rem;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.num{
+    margin: 0rem 0.5rem;
+    padding: 0.3rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sec3{
+    height: 380px;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.motivos{
+    display: flex;
+}
+
+.card{
+    text-align: left;
+    padding: 1rem;
+    width: 450px;
+    margin: 1rem 1rem;
+    background-color: rgb(27, 9, 78);
+}
+
+.disfruta{
+    margin-bottom: 5rem;
+}
+
+.descarga{
+    margin-bottom: 6rem;
+}
+
+.imgcard{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgcard img{
+    width: 40px;
+    height: 40px;
+}
+
+.sec4{
+    height: 400px;
+    padding: 0.6rem 0rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque{
+    margin-bottom: 0.3rem;  
+}
+
+.bloque button{
+    width: 25rem;
+    height: 2.2rem;
+    text-align: left;
+    padding-left: 0.8rem;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.mem{
+    margin-top: 1rem;
+    font-size: 10px;
+    margin-bottom: 1rem;
+}

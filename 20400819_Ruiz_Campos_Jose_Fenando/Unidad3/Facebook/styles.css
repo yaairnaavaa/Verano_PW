@@ -1,0 +1,174 @@
+/*Style for Facebook Login Page*/
+
+/* Por etiquetas */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #606770;
+    font-size: 14px;
+    margin: auto;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e9ebee;
+    margin: 20px 0;
+}
+
+/* Por ID */
+#Logo {
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* Por clases */
+.slogan {
+    font-size: 24px;
+    ;
+    line-height: 28px;
+    width: 450px;
+}
+
+.btnLogin {
+    background-color: #0866FF;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.create-account {
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 55%;
+    border-radius: 6px;
+    margin: auto;
+    display: block;
+}
+
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Layout general */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    width: 100%;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+/* Estilo */
+.create-page {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.left-column {
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+
+.right-column {
+    width: 350px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.create-page {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    color: #1c1e21;
+    font-size: 14px;
+    margin-inline: 10px;
+}
+
+/* psuedo-clases */
+.create-page:hover {
+    text-decoration: underline;
+}
+.login-box form input:focus {
+    border-color: #1877f2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.15);
+}
+
+.forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #145db2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btnLogin:hover {
+    background-color: #2572e5;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
