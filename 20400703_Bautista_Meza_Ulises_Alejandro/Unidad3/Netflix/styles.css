@@ -1,0 +1,302 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 50px;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+}
+
+.language-selector select {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 1px solid #aaa;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #f40612;
+}
+
+
+/* Hero section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/MX-es-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-text {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+
+/* Email container */
+.email-container {
+    margin-top: 20px;
+}
+
+.email-box {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.email-input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    margin: 10px;
+    background:rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.email-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Estilos para la sección de tendencias */
+.trends {
+    padding: 50px;
+    background-color: #141414;
+}
+
+.trends-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.trends-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.season-posters {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.poster-container {
+    position: relative;
+    flex: 0 0 auto; 
+}
+
+.season-poster {
+    width: 245px; 
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.season-poster:hover {
+    transform: scale(1.05); 
+}
+
+.season-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Sección de beneficios */
+
+.section-title{
+    text-align: center;
+}
+
+.benefits-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    flex: 1; /* Para que todas ocupen el mismo ancho */
+    max-width: 300px; /* Puedes subirlo si quieres más anchas, por ejemplo 300px */
+    height: 300px; /* Aumenta este valor para hacerlas más alargadas */
+    background: linear-gradient(135deg, #0f0f1a, #1a0b23);
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+.benefits-cards {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 20px;
+    justify-content: center;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.benefit-card p {
+    font-size: 0.95rem;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.benefit-card img {
+    width: 50px;
+    height: auto;
+    align-self: flex-end;
+}
+
+
+/* Sección de preguntas frecuentes */
+.faq-section {
+    padding: 70px 45px;
+    background-color: #000;
+    border-bottom: 8px solid #222;
+}
+
+.faq-list {
+    max-width: 815px;
+    margin: 0 auto 50px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 20px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-toggle {
+    font-size: 2rem;
+}
+
+
+
+.faq-cta {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-cta .cta-text {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* Mostrar respuesta cuando el item está activo */
+.faq-item.active .faq-answer {
+    display: block;
+}
+
