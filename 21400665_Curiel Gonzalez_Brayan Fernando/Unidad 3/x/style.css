@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.left-column{
+    background-color: black;
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+
+.right-column{
+    background-color: black;
+    width: 400px;
+}
+
+.login-box{
+    background-color: black;
+    color: white;
+}
+
+.main-title{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.subtitle{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.btn-google{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-apple{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider hr{
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+.divider p{
+    color: white;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+.btn-create{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terms-text{
+    color: #71767b;
+    font-size: 11px;
+    margin: 15px 0;
+    line-height: 1.4;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-text{
+    color: white;
+    font-size: 17px;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.btn-login{
+    background-color: transparent;
+    color: rgb(29, 155, 240);
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 12px 24px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-pag{
+    background-color: black;
+    font-size: 13px;
+    color: #71767b;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.forgot-hipervinculos{
+    color: #71767b;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.forgot-hipervinculos:hover{
+    text-decoration: underline;
+}
+
+.separator{
+    color: #71767b;
+    margin: 0 5px;
+}
+
+/* Hover effects */
+.btn-google:hover, .btn-apple:hover{
+    background-color: #f7f7f7;
+}
+
+.btn-create:hover{
+    background-color: rgb(26, 140, 216);
+}
+
+.btn-login:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+}
