@@ -1,0 +1,76 @@
+body {
+    background-color: #000000;
+      font-family: Arial, sans-serif;
+
+}
+.container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+}
+/*.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}*/
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  gap: 15px;
+  justify-content: left;
+  margin-right: 100px;
+}
+
+p{
+    color: white;
+}
+
+.slogan{
+    font-size: 70px;
+}
+
+button{
+    border-radius: 40px;
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.container-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0;
+    width: 300px;
+}
+.linea {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.btn-blanco{
+    background-color: white ;
+    border: none;
+
+}
+
+.btn-azul{
+    background-color: #1da1f2;
+    color: white;
+    border: none ;
+}
