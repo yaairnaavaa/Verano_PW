@@ -364,55 +364,61 @@ h1, h2, h3 {
 }
 
 @media (max-width: 1250px) {
+    .hero-content{
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    .email-signup input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+.get-started-btn {
+    width: 100%;
+    margin-left: 0;
+}
+.reasons-grid {
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+}
+.navbar {
+    padding: 20px 30px;
+}
+}
+
+@media (max-width: 900px) {
+    .reasons-grid {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
     .hero-content h1 {
         font-size: 2.5rem;
     }
     .hero-content p {
         font-size: 1.2rem;
     }
-
-    .email-signup input[type="email"] {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .get-started-btn {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .reasons-grid {
-        grid-template-columns: repeat(3, minmax(280px, 1fr));
-    }
-
-    .navbar {
-        padding: 20px 20px;
-    }
-}
-
-@media (max-width: 900px) {
     .hero {
-        height: 550px;
+        height: 500px;
     }
-
-    .hero-content h1 {
+    .hero-content h1{
         font-size: 2rem;
     }
     .hero-content p {
         font-size: 1rem;
     }
-    .get-started-btn {
+    .get-started-btn{
         font-size: 1.2rem;
-        padding: 15px 20px;
+        padding: 15px 25px;
     }
-
-    .reasons-grid {
-        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    .reasons-grid .reason-card {
+        padding: 20px;
     }
+    
 }
 
 @media (max-width: 600px) {
-    .reasons-grid {
-        grid-template-columns: repeat(1, minmax(280px, 1fr));
-    }
+   .reasons-grid{
+    grid-template-columns: repeat(1, minmax(280px, 1fr));
+   }
+
 }

@@ -363,56 +363,58 @@ h1, h2, h3 {
     font-size: 0.75rem;
 }
 
-@media (max-width: 1250px) {
-    .hero-content h1 {
-        font-size: 2.5rem;
+/*ADDs*/
+@media (max-width: 1250px) and (min-width: 900px){
+    .hero{
+        height: 550px;
     }
-    .hero-content p {
-        font-size: 1.2rem;
+    .hero-content > h1{
+        font-size: 2rem;
     }
-
-    .email-signup input[type="email"] {
+    .hero-content > p{
+        font-size: 1rem;
+    }
+    .email-signup input[type="email"]{
         width: 100%;
         margin-bottom: 10px;
     }
-
-    .get-started-btn {
+    .get-started-btn{
         width: 100%;
         margin-left: 0;
     }
-
-    .reasons-grid {
-        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    
+    .reasons-grid{
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
     }
 
-    .navbar {
+    .navbar{
         padding: 20px 20px;
     }
 }
 
-@media (max-width: 900px) {
-    .hero {
-        height: 550px;
+@media (max-width: 900px){
+    .hero-content > h1{
+        font-size: 2.5rem;
     }
-
-    .hero-content h1 {
-        font-size: 2rem;
+    .hero-content > p{
+        font-size: 1.2rem;
     }
-    .hero-content p {
-        font-size: 1rem;
+    .email-signup input[type="email"]{
+        width: 100%;
+        margin-bottom: 10px;
     }
-    .get-started-btn {
+    .get-started-btn{
         font-size: 1.2rem;
         padding: 15px 20px;
     }
-
-    .reasons-grid {
+    
+    .reasons-grid{
         grid-template-columns: repeat(2, minmax(280px, 1fr));
     }
 }
 
-@media (max-width: 600px) {
-    .reasons-grid {
+@media (max-width: 600px){
+    .reasons-grid{
         grid-template-columns: repeat(1, minmax(280px, 1fr));
     }
 }

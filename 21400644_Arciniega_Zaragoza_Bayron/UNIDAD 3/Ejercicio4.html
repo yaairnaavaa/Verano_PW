@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background: #0f2027;
+            color: #ffffff;
+            line-height: 1.6;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: #00c9a7;
+        }
+        h2 {
+            text-align: center;
+            border-bottom: 2px solid #00c9a7;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            color: #00c9a7;
+        }
+        ul, li, p, blockquote, a {
+            color: #ffffff;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #203a43;
+        }
+        th, td {
+            border: 1px solid #2c5364;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c5364;
+            color: #00c9a7;
+        }
+        fieldset {
+            border: 1px solid #00c9a7;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #203a43;
+        }
+        legend {
+            font-size: 18px;
+            color: #00c9a7;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            background-color: #0f2027;
+            border: 1px solid #2c5364;
+            color: #ffffff;
+        }
+        input[type="submit"] {
+            background-color: #00c9a7;
+            color: #0f2027;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #02dfa3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="Inicio">Conferencia Tech 2025</h1>
+
+    <ul>
+        <li><a href="#Inicio">Inicio</a></li>
+        <li><a href="#Agenda">Agenda</a></li>
+        <li><a href="#Ponentes">Ponentes</a></li>
+        <li><a href="#Registro">Registro</a></li>
+    </ul>
+
+    <h2>Sobre la Conferencia</h2>
+    <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!</p>
+    <p>La conferencia abordará temas como:</p>
+    <ul>
+        <li>Inteligencia Artificial</li>
+        <ul><li>Machine Learning</li></ul>
+        <ul><li>Deep Learning</li></ul>
+        <li>Desarrollo Web</li>
+        <ul><li>Frontend</li></ul>
+        <ul><li>Backend</li></ul>
+        <li>Seguridad Informática</li>
+        <li>Innovación en Hardware</li>
+    </ul>
+
+    <h2 id="Agenda">Agenda del Evento</h2>
+    <table>
+        <tr>
+            <th>Día</th>
+            <th>Hora</th>
+            <th>Tema</th>
+            <th>Ponente</th>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Inteligencia Artificial</td>
+            <td>Dr. Laura Gómez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Seguridad Informática</td>
+            <td>Ing. Juan Pérez</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Desarrollo Web</td>
+            <td>Lic. Ana Ruiz</td>
+        </tr>
+        <tr>
+            <td>11/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Hardware Innovador</td>
+            <td>MSc. Pedro León</td>
+        </tr>
+    </table>
+
+    <h2 id="Ponentes">Ponentes Destacados</h2>
+    <blockquote><strong>Dr. Laura Gómez:</strong> Experta en Inteligencia Artificial con más de 15 años de experiencia.</blockquote>
+    <blockquote><strong>Ing. Juan Pérez:</strong> Especialista en ciberseguridad, ponente internacional.</blockquote>
+    <blockquote><strong>Lic. Ana Ruiz:</strong> Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
+    <blockquote><strong>MSc. Pedro León:</strong> Investigador en hardware de alto rendimiento.</blockquote>
+
+    <h2 id="Registro">Registro al Evento</h2>
+    <h4>¡Regístrate para asistir!</h4>
+    <p>Los campos marcados con * son obligatorios.</p>
+
+    <fieldset>
+        <legend>Formulario de registro</legend>
+        <form action="#" method="post">
+            <label for="Nombre">Nombre Completo*:</label><br>
+            <input name="Nombre" type="text" required><br><br>
+
+            <label for="Edad">Edad*:</label><br>
+            <input name="Edad" type="number" required><br><br>
+
+            <label for="Correo">Correo Electrónico*:</label><br>
+            <input name="Correo" type="text" required><br><br>
+
+            <label for="Telefono">Teléfono (opcional):</label><br>
+            <input name="Telefono"><br><br>
+
+            <label for="Genero">Género:</label><br>
+            <input name="Genero" type="radio" value="Masculino" required> Masculino<br>
+            <input name="Genero" type="radio" value="Femenino" required> Femenino<br>
+            <input name="Genero" type="radio" value="Otro" required> Otro<br><br>
+
+            <label for="Conferencias">Selecciona las conferencias a las que deseas asistir*:</label><br><br>
+            <input name="IA" type="checkbox" value="IA" required> IA<br>
+            <input name="Desarrollo Web" type="checkbox" value="Desarrollo Web" required> Desarrollo Web<br>
+            <input name="Seguridad Informatica" type="checkbox" value="Seguridad Informatica" required> Seguridad Informática<br>
+            <input name="Hardware Innovador" type="checkbox" value="Hardware Innovador" required> Hardware Innovador<br><br>
+
+            <label for="Nivel">Nivel de experiencia en tecnología:</label><br><br>
+            <select>
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select><br><br>
+
+            <label for="Comentarios">Comentarios adicionales (máx. 300 caracteres):</label><br>
+            <textarea rows="6" cols="45" maxlength="300" required></textarea><br><br>
+
+            <label for="AR CV">Adjuntar CV o Portafolio (PDF):</label><br>
+            <input name="AR CV" type="file" accept=".pdf" required><br><br>
+
+            <input name="AC" type="checkbox" value="AC" required> Acepto los términos y condiciones *<br><br>
+            <input name="Enviar registro" type="submit" value="Enviar registro">
+        </form>
+    </fieldset>
+</
