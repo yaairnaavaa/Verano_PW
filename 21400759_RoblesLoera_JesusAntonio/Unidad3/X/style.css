@@ -144,4 +144,90 @@ h2 {
     height: 22px;
     font-size: 1rem;
     margin: 0 10px;
-}   
+} 
+
+
+@media (max-width: 1250px) {
+    .left img {
+        width: 300px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .Botones {
+        width: 100%;
+    }
+    .hero-content.BotonGoogle,.hero-content.BotonApple, .hero-content.BotonCrear, .hero-content.BotonInicio {
+        width: 300px;
+    }
+}
+@media (max-width: 900px) {
+    .hero-content {
+        flex-direction: column;
+        height: auto;
+    }
+    .hero-content.left,.hero-content.BotonInicio.right {
+        width: 50%;
+        padding: 20px;
+    }
+    .left img {
+        width: 100px
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+    .hero-content .Botones {
+        width: 100%;
+    }
+    .hero-content .BotonGoogle,.hero-content.BotonApple,.hero-content.BotonCrear,.hero-content.BotonInicio {
+        width: 100%;
+    }
+  
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+   .hero-content.BotonGoogle,.hero-content.BotonApple,.hero-content.BotonCrear,.hero-content.BotonInicio {
+         width: 100px;
+        padding: 10px;
+        font-size: 0.2rem;
+        margin: 0 auto 10px auto; /* centra los botones */
+        display: block;
+    }
+    .hero-content.login {
+        width: 50%;
+        padding: 12px;
+    }
+    .hero-content img {
+        display: justify    ;
+        width: 10px;
+    }
+      body, html {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+    .container {
+        height: auto;
+        min-height: 100vh;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        padding: 20px 0;
+    }
+    .footer{
+        position: static;
+        padding-bottom: 20px;
+    }
+}
