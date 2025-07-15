@@ -1,0 +1,145 @@
+/*Por etiquetas*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p{
+    color: #1c1e21;
+    font-size: 16px;
+    margin: 0;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+/*Por ID*/
+#logo{
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*Por clase*/
+.slogan{
+    font-size: 24px;
+    line-height: 28px;
+    width: 450px;
+}
+
+.btn-login{
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+
+}
+
+.btn-create-account{
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    font-size: 17px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 6px;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+/*Layout General*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.left-column{
+    margin-right: 60px;
+    margin-bottom: 150px;
+
+}
+
+.right-column{
+    width: 400px;
+}
+
+.login-box{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.login-box form input[type="text"], input[type="password"]{
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 17px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.create-page{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1c1e21;
+    margin-inline: 10px;
+}
+
+/*Pseudo-clases*/
+a:hover{
+    text-decoration: underline;
+}
+
+.btn-login:hover{
+    background-color: #0056b3;
+}
+
+/*selectores Combinados*/
+
+.left-column h1{
+    letter-spacing: -1px;
+}
+
+.container > .right-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input + input{
+    margin-top: 10px;
+}
+
+.forgot-password-container{
+    width: 50%;
+    display: block;
+    margin-inline: auto;
+}
+
+.forgot-password{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
