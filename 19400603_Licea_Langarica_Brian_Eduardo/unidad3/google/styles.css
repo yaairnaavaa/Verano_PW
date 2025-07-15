@@ -1,0 +1,74 @@
+.barra-superior{
+    text-align: right;
+}
+.gmail,.imagenes{
+    color: black;
+    text-decoration: none;
+    font-family: ROBOTO;
+}
+.Acceder{
+    color: white;
+    background: blue;
+    border-radius: 35px;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.logo1{
+    color: blue;
+}
+.logo2{
+    color: red;
+}
+.logo3{
+    color: yellow;
+}
+.logo4{
+    color: blue;
+}
+.logo5{
+    color: green;
+}
+.logo6{
+    color: red;
+}
+span {
+    font-size: 75px;
+    font-family: sans-serif;
+    letter-spacing: -5px;
+
+}
+.content{
+    text-align: center;
+}
+.content form input[type="search"] {
+    border: 1px solid #ccd0d5;
+    border-radius: 55px;
+    padding: 10px;
+    font-size: 17px;
+    width: 35%;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(85, 85, 85, 0.5);
+}
+.buscar{
+    background-color: #fffeff;
+    color: grey;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin: auto;
+}
+.suerte{
+    background-color: #fffeff;
+    color: grey;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin: auto;
+}
