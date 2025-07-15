@@ -1,147 +1,220 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: #000;
-    color: #fff;
-    font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
 }
 
 .left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
 }
 
-.left img {
-    width: 350px;
-    height: auto;
+.x-image {
+  width: 120%;
+  max-width: 400px;
+  height: auto;
 }
 
 .right {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+  gap: 10px;
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.Botones {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
+.buttons, .Botones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 100%;
 }
 
-.BotonGoogle,.BotonApple,.BotonCrear,.BotonInicio   {
-    width: 350px;
-    padding: 15px;
-    border-radius: 30px;
-    border: none;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
+.BotonGoogle, .BotonApple, .BotonCrear, .BotonInicio {
+  width: 350px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.BotonGoogle {
-    background: #fff;
-    color: #000;
-    border: 1px solid #ccc;
+.BotonGoogle, .BotonApple {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
 }
-.BotonCrear{
-    background: #1da1f2;
-    color: #fff;
-    border: 1px solid #ccc;
-}
-.BotonApple {
-    background: #fff;
-    color: #000;
-    border: 1px solid #ccc;
+
+.BotonCrear {
+  background: #1da1f2;
+  color: #fff;
+  border: 1px solid #ccc;
 }
 
 .BotonInicio {
-    background: #000;
-    border: 1px solid #444;
-    color: #1da1f2;
-    margin-top: 10px;
+  background: #000;
+  border: 1px solid #444;
+  color: #1da1f2;
+  margin-top: 10px;
 }
 
-.login {
-    margin-top: 30px;
-}
-
-.login {
-    width: 350px;
-    padding: 15px;
-    border-radius: 30px;
-    border: 1px solid #444;
-    background: transparent;
-    color: #1da1f2;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: transparent;
-    color: #888;
-    font-size: 9px;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.footer a {
-    color: #888;
-    text-decoration: none;
-    margin: 0 8px;
-}
 .division {
-    display: flex;
-    align-items: center;
-    width: 350px;
-    margin-left: 0 auto 15px auto;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin: 15px 0;
 }
 
 .division::before,
 .division::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #444;
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #444;
 }
 
 .circulo {
-    display: flex;
-    align-items: center;
-    justify-content: justify;
-    background: #000;
-    color: #fff;
-    border: 2px solid #444;
-    border-radius: 50%;
-    width: 22px;
-    height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  border: 2px solid #444;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 9px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: #888;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    flex-direction: column;
     font-size: 1rem;
-    margin: 0 10px;
-}   
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .x-image {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .right {
+    padding-left: 0;
+  }
+
+  .buttons, .Botones {
+    align-items: center;
+  }
+
+  .division {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    font-size: 0.8rem;
+  }
+
+  .left, .right {
+    flex: none;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .x-image {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .buttons, .Botones {
+    width: 90%;
+    align-items: center;
+  }
+
+  .division {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+
+  .left, .right {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .x-image {
+    width: 60%;
+  }
+
+  .buttons, .Botones {
+    width: 90%;
+  }
+
+  .division {
+    width: 60%;
+  }
+}
