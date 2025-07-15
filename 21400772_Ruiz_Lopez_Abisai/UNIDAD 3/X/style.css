@@ -20,19 +20,25 @@ body{
 /*FORM*/
 .form-space{
     margin-top: 5%;
-    min-width: 600px;
     /*background-color: blue;*/
 }
+
 #slogan{
     font-size: 64px;
+    margin-right: 25%;
     font-stretch: expanded;
-    line-height: 20px;
     font-weight: bold;
+    line-height: 150%;
+}
+
+#invitation{
+    font-size: 28px;
+    line-height: 0px;
 }
 
 .form{
     margin-top: 40px; 
-    width: 300px;
+    width: 600px;
 }
 
 button{
@@ -129,4 +135,38 @@ a{
 
 .footer > p >a{
     color: #6c6c6c;
+}
+
+@media (max-width: 600px){
+    body{
+        align-items: center;
+        text-align: center;
+    }
+    .grid-container{
+        margin-top: 10%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #slogan{
+        font-size: 32px;
+        font-stretch: expanded;
+        line-height: 100%;
+        font-weight: bold;
+        width: 300px;
+    }
+    #invitation{
+        font-size: 20px;
+    }
+    .form-space{
+        margin-top: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .logo-space{
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+    width: 300px;
+    }
+    
 }
