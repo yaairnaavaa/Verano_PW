@@ -1,0 +1,403 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.seccion1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+    color: white;
+    text-align: center;
+
+    
+      
+    
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logoI{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin-top: 200px;
+
+}
+
+
+.barraInicio {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+    
+}
+.btnIniciarSecion {
+    background-color: #111618;
+    color: white;
+    border:1px solid white;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+}
+
+
+
+.titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    max-width: 600px;
+    text-align: left;
+}
+.subTitulo {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+
+}
+
+.formCorreo {
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
+.formCorreo p {
+    margin-bottom: 0.5rem;
+}
+.formCorreo input {
+    padding: 0.5rem;
+    width: 300px;
+    margin-bottom: 0.5rem;
+}
+.btnCorreo {
+    background-color: #5BE4F9;
+    color: black;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.EnlaceI {
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
+
+.iconos img {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/*SECCIOiOOOON222*/
+
+
+
+.seccion2 {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+ 
+.tituloSec2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    
+}
+.subtituloSec2 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc;
+    text-align: left;
+
+}
+
+ 
+.imgPortadaSec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textoSec2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.imgSec2{
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.imgSec2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+
+ 
+.listaSec2 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    font-size: 0.9rem;
+    color: white;
+}
+.poster img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+ }
+
+
+/*SECCCIOOOON3333*/
+.seccion3 {
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #040714;
+    color: white;
+    text-align: center;
+}
+
+.tituloSec3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    
+}
+.subTituloSec3 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc;
+}
+
+.tblPlanes table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    border-collapse: collapse;
+    background-color: #111;
+}
+.tblPlanes th,
+.tblPlanes td {
+    padding: 1rem;
+    border: 1px solid #222;
+    font-size: 0.95rem;
+}
+.tblPlanes th {
+    background-color: #222;
+    font-weight: bold;
+}
+.tblPlanes td.col1 {
+    text-align: left;
+    font-weight: bold;
+    background-color: #000000;
+}
+.tblPlanes img {
+    width: 24px;
+    height: 24px;
+}
+
+#PremiumCas {
+    color: white;
+    background-color: #00aaff;
+}
+.btnMasPop{
+    color: #000;
+    background-color: #FFC106;
+    border: none;
+    border-radius: 5px;
+}
+
+.textoChiquitoSec3 {
+    font-size: 0.6rem;
+    color: #bbb;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.textoChiquitoSec3 p {
+    margin: 0;
+}
+
+
+/*SECCIOOON 444444*/
+
+.seccion4{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #040714;
+    color: white;
+    text-align: center;
+}
+
+.tituloSec4 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    
+}
+.subtituloSec4{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc;
+    text-align: left;
+}
+
+.iconoSec4 img{
+    max-width: 300px;
+}
+
+.rolloSec4 {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.rItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    color: white;
+}
+.rItem img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/*SECCIOOOON 5555*/
+.seccion5{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #040714;
+    color: white;
+    text-align: center;
+}
+
+.tituloSec5{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.subTituloSec5{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc;
+}
+
+.imgSec5 img{
+    width: 900px;
+}
+
+
+/*SECCIOON 666*/
+.seccion6{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: #040714;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.TituloSec6{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.preguntasListas {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.pre{
+    background-color: #1A1A1A;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+    color: #494949;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.titP{
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    
+}
+
+
+
+.fin {
+    margin-top: 4rem;
+    text-align: center;
+    color: #aaa;
+    font-size: 0.85rem;
+}
+.fin hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin-bottom: 1rem;
+}
+
+
+
+

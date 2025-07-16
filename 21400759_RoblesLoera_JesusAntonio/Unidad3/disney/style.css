@@ -1,0 +1,512 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+/* Seccion 1 */
+.Seccion1 {
+    background: url('main-hero-background.png') no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.login-btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.contenidoSeccion1 {
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    max-width: 600px;
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 18px;
+    line-height: 1.1;
+}
+
+.plan {
+    font-size: 1.8rem;
+    margin-bottom   : 28px;
+    color: grey;
+}
+
+.subscribe-form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.input-group button {
+    background: #00b8e0;
+    color: #fff;
+    border: none;
+    padding: 0 28px;
+    font-size: 1rem;
+    border-radius: 0 6px 6px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.details {
+    display: block;
+    margin-bottom: 22px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brands img {
+    height: 32px;
+    background: transparent;
+}
+
+.brands span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+/* Seccion 2*/
+
+.seccion2 {
+    background: #000;
+    color: #fff;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.seccion2 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.seccion2 .sub {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 32px;
+}
+
+.banner {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto 32px auto;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+    opacity: 0.7;
+    display: block;
+}
+
+.banner-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #000;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background: #222;
+}
+
+.card span {
+    font-size: 0.95rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* Seccion 3 */
+
+.seccion3 {
+    background: #101426;
+    color: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.seccion3 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.seccion3-sub {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+
+.tabla-planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-planes table {
+    width: 90%;
+    max-width: 1100px;
+    border-collapse: collapse;
+    background: #181c2b;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.tabla-planes th, .tabla-planes td {
+    border: 1px solid #33384d;
+    padding: 18px 12px;
+    text-align: center;
+}
+
+.tabla-planes th {
+    background: #181c2b;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.premium {
+    background: #2196f3;
+    color: #fff;
+    position: relative;
+}
+
+.popular {
+    background: #ffd600;
+    color: #222;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 4px;
+}
+
+.paloma {
+    color: #00e676;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cruz {
+    color: #ff1744;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.planes-notas {
+    color: #ccc;
+    font-size: 0.85rem;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.planes-notas p {
+    margin: 4px 0;
+}
+.deportes {
+    background: #101426;
+    color: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.deportes h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.deportes-sub {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+}
+
+.deportes-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 32px;
+}
+
+.deporte-logo {
+    height: 48px;
+}
+
+.deporte-sep {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.deportes-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
+.deporte-card {
+    width: 170px;
+    height: 220px;
+    background: #181c2b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.2s;
+}
+
+.deporte-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.deporte-card:hover {
+    transform: translateY(-8px) scale(1.04);
+}
+/* Seccion 6 */
+.faq {
+    background: #101426;
+    color: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.faq-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faq-item {
+    background: #232323;
+    border-radius: 16px;
+    padding: 24px 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.faq-icon {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.faq-answer {
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    background: #101426;
+    color: #ccc;
+    text-align: center;
+    padding: 24px 0 12px 0;
+    font-size: 1rem;
+    border-top: 1px solid #232323;
+}
+
+/*Responsives*/
+@media (max-width: 1250px) {
+    .Seccion1Contenido {
+        max-width: 80vw;
+        left: 0;
+        padding: 32px;
+    }
+    .logo {
+        width: 120px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .plan {
+        font-size: 1rem;
+    }
+    .input-group input {
+        font-size: 1rem;
+        padding: 12px;
+    }
+    .input-group button {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .contenidoSeccion1 {
+        position: static;
+        max-width: 95vw;
+        left: 0;
+        top: 0;
+        padding: 20px;
+    }
+    .logo {
+        width: 100px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .plan {
+        font-size: 1rem;
+    }
+    .input-group input {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+    .input-group button {
+        font-size: 0.95rem;
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contenidoSeccion1 {
+        text-align: center;
+    }
+    .Seccion1 {
+        min-height: 80vh;
+        padding: 10px;
+    }
+    .contenidoSeccion1 {
+        max-width: 100vw;
+        padding: 10px;
+    }
+    .logo {
+        width: 70px;
+        margin-bottom: 18px;
+    }
+    h1 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    .plan {
+        font-size: 0.9rem;
+        margin-bottom: 14px;
+    }
+    .input-group {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .input-group input,
+    .input-group button {
+        width: 100%;
+        border-radius: 6px;
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+    .login-btn {
+        top: 10px;
+        right: 10px;
+        font-size: 0.85rem;
+        padding: 8px 16px;
+    }
+    .brand-icon{
+        width: 460px;
+    }
+}

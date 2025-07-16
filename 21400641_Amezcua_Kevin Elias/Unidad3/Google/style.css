@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    font-size: 13px;
+}
+
+header a {
+    text-decoration: none;
+    color: #212121;
+    margin: 7px;
+}
+
+header a:hover {
+    color: #4285F4;
+}
+
+header input[type="submit"] {
+    background-color: #095fe8;
+    color: white;
+    border-radius: 50px;
+    width: 80px;
+    height: 35px;
+    border: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.letter-blue {
+    color: #4285F4;
+}
+
+.letter-red {
+    color: #EA4335;
+}
+
+#letter-yellow {
+    color: #FBBC05;
+}
+
+#letter-green {
+    color: #34A853;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form > input[type="text"] {
+    border: 1px solid #E4E5E7;
+    border-radius: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flow-root;
+    width: 570px;
+    height: 45px;
+    font-size: 14px;
+    padding-left: 25px;
+    color: #737577;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.buttons input[type="submit"] {
+    background-color: #F8F9FA;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 8px;
+    padding-inline: 20px;
+    display: inline-block;
+    justify-content: center;
+    margin: 6px;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border: 1px solid #d5d7d8;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ecedef;
+    text-align: center;
+    font-size: 13px;
+    text-align: left;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0px 10px 25px; 
+}
+
+footer .left-p {
+    float: left;
+}
+
+footer .right-p {
+    float: right;
+    margin-right: 25px;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: #d5d7d8;
+}
