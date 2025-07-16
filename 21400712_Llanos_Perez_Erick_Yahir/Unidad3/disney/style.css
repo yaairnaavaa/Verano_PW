@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.hero-back {
+    background: url("main-hero-background.png") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    grid-template-rows: 10% 80% 10%;
+
+}
+
+.sp-der {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+.btn-sesion {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid 1px white;
+    height: 40px;
+    font-size: 15px;
+}
+
+.texto-1 {
+    grid-row: 2;
+    grid-column: 1;
+    display: block;
+    padding-left: 40px;
+}
+
+.texto-1 .logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.btn-suscribirme {
+    background-color: #1AEEFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.iconos {
+    grid-column: 1;
+    grid-row: 3;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.iconos img {
+    max-width: 80%;
+}
+
+.form-txt {
+    display: flex;
+    gap: 10px;
+    max-width: 450px;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    height: 30px;
+    padding: 0;
+}
+
+.enlace-inicio {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.precio {
+    font-size: 45px;
+}
+
+.font-numero {
+    font-size: 15px;
+}
+
+.font-grande {
+    font-size: 20px;
+}
+
+
+/*
+seccion 2 del examen
+*/
+
+.container-2 {
+    background-color: black;
+    margin-top: -21px;
+    display: block;
+}
+
+.titulos {
+    margin-left: 150px;
+    margin-top: 3px;
+}
+
+.good-american {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.good-american img {
+    width: 90%;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.cartelera {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 5px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.poster {
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.titulos {
+    margin-left: 150px;
+    margin-top: 3px;
+    color: white;
+}
+
+/*parte 3*/
+.container-3 {
+    background: #101426;
+    color: #fff;
+    padding: 48px 0 32px 0;
+    text-align: center;
+}
+
+.container-3 h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.container-3-sub {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+
+.tabla-planes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla-planes table {
+    width: 90%;
+    max-width: 1100px;
+    border-collapse: collapse;
+    background: #181c2b;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1rem;
+}
+
+.tabla-planes th, .tabla-planes td {
+    border: 1px solid #3f3f40;
+    padding: 18px 12px;
+    text-align: center;
+}
+
+.tabla-planes th {
+    background: #151823;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.premium {
+    background: #2196f3;
+    color: #fff;
+    position: relative;
+}
+
+.popular {
+    background: #ffd600;
+    color: #222;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 4px;
+}
+
+.bien {
+    color: #00e676;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mal {
+    color: #ff1744;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.planes-texto {
+    color: #ccc;
+    font-size: 0.85rem;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+/*parte 4*/
+.container-4 {
+    background-color: rgb(0, 0, 11);
+    height: 900px;
+    width: 100%;
+    margin-top: -40px;
+
+}
+
+.ahora-txt {
+    font-size: 50px;
+}
+
+.logos-mlb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos-mlb img {
+    width: 500px;
+    height: 200px;
+}
+
+.torneos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 5px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.img-torneo {
+    width: 330px;
+    height: 400px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.texto-torneos {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+/*parte 5*/
+
+.container-5 {
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+    background-color: rgb(0, 0, 11);
+    align-items: center;
+    text-align: center;
+}
+
+.container-5 img {
+    width: auto;
+    height: auto;
+}
+
+.f-big {
+    font-size: 60px;
+    font: bold;
+}
+
+
+.f-small {
+    font-size: 25px;
+    font: bold;
+}
+
+/*parte 6*/
+
+.container-6 {
+    display: grid;
+    background-color: rgb(0, 0, 11);
+    height: 700px;
+    grid-column: 1;
+
+
+    justify-content: center;
+    background-color: rgb(0, 0, 11);
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.container-6 h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.recuadro-blk {
+  background-color: #1a1a1a;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pregunta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pregunta h1 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.icono {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.recuadro-blk p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #cfcfcf;
+  text-align: justify;
+  margin-top: 15px;
+}
