@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 100px;
+}
+
+.logo .g {color: blue;}
+.logo .o {color: rgb(255, 0, 0);}
+.logo .o2 {color: rgb(251, 255, 0);}
+.logo .g2 {color: blue;}
+.logo .l {color: rgb(0, 255, 8);}
+.logo .e {color: rgb(255, 0, 0);}
+
+
+.top-header {
+    display: flex;
+    justify-content: right;
+    align-items: normal;
+    margin: 2px;
+    padding: 10px;
+    padding-top: 0%;
+    height: 10px;
+}
+
+.btn-acceder {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-gmail{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-images {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.buttons {
+    color: rgb(222, 235, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    border: 20px solid transparent;
+    border-radius: 10px;
+}
+
+
+.footer-text {
+    text-align: left;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-top: 100px;
+}
+.footer-links {
+    background-color: gainsboro;
+    display: flex;
+    padding: 10px 20px;
+    a { color: black; }
+    a {text-decoration: none;}
+    border-top: grey 1px solid;
+    flex-wrap: wrap;
+    
+}
+
+.footer-left {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex: 1;
+}
+
+.footer-right {
+    justify-content: right;
+    align-items: right;
+}

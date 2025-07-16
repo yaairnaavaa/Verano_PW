@@ -1,0 +1,288 @@
+.seccion1{
+    background: url(main-hero-background.png)no-repeat center center/cover;
+    min-height: 80vh;
+    min-height: 80vh;      
+    padding: 60px 0 40px 0; 
+    position: relative; 
+    
+
+
+}
+.Disney{
+
+   padding-left: 50px;
+}
+.signin-btn{
+      position: absolute;
+  top: 10px;
+  right: 10px;
+
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.email-signup {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.email-signup input[type="email"] {
+    padding: 18px 20px;
+    width: 450px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    background-color: rgba(254, 253, 253, 0.8);
+    color: #696969;
+    font-size: 1rem;
+    outline: none;
+}
+
+.email-signup input[type="email"]::placeholder {
+    color: #8c8c8c;
+}
+
+.get-started-btn {
+    background-color: #0cb2cb;
+    color: #000000;
+    font-size: 1.625rem;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #06d4f4;
+}
+
+.iconos{
+    margin-left: 50px;
+
+    width: 50%;
+}
+.h1s1{
+         text-align: left;
+        margin-left: 50px;
+
+}
+.p1s1{
+         text-align: left;
+        margin-left: 50px;
+
+
+}
+.p1s11{
+
+         text-align: left;
+           margin-left: 50px;
+
+}
+
+
+.seccion2{
+    background-color: #000000;
+}
+h1,h4,p,span{color: white;}
+body{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: black;}
+.h1-s2{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.p-s2{
+    text-align: left;
+    padding-left: 50px;
+}
+.GAF{
+    margin-left: 20%;
+    height: 500px;
+    width: auto;
+    border-radius: 1%;
+}
+.trending-section {
+    padding: 50px 5%;
+    background-color: #000000;
+    border-top: 8px solid #222;
+    overflow-x: auto;
+}
+
+.trending-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: #000000;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+.seccion3{
+    background-color: #000000;
+}
+table{
+     width: 100%;
+            max-width: 1250px;
+            border-collapse: collapse;
+            color: white;
+
+            margin: auto;
+            background: black;
+}
+td,th{border: 1px solid #666;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;}
+.encabezados{
+    background-color: #363636;
+
+}
+.EstandarCA{
+    background-color: #363636;
+}
+.Estandar{
+    background-color: #363636;
+}
+.MasPopular{
+
+    background-color: #f8f554;
+    color: #141414;
+
+}
+.PREMIUM{
+    background-color: #3065b6;
+}
+.lasP{
+    color: rgb(169, 169, 169);
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+.seccion4{
+    background-color: black;
+}
+.h1s4{  
+    text-align: left;
+    padding-left: 50px;
+}
+.ps4{   
+     text-align: left;
+    padding-left: 50px;
+}
+.espn-mlb{
+    margin-left: 20%;
+    height: auto;
+    width: auto;
+}
+.t-s {
+    padding: 50px 5%;
+    background-color: #141414;
+    border-top: 8px solid #222;
+    overflow-x: auto;
+}
+
+
+.t-car {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.ps img {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+    background: #222;
+    display: block;
+    margin: 0 auto 7px auto;
+}
+.seccion5{
+    background-color: #000000;
+}
+
+.h1s5{
+    text-align: center;
+    padding-left: 0;
+}
+
+.h4s5{
+    text-align: center;
+    padding-left: 0;
+}
+
+.favoritos{
+    margin-left: 20%;
+    height: 500px;
+    width: auto;
+    border-radius: 1%;
+
+}
+.seccion6{
+
+    background-color: #000000;
+}
+.h1s6{
+    text-align: left;
+    padding-left: 50px;;
+}
+.p1{
+    text-align: left;
+    padding-left: 50px;
+background-color: #363636;
+}
+.p2{
+align-items: center;
+
+}
+.p3{
+    text-align: left;
+    padding-left: 50px;
+background-color: #363636;
+
+
+}
+.faq-items {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.faq-item {
+    background-color: #303030;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.final{
+    text-align: left;
+    padding-left: 50px;
+}
