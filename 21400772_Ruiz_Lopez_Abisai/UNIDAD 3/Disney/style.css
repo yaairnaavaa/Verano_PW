@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 250%;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    font-size: 80%;
+}
+
+label{
+    color: white;
+}
+/*1-----------------------------------------------------*/
+.start{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.start-bkg{
+    align-items:center; 
+    width: 100%;
+    height: 85vh;
+    background-image: url(main-hero-background.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    background-size: cover;
+}
+/*ESPACIO INICIAR SESION*/
+.login-access{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px
+    /*background-color: RED;*/
+}
+.login-btn{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    margin: 30px;
+    font-weight: bold;
+}
+/*ESPACIO CONTENIDO*/
+.start-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 40px;
+    margin-right: 0;
+}
+
+.disney-logo{
+    width: 150px;
+}
+
+.suscription-space{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="email"]{
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    width: 66%;
+    font-size: 16px;
+}
+.suscribe-btn{
+    padding: 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0px;
+    font-size: 14px;
+    width: 33%;
+    background-color: aqua;
+}
+.logo-colection{
+    width: 100%;
+}
+/*2-----------------------------------------------------*/
+.exclusive-hd{
+    margin: 0 10% 0 10%;
+    /*background-color: red;*/
+}
+
+.exclusive-top{
+    margin: 0 5% 0 5% ;
+    display: flex;
+}
+
+.top-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.exclusive-colection{
+    display: flex;
+    margin: 0 10% 0 10%;
+    padding: 50px 0 0 0;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#exclusive-bottom{
+    width: 12%;
+    border-radius: 5px;
+}
+
+.exclusive-colection-txt{
+    display: flex;
+    margin: 0 10% 20px 10%;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#exclusive-txt{
+    width: 12%;
+    text-align: center;
+}
+/*3-----------------------------------------------------*/
+.plans{
+    background-color: rgb(0, 0, 25);
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans-hd{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+td{
+    padding: 20px; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+th{
+    padding: 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    color: white;
+    font-size: 14px;
+}
+
+.little-txt{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*4-----------------------------------------------------*/
+.sports{
+    background-color: rgb(0, 0, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.sports-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#espn{
+    width: 500px;
+}
+
+.sports-colection{
+    display: flex;
+    padding: 50px 0 0 0;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#sport-content{
+    width: 15%;
+    border-radius: 5px;
+}
+
+/*5------------------------------*/
+.favorites{
+    background-color: rgb(0, 0, 25);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
