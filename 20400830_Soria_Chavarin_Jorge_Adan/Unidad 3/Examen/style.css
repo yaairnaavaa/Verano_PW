@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.button_login{
+    background-color: #212121;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: ;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.suscri input[type="email"] {
+    padding: 10px 5px;
+    width: 450px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255);
+    color: #000000;
+    font-size: 1rem;
+    margin: -20px;
+    outline: none;
+}
+.suscripcion{
+     padding: 10px 5px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: rgba(130, 255, 246);
+    color: #000000;
+    font-size: 1rem;
+}
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.hola span{
+     position: absolute;
+    bottom: 18px;
+    left: 40%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.disney{
+    width: 1450px;
+    position: relative;
+        height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+.font{
+    background-image: url("disney/main-hero-background.png");
+    background-repeat: no-repeat;
+    background-repeat: round;
+    position: relative;
+        width: 1400;
+        height: 600px;
+    align-items: start; 
+    text-align: start;
+ 
+}
+.login{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    overflow: hidden;
+    
+}
+.production{
+    padding: 50px 5%;
+    background-color: #000;
+    border-top: 8px solid #222;
+    color: #fafafa;
+    font-size: 1rem;
+
+}
+.img1{
+    border-radius: 5px;
+}
+
+.repertorio{
+        display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+
+}
+.carousel-item {
+    position: relative;
+    flex: 1 0 auto;
+    width: 100px;
+    text-align: center;
+}
+.carousel-item img {
+    width:100%;
+    border-radius: 4px;
+} 
+
+.main_sport{
+      display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+
+}
+
+border{
+
+}
+.table_plan{
+        align-items: center;
+        text-align: center;
+
+
+#texto{
+    font-size: 12px;
+}
+}
+#premi{
+    background-color: royalblue;
+                    display: flex;
+    justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 20px;
+}   
+
+.box{
+            width: 90px;
+            height: 30px;
+            background-color: rgb(235, 174, 33);
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            font-size: 10px;
+            border-radius: 10px;
+        }
+
+.main_question{
+     padding: 20px 5%;
+    text-align: center;
+}
+
+.question{
+    .faq-items {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+}
+.faq-section h3 {
+    font-size: 3.125rem;
+    margin-bottom: 30px;
+}
+table{
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+}
+.que{
+    width: 900px;
+       background-color: #303030;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.que h3 {
+    align-items: start;
+    text-align: start;
+     font-size: 1.625rem;
+    margin: 0;
+}
+.plus-icon {
+    font-size: 3rem;
+    line-height: 0;
+    align-items: end;
+    text-align: end;
+}
