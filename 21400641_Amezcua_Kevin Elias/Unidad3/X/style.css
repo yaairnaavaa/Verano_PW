@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    height: 300px;
+}
+
+h1 {
+    font-size: 60px;
+    width: 500px;
+}
+
+.buttons-w {
+    border: none;
+    border-radius: 25px;
+    width: 290px;
+    padding: 10px;
+    padding-inline: 25px;
+    font-weight: bold;
+    margin: 7px;
+    cursor: pointer;
+}
+
+#texto-p {
+    font-size: 10px;
+    width: 310px;
+    text-align: justify;
+}
+
+#button-b {
+    background-color: #1A8CD8;
+    border: none;
+    border-radius: 25px;
+    width: 290px;
+    padding: 10px;
+    padding-inline: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#button-t {
+    background-color: transparent;
+    border: 1px solid #51626F;
+    color: #1A8CD8;
+    border-radius: 25px;
+    width: 250px;
+    padding: 10px;
+    padding-inline: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.line-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 9px;
+    margin: 0px 0px 0px 10px;
+}
+
+.linea {
+    width: 125px;
+    height: 1px;    
+    background-color: #17191B;
+}
+
+#letter-p {
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #1A8CD8;
+}
+
+a:hover {
+    color: #51aeec;
+}
+
+.buttons-w:hover {
+    background-color: #e3e6e9;
+}
+
+#button-b:hover {
+    background-color: #1d83c8;
+}
+
+#button-t:hover {
+    background-color: #0b1720;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1250px) {
+    img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        width: 400px;
+    }
+
+    .right-f {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    .left-f {
+        display: flex;
+        justify-content: start;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .right-f {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        height: 100px;
+    }
+}
