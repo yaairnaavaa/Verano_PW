@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+} 
+
+.LadoIzquierdo{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-right: 500px;
+} 
+
+.LadoDerecho{
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+} 
+
+.contenedor{
+    margin-left: 600px;
+}
