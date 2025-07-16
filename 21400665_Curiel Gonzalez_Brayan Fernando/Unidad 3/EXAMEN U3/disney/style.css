@@ -1,0 +1,299 @@
+body {
+    background-color: #090225;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza-derecha {
+    position: fixed;
+    top: 20px;
+    right: 40px;  
+    z-index: 1000;
+}
+
+.btn-iniciar {
+    background-color: #332f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-iniciar:hover {
+    background-color: #555;
+}
+
+.cabeza {
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    z-index: 1000;
+}
+
+.cabeza .logo img {
+    position: static;
+    height: 50px;
+}
+
+
+.fondo {
+    background-image: url('main-hero-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 20px;
+}
+
+.fondo h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.fondo h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.fondo p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.email-form {
+    display: flex;
+    gap: 0;
+    margin-bottom: 20px;
+}
+
+.email-form input {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.btn-comenzar {
+    background-color: #49b0ec;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.deporte {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #090225;
+}
+
+.deporte h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.deporte p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.deporte img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.carrusel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartel-sport {
+    width: 180px;
+    height: 250px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cartel-sport img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.favoritos {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #0a0a0a;
+}
+
+.favoritos h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.favoritos h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.favoritos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.solo-disney {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #090225;
+}
+
+.solo-disney h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.solo-disney h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.solo-disney img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.carrusel2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartel-fav {
+    width: 150px;
+    text-align: center;
+}
+
+.cartel-fav img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cartel-fav p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0;
+}
+
+.preguntas {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #090225;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.preguntas h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.letras {
+    background-color: #333336;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+.letras span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.respuesta {
+    background-color: #333336;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.pie_pagina {
+    padding: 20px;
+    text-align: center;
+    background-color: #090225;
+    color: #666;
+    font-size: 14px;
+}
+
+.planes{
+    justify-content: center;
+    justify-items: center;
+}
+
+.texto-plan{
+    justify-content: center;
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background: #1e1e1e;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+th, td{
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+th :horizontal{
+    background: #090225;
+    color: white;
+}
+
+tr:nth-child(eve){
+    background: #2a2a2a;
+}
+
+tr:hover{
+    background: #333;
+    cursor: pointer;
+}

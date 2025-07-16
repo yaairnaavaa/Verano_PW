@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #e7e9ea;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+}
+.left-column{
+    margin-right: 60px;
+    margin-bottom: 150px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+.right-column{
+    width: 70%;
+}
+#logo{
+    height: 400px;
+    width: auto;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    margin: 0;
+}
+.create-box{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    width:100%;
+}
+.slogan{
+    font-size: 80px;
+    line-height: 70px;
+    width: auto;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.unirte{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.create-box-box{
+    width: 50%;
+}
+.btn-google{
+    background-color: #ffffff;
+    color: #45494c;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 23px;
+    margin-top: 10px;
+    align-items: center;
+}
+.btn-google img{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+.btn-apple{
+    background-color: #ffffff;
+    color: #0f1419;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 23px;
+    margin-top: 10px;
+    align-items: center;
+}
+.btn-apple img{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+.lineas{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #71767b;
+    margin: 20px 0;
+    font-size: 14px;
+    width: 100%;
+}
+.lineas div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top: 1px solid #dadcdd;
+    margin: 20px 0;
+    width: 150px;
+}
+.btn-create{
+    background-color: #1d9bf0;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 23px;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+.terminos-politicas-container{
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+.terminos-politicas{
+    display: block;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #71767b;
+    line-height: 1.4;
+}
+.terminos-politicas-container .terminos-politicas a{
+    color: #1d9bf0;
+    text-decoration: none;
+}
+.terminos-politicas-container .terminos-politicas a:hover{
+    text-decoration: underline;
+}
+.login-page{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-login{
+    background-color: #000000;
+    color: #1d9bf0;
+    font-weight: bold;
+    border: 1px solid #dadcdd;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 23px;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+.create-page{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color: #1c1e21;
+    margin-inline: 10px;
+}
+.btn-google:hover{
+    background-color: #d1d1d1;
+}
+.btn-apple:hover{
+    background-color: #d1d1d1;
+}
+.btn-create:hover{
+    background-color: #0084dc;
+}
+.btn-login:hover{
+    background-color: #191970;
+}
+.left-column h1{
+    letter-spacing: -1px;
+}
+.container > .right-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    padding: 30px;
+    font-size: 13px;
+    color: #71767b;
+    text-align: center;
+}
+footer .links{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+footer .links a{
+    color: #595d61;
+    text-decoration: none;
+}
+footer .links a:hover{
+    text-decoration: underline;
+}
+.btn-google, .btn-apple, .btn-create, .btn-login {
+    padding: 14px;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+/*Responsibe*/
+@media (max-width: 1250px){
+    #logo{
+        margin: 0;
+        padding: 0;
+    }
+    .slogan{
+        font-size: 5rem;
+    }
+    .unirte{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 900px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .left-column, .right-column{
+        width: 100%;
+    }
+    #logo{
+        margin: 0;
+        padding: 0;
+        height: 200px;
+    }
+    .slogan{
+        font-size: 3rem;
+    }
+    .unirte, .login-page{
+        font-size: 1.5rem;
+    }
+    .create-box, .create-box-box{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        
+    }
+}

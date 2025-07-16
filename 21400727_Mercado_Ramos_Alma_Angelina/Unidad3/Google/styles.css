@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+
+.top-right {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px;
+    text-align: right;
+}
+
+.top-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+#logoG {
+    color: #418EF2;
+}
+
+#logoO {
+    color: #F2B705;
+}
+
+#logoL {
+    color: #32A64F;
+}
+
+#logoE {
+    color: #F23535;
+}
+
+.login-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    width: 580px;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #70757a;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+}
+
+footer .location {
+    margin-bottom: 10px;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+footer .links .links1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links .links2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links .links1 a,
+footer .links .links2 a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+footer .links .links1 a:hover,
+footer .links .links2 a:hover {
+    text-decoration: underline;
+}

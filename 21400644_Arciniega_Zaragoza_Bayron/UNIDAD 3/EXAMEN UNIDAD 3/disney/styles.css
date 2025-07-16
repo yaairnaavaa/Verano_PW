@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #0e0b14;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.signin-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+    background-color: #5289bf;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('main-hero-background.png') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.hero-content {
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.logo-disneyplus {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.email-signup {
+    display: flex;
+    justify-content: left;
+    gap: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.email-signup input[type="email"] {
+    padding: 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.get-started-btn {
+    background-color: #679ed5;
+    color: black;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #0063e5;
+}
+
+.details {
+    margin-top: 15px;
+}
+
+.icons {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.onlydisney {
+    background-color: #0b0c10;
+    padding: 60px 5% 30px;
+}
+
+.onlydisney-texto {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.onlydisney-texto h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.onlydisney-texto p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.logo2 {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 90%;
+}
+
+.trending-section {
+    padding: 50px 5%;
+    background-color: #141414;
+    border-top: 8px solid #222;
+    overflow-x: auto;
+}
+
+.trending-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+}
+
+.carousel-item {
+    position: relative;
+    flex: 0 0 auto;
+    width: 180px;
+    scroll-snap-align: start;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item span {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.tablaplan {
+    padding: 60px 5%;
+    text-align: center;
+    background-color: #0e0b14;
+    color: white;
+}
+
+.queplan h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.queplan p {
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.precios {
+    overflow-x: auto;
+}
+
+.precios table {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.precios thead th {
+    background-color: #1f1f1f;
+    padding: 25px 10px;
+    font-size: 0.95em;
+    color: white;
+    position: relative;
+}
+
+.precios thead .elegir {
+    background-color: #0071eb;
+    font-weight: bold;
+    color: white;
+}
+
+.precios thead .elegir::before {
+    content: 'MÁS POPULAR';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fdd835;
+    color: #000;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.precios thead .elegir span {
+    display: block;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.precios tbody td {
+    padding: 15px 10px;
+    border: 1px solid #333;
+    font-size: 0.95em;
+    color: #ddd;
+    vertical-align: middle;
+}
+
+.precios tbody tr:nth-child(even) {
+    background-color: #181818;
+}
+
+.precios tbody td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+.sicumple {
+    color: #00c853;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.nocumple {
+    color: #ff5252;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.leyenda {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 0.75em;
+    color: #b3b3b3;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5%;
+    line-height: 1.6;
+}
+
+.deportevivo {
+    background-color: #0b0c10;
+    padding: 60px 5% 30px;
+}
+
+.deportevivo-texto {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.deportevivo-texto h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.deportevivo-texto p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.logo4 {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    max-width: 90%;
+}
+
+.dondesea {
+    background-color: #000;
+    padding: 60px 5%;
+    text-align: left;
+}
+
+.dondesea h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.dondesea p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    margin-bottom: 30px;
+}
+
+.logo5 {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.faq-section {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 5%;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.faq-items {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: #141414;
+    border-radius: 8px;
+    padding: 25px 30px;
+    border: 1px solid #333;
+}
+
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.faq-header h3 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 0;
+}
+
+.plus-icon {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.main-footer p {
+    margin-top: 20px;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 1250px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .email-signup input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .get-started-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reasons-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+    }
+
+    .navbar {
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hero {
+        height: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .get-started-btn {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .get-started-btn {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(1, minmax(280px, 1fr));
+    }
+}

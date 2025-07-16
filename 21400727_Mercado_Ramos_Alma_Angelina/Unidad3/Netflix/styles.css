@@ -1,0 +1,199 @@
+body{
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    color: #505050;
+    background: #505050;
+}
+.fondo{
+    background-image: url("hero-background.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+.encabezado{
+    background: rgba(0, 0, 0, 0);
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.encabezado .logo{
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado .logo img{
+    height: 30px;
+    width: auto;
+}
+.encabezado .inicio-sesion-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado .inicio-sesion-box .idioma{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 5px;
+    width: 120px;
+}
+.encabezado .inicio-sesion-box .inicio-sesion{
+    background: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    width: 150px;
+}
+.seccion-1{
+    width: auto;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.seccion-1 .comenzar-box{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px;
+}
+.seccion-1 .comenzar-box .slogan{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 12px;
+    width: fit-content;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+.seccion-1 .comenzar-box p{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 12px;
+    width: fit-content;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+.seccion-1 .comenzar-box input{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 5px;
+    width: 350px;
+    height: 20px;
+}
+.seccion-1 .comenzar-box button{
+    background: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+.seccion-3{
+    background: #1c1c1c;
+    width: auto;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.seccion-3 .s3-titulo{
+    grid-column: 1 / 5;
+}
+.seccion-3 .s3-parte1, .seccion-3 .s3-parte2, .seccion-3 .s3-parte3, .seccion-3 .s3-parte4{
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;/*
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);*/
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.seccion-3 .s3-parte1 h2, .seccion-3 .s3-parte2 h2, .seccion-3 .s3-parte3 h2, .seccion-3 .s3-parte4 h2{
+    font-size: 30px;
+    text-align: justify;
+}
+.seccion-3 .s3-parte1 p, .seccion-3 .s3-parte2 p, .seccion-3 .s3-parte3 p, .seccion-3 .s3-parte4 p{
+    font-size: 16px;
+    text-align: justify;
+}
+.seccion-3 .s3-parte1 img, .seccion-3 .s3-parte2 img, .seccion-3 .s3-parte3 img, .seccion-3 .s3-parte4 img{
+    width: 50px;
+    height: 50px;
+}
+.s3-abajo{
+    text-align: right;
+    justify-content: flex-end;
+}
+/*----------------------------------------------------------*/
+.seccion-4{
+    background: #1c1c1c;
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.seccion-4 .preguntas div{
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    background: #505050;
+    border-radius: 6px;
+}
+.seccion-4 .preguntas p{
+    font-size: 10px;
+}
+.seccion-4 .preguntas input{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 5px;
+    width: 250px;
+    height: 20px;
+}
+.seccion-4 .preguntas button{
+    background: red;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+}
