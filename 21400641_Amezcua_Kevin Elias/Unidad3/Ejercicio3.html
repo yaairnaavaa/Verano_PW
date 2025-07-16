@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Artículo</legend>
+        <form action="#" method="post">
+            <br>
+            <!-- Text -->
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" required>
+            <br> <br>
+            
+            <!-- Number -->
+            <label for="precio">Precio</label>
+            <input type="number" name="precio" step="0.01" min="0" required>
+            <br> <br>
+            
+            <!-- File -->
+            <label for="imagen">Imagen</label>
+            <input type="file" name="imagen" accept="image/*" required>
+            <br> <br>
+            
+            <!-- Color -->
+            <label for="color">Color</label>
+            <input type="color" name="color" required>
+            <br> <br>
+            
+            <!-- TextArea -->
+            <label for="descripcion">Descripción</label> <br>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escriba aqui..." required></textarea>
+            <br> <br>
+
+            <!-- Number -->
+            <label for="cantidad">Cantidad</label>
+            <input type="number" name="cantidad" min="1" max="100" required>
+            <br> <br>
+            
+            <!-- Radio -->
+            <label for="nuevo">Nuevo</label>
+            <input type="radio" name="nuevo" checked>
+            <br>
+            <label for="usado">Usado</label>
+            <input type="radio" name="usado">
+            <br> <br>
+            
+            <!-- Botones -->
+            <input type="submit" name="publicar" value="Publicar">
+            <input type="reset">
+        </form>
+    </fieldset>
+</body>
+</html>
