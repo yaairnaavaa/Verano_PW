@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url("Imagenes/IMAGEN FONDO PAGINA.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.menu-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.menu-blanco {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+  padding: 10px 20px;
+}
+
+.menu-icono {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: 10px;
+}
+
+.menu-icono div {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+}
+
+.menu-texto {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.usuario-info {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  padding: 10px 20px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.usuario-info img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.contenido {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.logos-ligas {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logos-ligas img {
+  height: 50px;
+}
+
+.derecha {
+  flex: -10;
+  display:contents;
+  justify-content: center;
+}
+
+.formulario {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px 25px;
+  border-radius: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.formulario h2 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn span {
+  font-size: 16px;
+}
+
+.btn.verde {
+  background-color: #34d160;
+  color: white;
+}
+
+.btn.blanco {
+  background-color: white;
+  color: black;
+}
+
+.btn.blanco img {
+  width: 20px;
+}
+
+.btn.rojo {
+  background-color: #ff3b30;
+  color: white;
+}
+
+.separador {
+  font-size: 12px;
+  color: #ccc;
+  margin: 8px 0;
+}
