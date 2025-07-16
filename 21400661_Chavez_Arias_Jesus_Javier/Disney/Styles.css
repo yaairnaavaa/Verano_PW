@@ -3,9 +3,14 @@ body {
     font-family: Arial,
         Helvetica,
         sans-serif;
-        color:white;
+    color: white;
 }
 
+.Encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .iniciarsesion {
     background-color: rgb(0, 0, 0);
@@ -18,12 +23,6 @@ body {
     align-items: left;
 }
 
-.Encabezado {
-    display: flex;
-    align-items: left;
-    margin-right: 20px;
-    margin-top: 10px;
-}
 
 input {
     background-color: #6b6b6b;
@@ -35,6 +34,31 @@ input {
 }
 
 
-.suscribcion {
+.Suscribirme {
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.segunda{
+    border-top: 2px, grey;
     justify-content: center;
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    display:flex ;
+}
+
+.deportes {
+    border-top: 2px, grey;
+    justify-content: center;
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.imagenes{
+    margin-left: 10px;
 }
