@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+section {
+    margin: 0px;
+    padding: 0 20px;
+    margin-left: 30px;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 1rem;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Sección 1*/
+.seccion-1 {
+    position: relative;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-end;
+    text-align: left;
+    overflow: hidden;
+}
+
+.seccion-1 h1 {
+    font-size: 3rem;
+}
+
+.seccion-1 p {
+    font-size: 1.3rem;
+}
+
+.imagen-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('main-hero-background.png') no-repeat center center/cover;
+    z-index: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-iniciar {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    font: bold;
+    padding: 10px;
+}
+
+.fondo-contenido {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+.fondo-contenido p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo {
+    margin-top: 90px;
+}
+
+.email {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.email input {
+    padding: 10px;
+    margin: 0;
+    border: none;
+    width: 60%;
+}
+
+.email .btn-suscribirse {
+    background: aqua;
+    color: black;
+    font: bold;
+    padding: 10px;
+    border: none;
+    width: 30%;
+}
+
+.icon {
+    width: 90%;
+    height: auto;
+}
+
+/*Sección 2*/
+.seccion-2{
+    margin-left: 20px;
+    text-align: left;  
+}
+
+.seccion-2 div{
+    text-align: center;
+}
+
+.principal{
+    width: 60rem;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.peliculas{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.pelicula{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.pelicula img{
+    height: 13rem;
+    width: auto;
+}
+
+/*Sección 3*/
+.seccion-3 {
+    text-align: center;
+    background: rgb(0, 0, 20);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 95%;
+    margin: 20px;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 12px;
+    text-align: center;
+}
+
+.tipo-negro{
+    background: black;
+}
+
+.tipo-gris{
+    background: rgb(30, 30, 30);
+}
+
+.tipo-azul{
+    background: rgb(0, 115, 255);
+}
+
+.tipo-verde{
+    font: bold;
+    color: green;
+}
+
+.tipo-rojo{
+    font: bold;
+    color: red;
+}
+
+.condiciones {
+    padding: 5px;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+/*Sección 4*/
+.seccion-4 {
+    text-align: left;
+    background: rgb(0, 0, 20);
+}
+
+.imagen-s4 {
+    text-align: center;
+}
+
+.s4-img {
+    height: 10rem;
+    width: auto;
+}
+
+.s4-imagenes {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.s4-imagenes img {
+    height: 15rem;
+    width: auto;
+}
+
+/*Sección 5*/
+.seccion-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-5 h1 {
+    font-size: 3rem;
+}
+
+.seccion-5 p {
+    font-size: 1.3rem;
+}
+
+.seccion-5 img {
+    height: 40rem;
+    width: auto;
+}
+
+/*Sección 6*/
+.seccion-6 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-6 h1 {
+    font-size: 3rem;
+}
+
+.seccion-6 h2 {
+    font-size: 1.5rem;
+}
+
+.seccion-6 p {
+    font-size: 1rem;
+}
+
+.preguntas-frecuentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 60%;
+}
+
+.pregunta-respuesta {
+    background: rgb(30, 30, 30);
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pregunta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pregunta div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.respuesta {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    color: gray;
+}
+
+footer hr {
+    border: 1px solid gray;
+}

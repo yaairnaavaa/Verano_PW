@@ -3,10 +3,116 @@
     <head>
         <meta charset="UTF-8">
         <title>Conferencia Tech 2025</title>
+        <style>
+            body{
+                margin: 0px;
+                background: #805841;
+                color: #fffcdd;
+                line-height: 1.6;
+                padding: 20px;
+            }
+            h1{
+                text-align: center;
+                color: #f5a2a2;
+                border-bottom: 2px solid #f5a2a2;
+                padding-bottom: 5px;
+                margin-top: 40px;
+            }
+            h2{
+                text-align: center;
+                color: #ffd8d8;
+                border-bottom: 2px solid #ffd8d8;
+                padding-bottom: 5px;
+                margin-top: 40px;
+            }
+            p, dd, form{
+                max-width: 800px;
+                margin: auto;
+                text-align: justify;
+            }
+            strong{
+                color: #dcf7f3;
+            }
+            a{
+                color: #dcf7f3;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #805841;
+                text-decoration: underline;
+            }
+            table{
+                border-collapse: collapse;
+                width: 100%;
+                max-width: 800px;
+                margin: auto;
+                background: #f5a2a2;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            th, td{
+                border: 1px solid #805841;
+                color: #805841;
+                padding: 12px;
+                text-align: center;
+            }
+            th{
+                background: #dcf7f3;
+            }
+            tr:nth-child(even){
+                background: #ffd8d8;
+            }
+            tr:hover{
+                background: #fffcdd;
+                cursor: pointer;
+            }
+            .Enlaces, .Conferencias, .SubLista{
+                list-style-type: none;
+                max-width: 800px;
+                margin: auto;
+            }
+            .Enlaces > li{
+                background: #f5a2a2;
+                margin: 7px 0;
+                padding: 3px;
+                border-radius: 13px;
+                text-align: center;
+            }
+            .Enlaces > li:hover{
+                background: #ffd8d8;
+                cursor: pointer;
+            }
+            .Conferencias > li{
+                margin-bottom: 10px;
+            }
+            .Conferencias > li::before{
+                content: "★";
+                margin-right: 5px;
+                font-size: 1.2em;
+                color: #f5a2a2;
+            }
+            .Conferencias ul > li::before {
+                content: "★";
+                margin-right: 5px;
+                font-size: 1.2em;
+                color: #dcf7f3;
+            }
+            .Botones{
+                border-radius: 13px;
+                color: #805841;
+                background: #fffcdd;
+                font-size: 16px;
+            }
+            input, textarea{
+                border-radius: 13px;
+                color: #805841;
+                background: #dcf7f3;
+                font-size: 16px;
+            }
+        </style>
     </head>
     <body>
         <h1>Conferencia Tech 2025</h1>
-        <ul>
+        <ul class="Enlaces">
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#agenda">Agenda</a></li>
             <li><a href="#ponentes">Ponentes</a></li>
@@ -16,14 +122,14 @@
         <h2 id="inicio">Sobre la Conferencia</h2>
         <p>!Bienvenido a la Conferencia Internacional de Tecnología 2025¡</p>
         <p>La conferencia abordará temas como:</p>
-        <ul>
+        <ul class="Conferencias">
             <li>Inteligencia Artificial</li>
-            <ul>
+            <ul class="SubLista">
                 <li>Machine Learning</li>
                 <li>Deep Learning</li>
             </ul>
             <li>Desarrollo Web</li>
-            <ul>
+            <ul class="SubLista">
                 <li>Frontend</li>
                 <li>Backend</li>
             </ul>
@@ -105,7 +211,7 @@
                 <label for="hi">Hardware Innovador</label>
                 <br><br>
                 <label for="experiencia">Nivel de experiencia en tecnología:</label><br>
-                <select id="experiencia">
+                <select id="experiencia" class="Botones">
                     <option value="Principiante">Principiante</option>
                     <option value="Intermedio">Intermedio</option>
                     <option value="Avanzado">Avanzado</option>
@@ -114,12 +220,12 @@
                 <textarea id="comentarios" rows="4" cols="73" maxlength="300" placeholder="Escriba sus comentarios aquí."></textarea>
                 <br><br>
                 <label for="archivo">Adjuntar CV o Portafolio (PDF):</label><br>
-                <input id="archivo" type="file" accept=".pdf">
+                <input id="archivo" type="file" accept=".pdf" class="Botones">
                 <br><br>
                 <input id="aceptar" value="Acepto" type="checkbox" required>
                 <label for="acepta">Acepto los términos y condiciones *</label>
                 <br><br>
-                <input type="submit" value="Enviar Registro">
+                <input type="submit" value="Enviar Registro" class="Botones">
             </fieldset>
         </form>
     </body>
