@@ -45,7 +45,7 @@ h1, h2, h3 {
 .hola span{
      position: absolute;
     bottom: 18px;
-    left: 40%;
+    left: 0%;
     transform: translateX(-50%);
     color: #fff;
     font-size: 5rem;
