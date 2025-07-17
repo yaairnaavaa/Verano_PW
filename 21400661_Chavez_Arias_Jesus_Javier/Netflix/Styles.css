@@ -97,13 +97,8 @@ input {
     text-align: center;
     align-items: center;
     display:flex ;
-    
 }
 
 .imagenes{
     margin-left: 10px;
-}
-
-h3{
-    color: white;
 }

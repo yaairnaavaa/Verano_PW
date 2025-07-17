@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .grid-containter{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+background-color: lightgray;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.inicio{
+    height: 700px;
+    width: 100%;
+    background-image:url("hero-background.jpg");
+    justify-items: center;
+}
+.tendencias{
+    display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1);
+gap: 10px;
+color:white;
+padding: 10px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.863);
+    text-size-adjust: 50px;
+    align-self: center;
+    overflow: auto;
+}
+.poster{
+    display: flex;
+    align-items: center;
+  
+}
+.iniciar{
+    right: 1px; top: 20; position: absolute;
+     color: white;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding: 8px 20px;
+    border: 1px linear white;
+}
+.comenzar{
+       color: white;
+    background-color: red;
+    border-radius: 5px;
+   
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding: 8px 20px;
+    border: 1px linear white;
+}
+.motivos{
+           display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(1);
+gap: 10px;
+color:white;
+padding: 10px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    text-size-adjust: 50px;
+    align-self: center;
+    overflow: auto;
+    
+}
+.mot1{
+    background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+      color: white;
+    background-color: #161616d2;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 300px;
+    padding: 8px 20px;
+    border: 1px white;
+    
+}
+.preguntas{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+}
+.btn-preguntas{
+   color: white;
+    background-color: #454444d2;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 600px;
+    padding: 8px 20px;
+    border: 1px white;
+}
+
+    </style>
+    <title>Netflix</title>
+</head>
+<body background="./hero-background.jpg">
+    <div class="grid-containter">
+        <div class="inicio">
+            <header > <img src="netflix-logo.png" height="50px" style="position: absolute; left: 0%;"> <select style="right: 120px; top: 20; position: absolute;"> <option value="español">español</option></select><button class="iniciar" >Iniciar sesion</button></header>
+             <p style="font-size: 50px; text-align: center; color: white; margin-top: 80px;">Peliculas y series ilimitadas y mucho <br> mas</p>
+            <p style="font-size: 45px; text-align: center; color: white; margin-top: 80px;">A partir de 199$. cancela cuando quieras</p>
+             <p style="font-size: 45px; text-align: center; color: white; margin-top: 80px;">Quieres ver netdlix ya ingresa tu email para crear una cuenta o reiniciar tu membresia cuando quieras</p>
+            <form action="#" method="post"> <input type="email" class="email" placeholder="email"> <button class="comenzar">Comenzar></button></form>
+            </div>
+      
+        
+        <div class="tendencias">
+        <div > <br> <br> <br>
+            <h2 style="size: 40px; ">Tendencias</h2>
+            
+            <img src="./poster1.jpg" alt="El juego del calamar"  style="align-self: center;">
+        </div>
+        <div class="poster">
+          
+            <img src="./poster2.jpg" alt="El juego del calamar">
+        </div>
+        <div class="poster">
+       
+            <img src="./poster3.jpg" alt="El juego del calamar">
+        </div>
+        <div class="poster">
+           
+            <img src="./poster4.jpg" alt="El juego del calamar">
+        </div>
+        <div class="poster">
+         
+            <img src="./poster5.jpg" alt="El juego del calamar">
+        </div>
+<div class="poster">
+            
+            <img src="./poster6.jpg" alt="El juego del calamar">
+        </div>
+        <div class="poster">
+            
+            <img src="./poster7.jpg" alt="El juego del calamar">
+        </div>
+       </div>
+
+
+        
+    <div style="background-color: black; color: white;"><center><h2>Mas motivos para unirte</h1></center></div>
+        <div class="motivos">
+            <div style="align-items: center;"><div class="mot1"><h1>Disfruta en tu 
+                
+                
+                
+                tv</h1><br> <p>Ve en tu smart tv playstation,xbox, chromecast,Apple tv, reproductores Blu-ray y mas </p><br><span></span><img src="tv-icon.png" height="50px" style=" "></div></div>
+            <div style="align-items: center;"><div class="mot1"><h1>Disfruta en tu tv</h1> <p>Guarda tu contenido favorito y siempre tendras algo que ver </p><img src="download-icon.png" height="50px" style="position: inherit; bottom: 60px; right: 80px; "></div></div>
+            <div style="align-items: center;"><div class="mot1"><h1>Disfruta en tu tv</h1> <p>Peliculas y series ilimitadas en tu telefono y tv </p><img src="phone-icon.png" height="50px" style="position: inherit; bottom: 60px; right: 80px; "></div></div>
+            <div style="align-items: center;"><div class="mot1"><h1>Disfruta en tu tv</h1> <p>Los niños viviran aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, gratis con tu miembresia </p><img src="kids-icon.png" height="50px" style="position: inherit; bottom: 60px; right: 80px; "></div></div>
+        </div>
+        <div class="preguntas">
+            <center> <h1>Preguntas frecuentes</h1> </center>
+             <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+            <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+            <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+            <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+            <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+            <div> <button class="btn-preguntas"> Que es Netflix <br><span style=""></span>+</button></div> 
+        </div>
+    </div>
+</body>
+</html>

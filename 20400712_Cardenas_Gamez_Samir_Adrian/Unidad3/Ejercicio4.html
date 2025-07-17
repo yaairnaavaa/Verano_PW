@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta >
+    <title>Conferencia Tech 2025</title>
+    <style>
+        body{
+            margin: 5px;
+            background: rgba(28, 72, 25, 0.763);
+            color: black;
+            border: 5px double white;
+            padding: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        table{
+            background: rgb(255, 255, 255);
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            padding: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+       
+        p{
+            
+            border: 1px dotted white;
+            max-width: 50%;
+        }
+        h1{
+            color: rgba(100, 51, 16, 0.81);
+            margin: 0;
+            padding: 20px 0;
+             text-shadow: 1px 1px 8px black;
+        }
+        h2{
+            color: rgba(100, 51, 16, 0.81);
+            padding: 20px 0;
+            margin: 0;
+        }
+     th,td{
+        border: 1px solid rgba(100, 51, 16, 0.81);
+        padding: 8px;
+        text-align: center;
+        }
+    th{
+        background: rgba(20, 49, 18, 0.763);
+        color: white
+    }
+    td{
+        background: rgba(100, 51, 16, 0.81) ;
+    }
+    ol{
+        list-style: none;
+        border: 2px solid rgb(255, 255, 255);
+        width: 100px;
+    }
+    ol>li>a{
+        text-decoration: none;
+        color: rgba(100, 51, 16, 0.81);
+    }
+    </style>
+</head>
+<body>
+    <h1>
+        Conferencia Tech 2025
+    </h1>
+    <ol>
+       <li><a href="#Inicio">Inicio</a></li> 
+       <li><a href="#Agenda">Agenda</a></li>
+       <li><a href="#Ponentes">Ponentes</a></li>
+       <li><a href="#Registro">Registro</a></li>
+       <li><a href="#Contacto">Contacto</a></li>
+    </ol>
+    <h2 id="Inicio">Sobre la Conferencia</h2>
+    <p>¡Bienvenido a la conferencia internacional de tecnologia 2025!</p>
+    <br>
+La conferencia abordara temas como:
+    <ul> 
+        <li>Inteligencia artificial
+            <ul><li>Machine learning
+            </li>
+            <li>Deep learning</li>
+            </li> </ul>
+        </ul>
+       <ul> 
+        <li>Desarrollo web
+            <ul><li>Frontend
+            </li>
+            <li>Backend</li>
+            </li> </ul>
+        <li>Seguridad informatica</li>
+        <li>Innovacion en Hardware </li>
+        </ul>
+<h2 id="Agenda">Agenda del evento</h2>
+<table border="1">
+    <tr><th>Dia</th><th>Hora</th><Th>Tema</Th> <th>Ponente</th></tr>
+    <tr><td>10/10/2025</td><td>09:00-10:30</td><td>Inteligencia artificial</td><td>Dr.Laura Gomez</td></tr>
+    <tr><td>10/10/2025</td><td>11:00-12:30</td><td>Seguridad informatica</td><td>Ing. Juan Perez</td></tr>
+    <tr><td>11/10/2025</td><td>09:00-10:30</td><td>Desarrollo web</td><td>Lic. Ana Ruiz</td></tr>
+    <tr><td>11/10/2025</td><td>11:00-12:30</td><td>Hardware innovador</td><td>MSC. Pedro leon</td></tr>
+</table>
+<h2 id="Ponentes">Ponentes destacados</h2>
+    <p ><dd><strong>Dr. Laura Gómez:</strong>Experta en Inteligencia artificial con mas de 15 años de Experiencia</dd></p>
+    <p ><dd><strong>Ing. Juan Perez:</strong>Especialista en cibersegiroad, ponente internacional</dd></p>
+    <p ><dd><strong>Lic. Ana ruiz:</strong>Desarrolladora full-stack, fundadora de TechWeb</dd></p>
+    <p ><dd><strong>MSc. Pedro leon:</strong>Investigador en Hardware de alto rendimiento </dd></p>
+<h2 id="Registro">Registro al evento</h2>
+<h5>¡Registrate para asistir!</h5>
+Los campor marcados con * son obligatorios
+<form action="#" method="post">
+<fieldset>
+    <legend>Formulario de Registro</legend>
+    <!--Nombre completo-->
+    <label for="Nombre">Nombre completo*</label><br>
+    <input type="text"  id="Nombre" required><br>
+       <!--Edad-->
+    <label for="Edad">Edad*</label><br>
+    <input type="number"  id="Edad" required><br>
+    <!--Email-->
+    <label for="Correo">Correo Electronico*</label><br>
+    <input type="email"  id="Correo" required> <br>
+ 
+    <!--Telefono-->
+    <label for="Telefono">Telefono(opcional)</label><br>
+    <input type="number" minlength="10"  maxlength="10"  id="Telefono"><br>
+    <!--Nombre completo-->
+    <label for="Genero">Género:</label><br>
+    <label for="Genero1">Masculino</label>   <input type="radio"  id="Genero1" name="Generoww" value="Masculino"><br>
+  <label for="Genero2">Femenino</label>   <input type="radio"  id="Genero2" name="Generoww" value="Femenino"><br>
+<label for="Genero3">Otro</label>  <input type="radio"  id="Genero3" name="Generoww" value="Otro"><br>
+<br> <br>
+<label for="asistencia">Selecciona las conferencias a las que deseas asistir</label> <br>
+     <input type="checkbox"  id="as1" name="asistir" value="Ia"><label for="as1">IA</label><br>  
+   <input type="checkbox"  id="as2" name="asistir" value="Desarrollo web"><label for="as2">  Desarrollo web</label></label><br>
+  <input type="checkbox"  id="as3" name="asistir" value="Seguridad informatica"><label for="as3">Seguridad informatica</label><br>
+   <input type="checkbox"  id="as4" name="asistir" value="Hardware innnovador"><label for="as4">Hardware innovador</label><br>
+<br>
+
+<label for="seleccionar" >Nivel de Experiencia en tecnologia*</label>
+<select  id="seleccionar">
+    <option value="Principiante"> Principiante</option>
+    <option value="Intermedio">Intermedio</option>
+    <option value="Experto">Experto</option>
+</select>
+<br>
+<br>
+<label for="Comentarios">Comentarios adicionnales (max. 300 caracteres):</label> <br>
+<textarea  id="comentarios" cols="80" rows="10" placeholder="Jag har ingen comentarios" maxlength="300"></textarea>
+<br>
+<label for="adjuntar">Adjuntar CV o Portafolio (PDF):</label> <br>
+<input type="file" id="adjuntar" accept=".PDF"> <br>
+<input type="checkbox"  id="Aceptar" required> <label for="Aceptar">Acepto los terminos y condiciones *</label> <br>
+
+<input type="submit" value="Enviar registro">
+</fieldset>
+
+
+</form>
+</body>
+</html>
