@@ -14,7 +14,10 @@ function dos() {
   for (let index = 0; index < 10; index++) {
     numeros[index] = Math.round(Math.random() * 100);
   }
-  return numeros.reduce((num, mayor) => (num > mayor ? (mayor = num) : (mayor = mayor)), 0);
+  return numeros.reduce(
+    (num, mayor) => (num > mayor ? (mayor = num) : (mayor = mayor)),
+    0
+  );
 }
 // console.log(dos())
 
@@ -40,10 +43,13 @@ function objeto() {
 function registroVenta() {
   let ventas = [];
   let string = "";
+  let mensaje = "Producto    |   Unidades vendidas \n";
 
   //LLENAR DATOS
   while (string !== "para") {
-    string = prompt("Ingresa nombre de vendedor, nom prod, cant vendida, precio separados por comas");
+    string = prompt(
+      "Ingresa nombre de vendedor, nom prod, cant vendida, precio separados por comas"
+    );
     console.log(string);
     if (string != "para") {
       const atributos = string.split(",");
@@ -56,15 +62,31 @@ function registroVenta() {
     }
   }
 
-//   let montoTotal = ventas.reduce((venta,monto) => (monto = monto + (venta.cantVendida * venta.precio)) ,0);
+  let montoTotal = ventas.reduce(
+    (total,venta) => (total = total + venta.cantVendida * venta.precio),
+    0
+  );
 
-//   let quienVendioMas = ventas.reduce((venta,monto) => (
-//     monto = venta.
-//   ),0)
+  //   let quienVendioMas = ventas.reduce((venta,monto) => (
+  //     monto = venta.
+  //   ),0)
   //   console.log(string);
   // let venta = {
 
   // }
+  let cantPersona = 0;
+  let persona = "";
+  ventas.forEach((venta) => {
+    if (cantPersona < venta.cantVendida * venta.precio) {
+      cantPersona = venta.cantVendida * venta.precio;
+      persona = venta.nombreVendedor;
+    }
+    mensaje = `${mensaje}${venta.nombreProducto}            ${venta.cantVendida}\n`;
+  });
+
+  mensaje = `${mensaje} -----------------------\n`;
+  mensaje = `${mensaje} total vendido: ${montoTotal} \n Vendedor que vendió más: ${persona}`;
+alert(mensaje)
 }
 
 registroVenta();
