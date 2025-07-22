@@ -1,8 +1,8 @@
-puntoUno();
-puntoDos();
-puntoTres();
+// puntoUno();
+// puntoDos();
+// puntoTres();
 puntoCuatro();
-puntoCinco();
+// puntoCinco();
 
 //PUNTO 1
 function puntoUno() {
@@ -43,19 +43,20 @@ function puntoCuatro() {
   let numeros = [];
   let pares = 0;
   let impares = 0;
+  let mensaje = `Numeros: \n`; 
+  let num
 
   for (let index = 0; index < 10; index++) {
-    numeros[index] = parseInt(prompt("Ingresa un número entero entre el 1 y 100"));
+    num  = parseInt(prompt("Ingresa un número entero entre el 1 y 100"));
 
-    while (numeros[index] < 1 || numeros[index] > 100) {
-      numeros[index] = parseInt(prompt("Ingresa un número entero entre el 1 y 100"));
+    while (num < 1 || num > 100) {
+      num = parseInt(prompt("Ingresa un número entero entre el 1 y 100"));
     }
-  }
-  let mensaje = `Numeros: \n`;
-  numeros.forEach((num) => {
-    num % 2 === 0 ? pares++ : impares++;
+    numeros[index] = num;
+    num % 2 === 0? pares++: impares++;
+  
     mensaje = `${mensaje} ${num} \n`;
-  });
+  }
   mensaje = `${mensaje} Pares: ${pares} | Impares: ${impares}`;
   alert(mensaje)
 }
