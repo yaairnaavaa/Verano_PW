@@ -65,7 +65,7 @@ console.log(`Ventas: $${ventas}`);
 console.log(calcularComision(ventas));
 console.log("");
 */
-// 3.
+/*/ 3.
 const Tabla = Math.floor(Math.random() * 9)+1;
 console.log(`Ejercicio 3:\nTabla de multiplicar del ${Tabla}:`);
 for (let i = 1; i <= 10; i++) {
@@ -73,9 +73,99 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log("");
 
-const numeros = Math.floor(Math.random() * 6-1);
+const numeros = Math.floor(Math.random() * 7) + 1; // Genera un número entre 1 y 7
 console.log(numeros)
 for (let i = 0; i < numeros; i++) {
-    const num = Math.floor(Math.random() * 100);
-    console.log(`Número ${i + 1}: ${num}`);
 }
+*/
+ function diaSemana(numeros) {
+    switch (numeros) {
+        case 1:
+            return "Lunes";
+        case 2:
+            return "Martes";
+        case 3:
+            return "Miércoles";
+        case 4:
+            return "Jueves";
+        case 5:
+            return "Viernes";
+        case 6:
+            return "Sábado";
+        case 7:
+            return "Domingo";
+        default:
+            return "Número de día inválido. Debe ser entre 1 y 7.";
+    }
+}
+//diaSemana(); // Ejemplo de uso
+//console.log(diaSemana()); // Imprime "Miércoles"
+
+
+function TablaMultiplicar(n) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${n} x ${i} = ${n * i}`);
+    }
+}
+
+function saludar(){
+let nombres = ["Ana", "Juan", "Pedro", "Maria"];
+console.log(nombres)
+
+for(let  i=0;i<nombres.length; i++){
+    console.log(`Hola, ${nombres[i]}`);
+  }
+}
+
+//saludar(); // Llama a la función para saludar a cada nombre en el array
+
+function map(){
+    const numeros = [1,2,3,4,5];
+    console.log(numeros);
+    const dobles = numeros.map(n => {
+        if (n % 2 == 0) {
+            return "Par";
+        } else {
+            return "Impar";
+        }
+    });
+    console.log(dobles);
+}
+
+function filter() {
+    const numeros = [5,10,15,20];
+    console.log(numeros);
+    const mayoresQue10 = numeros.filter(n => n >10);
+    console.log(mayoresQue10);
+}
+
+function reduce() {
+    const numeros = [1,2,3,4];
+    console.log(numeros);
+    const sumaTotal = numeros.reduce((acumulador, n) => 
+         (acumulador + n),0
+);
+    console.log(sumaTotal);
+}
+
+function forEach() {
+    const nombres = ["Ana", "Juan", "Pedro", "Maria"];
+    console.log(nombres);
+    nombres.forEach(name =>console.log( "Hola, " + name));;
+}
+
+function objeto() {
+let persona = {
+    nombre: "Jesus",
+    edad: 22,
+    ciudad: "Tepic",
+    }
+persona.carrera = "Ingeniería en Sistemas Computacionales";
+
+console.log(persona);
+}
+//filter(); // Llama a la función filter para filtrar los números mayores que 10
+//map();
+//reduce(); // Llama a la función reduce para sumar los números del array
+//forEach(); // Llama a la función forEach para saludar a cada nombre en el array
+objeto();
