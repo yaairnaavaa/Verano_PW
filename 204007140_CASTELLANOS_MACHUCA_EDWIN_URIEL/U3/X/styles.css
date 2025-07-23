@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.left img {
+  width: 60%;
+  max-width: 300px;
+}
+
+.right {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.subheading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.google {
+  background-color: white;
+  color: black;
+}
+
+.apple {
+  background-color: white;
+  color: black;
+}
+
+.create {
+  background-color: #1d9bf0;
+  color: white;
+}
+
+.login {
+  background-color: transparent;
+  color: #1d9bf0;
+  border: 1px solid #2f3336;
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  color: #999;
+  margin: 10px 0;
+}
+
+.terms {
+  font-size: 12px;
+  color: #71767b;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.terms a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+
+.login-text {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+@media(max-width: 1250px){
+   .hero-content h1{
+    font-size: 2.5rem;
+  }
+  .hero-content h2{
+    font-size: 1.5rem;
+  }
+  .hero-content p{
+    font-size: 1rem;;
+  }
+  .get-started-btn {
+    width: 70%;
+  }
+}
+
+@media(max-width: 900px){
+       .hero-content h1{
+    font-size: 2rem;
+  }
+  .hero-content h2{
+    font-size: 1rem;
+
+  }
+  .hero-content p{
+    font-size: 0.7rem;;
+  }
+  .get-started-btn {
+    width: 50%;
+  }
+}
+
+@media (max-width:600px){
+
+
+
+    .hero-content h1{
+    font-size: 1.5rem;
+  }
+  .hero-content h2{
+
+    font-size: 0.7rem;
+
+  }
+  .hero-content p{
+    font-size: 0.5rem;;
+  }
+
+  .get-started-btn {
+    width: 40%;
+  }
+  
+
+}
