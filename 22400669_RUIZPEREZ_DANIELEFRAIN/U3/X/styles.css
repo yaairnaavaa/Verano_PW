@@ -1,0 +1,235 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+    color: #e7e9ea;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-grow: 1; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo-x {
+    width: 60%;
+    max-width: 380px;
+    fill: #e7e9ea; 
+}
+
+.content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 48px 0;
+}
+
+.subtitle {
+    font-size: 31px;
+    font-weight: 700;
+    margin: 0 0 32px 0;
+}
+
+
+.signup-buttons {
+    width: 300px;
+}
+
+.signup-buttons button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 9999px; 
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; 
+}
+
+.signup-google, .signup-apple {
+    background-color: #fff;
+    color: #0f1419;
+}
+
+.signup-google img {
+    width: 20px;
+    height: 20px;
+}
+
+.signup-apple img {
+    width: 25px;
+    height: 22px;
+}
+
+.create-account {
+    background-color: #1d9bf0; 
+    color: #fff;
+}
+
+.create-account:hover {
+    background-color: #1a8cd8;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 4px 0 12px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #2f3336;
+}
+
+.or-text {
+    padding: 1px 12px;
+    font-size: 15px;
+}
+
+.terms {
+    font-size: 12px;
+    color: #71767b;
+    line-height: 1.1;
+}
+
+.terms a {
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.login-section {
+    margin-top: 40px;
+    width: 300px;
+}
+
+.login-section h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    border: 1px solid #536471;
+    background-color: transparent;
+    color: #1d9bf0;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: rgba(29, 155, 240, 0.1); 
+}
+
+footer {
+    padding: 12px 16px;
+    text-align: center;
+}
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 12px;
+}
+footer a, footer span {
+    color: #71767b;
+    font-size: 13px;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-widht:1250px) {
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+
+    .hero-content h1 {
+        font: size 2.5rem;
+        ;
+    }
+
+    .email-signup input[type='email'] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .get-started-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(3, minmax(280px, 1fr));
+        padding: 20px 20px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .hero {
+        height: 550px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .get-started-btn {
+        font-size: 1.2rem;
+        padding: 15px 20px;
+    }
+
+    .reasons-grid {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+        padding: 20px 20px;
+    }
+
+    @media (max-width:600px) {
+        .reasons-grid {
+            grid-template-columns: repeat(1, minmax(280px, 1fr));
+            padding: 20px 20px;
+        }
+    }
+}
