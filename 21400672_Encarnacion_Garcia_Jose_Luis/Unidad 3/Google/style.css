@@ -1,0 +1,150 @@
+body{
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 2rem;
+}
+
+.gmail{
+    margin: 0.5rem 0.5rem 0rem 1rem;
+    
+}
+
+.gmail a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.imagenes{
+    margin: 0.5rem 1rem 0rem 1rem;
+}
+
+.imagenes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.acceder{
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border-color: transparent;
+    text-decoration: none;
+    background-color: rgb(0, 80, 230);
+}
+
+.acceder a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    margin-bottom: 10rem;
+}
+
+.google-logo {
+  display: flex;
+  font-size: 2.5rem;
+  font-family: product-sans, sans-serif;
+  width: 100px;
+  height: 100px;
+  justify-content: center; 
+  align-items: center;     
+  margin: 70px auto 0 auto; 
+}
+
+.g{
+    color: rgb(72, 152, 255);
+}
+
+.o{
+    color: rgb(248, 17, 17);
+}
+
+.o2{
+    color: rgb(255, 219, 14);
+}
+
+.g2{
+    color: rgb(72, 152, 255);
+}
+
+.l{
+    color: green;
+}
+
+.e{
+    color: rgb(248, 17, 17);
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+}
+
+.buscador input{
+    height: 2rem;
+    width: 500px;
+    padding-left: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 5px;
+}
+
+.botones button{
+    display: flex;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: #fcfafa;
+}
+
+.botones button:hover{
+    background-color: #ccc;
+}
+
+footer{
+    background-color: #fcfafa;
+    border-top: #fcfafa;
+    padding-bottom: 0.3rem;
+}
+
+hr{
+    color: #fcfafa;
+}
+
+.mx{
+    padding-top: 0.7rem;
+    background-color: #fcfafa;
+    margin-left: 1rem;
+    display: flex;
+
+}
+
+.links{
+    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    margin-left: 1rem;
+    background: #fcfafa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a{
+    text-decoration: none;
+    color: inherit;
+    padding-right: 1.5rem;
+}

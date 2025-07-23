@@ -1,0 +1,213 @@
+body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), 
+    url("../disney/main-hero-background.png"); 
+    background-size: 1366px 637px;
+    margin: 0;
+}
+
+.sec1{
+    width: 1366px;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.iniciosesion{
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iniciosesion button{
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.iniciosesion button:hover{
+    cursor: pointer;
+}
+
+.registro{
+    width: 683px;
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+}
+
+.registro input{
+    width: 18rem;
+    padding: 0.4rem;
+    margin-right: 0;
+}
+
+.registro button{
+    background-color: aqua;
+    border-color: transparent;
+    width: 9.3rem;
+    margin-left: 0;
+    padding: 0.4rem;
+}
+
+.registro button:hover{
+    cursor: pointer;
+}
+
+.logod{
+    height: 60px;
+    width: 100px;
+}
+
+.iconos{
+    width: 450px;
+}
+
+.sec2{
+    width: 1366px;
+    background-color: black;
+    color: white;
+    height: 900px;
+}
+
+.solodisney{
+    margin-left: 19rem;
+    padding-top: 0.5rem;
+}
+
+.familia{
+    background-image: url(../disney/good-american-family.png);
+    background-size: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 500px;
+    margin-left: 15rem;
+}
+
+.carrusel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pelis{
+    width: 155px;
+    height: 200px;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sec3{
+    width: 1366px;
+    background-color: rgb(0, 2, 22);
+    color: white;
+    height: 850px;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+}
+
+.divtabla{
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    width: 1000px; 
+    border-color: transparent;
+}
+
+.izq{
+    background-color: rgb(8, 8, 8);
+}
+
+.arriba{
+    background-color: rgb(32, 31, 31);
+}
+
+.azul{
+    background-color:rgb(25, 133, 221);
+}
+
+td, th{
+        padding: 9px;
+        text-align: center;
+}
+
+.texto{
+    text-align: justify;
+    margin-left: 3rem;
+}
+
+.sec4{
+    width: 1366px;
+    background-color: rgb(0, 2, 22);
+    color: white;
+    height: 600px;
+    margin: 0;
+}
+
+.vivo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
+
+.deportes{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.deportes img{
+    width: 400px;
+}
+
+.sec5{
+    width: 1366px;
+    background-color: rgb(0, 2, 22);
+    color: white;
+    height: 650px;
+    margin: 0;
+}
+
+.donde{
+    display: flex;
+    justify-content: center;
+}
+
+.donde img{
+    width: 800px;
+}
+
+.sec6{
+    width: 1366px;
+    background-color: rgb(0, 2, 22);
+    color: white;
+    height: 670px;
+    margin: 0;
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.espacio{
+    background-color: rgb(22, 21, 21);
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 750px;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+}

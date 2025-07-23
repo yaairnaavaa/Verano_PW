@@ -4,128 +4,217 @@
         <meta charset="UTF-8">
         <title>Conferencia Tech 2025</title>
     </head>
+    <style>
+        body{
+            font-family: 'Segoe UI', sans-serif;
+            margin-right: 10%; 
+            margin-left: 10%;
+            background-color: #cccccca3;
+        }
+        table{
+                border-collapse: collapse;
+                border: 1px solid #cccccc; 
+                width: 75%; 
+                margin: 10px 0;
+            }
+            td{
+                padding: 10px; 
+                border: 1px solid #cccccc;
+                min-width: 150px;
+                text-align: center;
+            }
+            th{
+                padding: 10px; 
+                border: 1px solid; 
+                background-color: #180067;
+            }
+            fieldset{
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            h3{
+                background-color: #180067;
+                color: white;
+                padding: 10px;
+                padding-left: 30px;
+                border-radius: 10px;
+                margin-top: 50px;
+                margin-bottom: 25px;
+            }
+            ul > li:hover{
+                background: #180067;
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 25%;
+                color: white;
+            }
+            ol > li:hover{
+                background: #e08d1a;
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 30%;
+                padding: 5px;
+            }
+            ul > li, ol > li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                background: #e08d1a;
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 30%;
+            }
+            button > 
+            /*
+            input [type = "text"], input [type = "email"], input [type = "password"], input [type = "tel"]{
+                background-color: white;
+                border-radius: 5px;
+                padding: 5px;
+                border: 1px solid;
+            }
+            */
+    </style>
     <body>
-    <!--Conferencia Tech 2025-->
-        <h1 id = "Inicio">Conferencia Tech 2025</h1>
-        <ul>
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#Agenda">Agenda</a></li>
-            <li><a href="#Ponentes">Ponentes</a></li>
-            <li><a href="#Registros">Registros</a></li>
-        </ul>
-    <!--Sobre la conferencia-->
-        <h3>Sobre la Conferencia</h3>
-        <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!<p>
-        <p>La conferencia abordará temas como:</p>
-        <ul>
-            <li>Inteligencia Artificial</li>
-            <ul>
-                <li>Machine Learning</li>
-                <li>Deep Learning</li>
-            </ul>
-            <li>Desarrollo Web</li>
-            <ul>
-                <li>Frontend</li>
-                <li>Backend</li>
-            </ul>
-            <li>Seguridad Informática</li>
-            <li>Innovación en Hardware</li>
-        </ul>
-        <!--Agenda del Evento-->
-        <h3 id = "Agenda">Agenda del Evento</h3> 
-        <table border = "1">
-            <tr>
-                <th>Día</th>
-                <th>Hora</th>
-                <th>Tema</th>
-                <th>Ponente</th>
-            </tr>
-            <tr>
-                <td>10/10/2025</td>
-                <td>09:00 - 10:30</td>
-                <td>Inteligencia Artificial</td>
-                <td>Dr. Laura Gómez</td>
-            </tr>
-            <tr>
-                <td>10/10/2025</td>
-                <td>11:00 - 12:30</td>
-                <td>Seguridad Informática</td>
-                <td>Ing. Juan Pérez</td>
-            </tr>
-            <tr>
-                <td>10/10/2025</td>
-                <td>09:00 - 10:30</td>
-                <td>Desarrollo Web</td>
-                <td>Lic. Ana Ruiz</td>
-            </tr>
-            <tr>
-                <td>10/10/2025</td>
-                <td>11:00 - 12:30</td>
-                <td>Hardware Innovador</td>
-                <td>MSc. Pedro León</td>
-            </tr>
-        </table>
-        <!--Ponentes-->
-        <h3 id = "Ponentes">Ponentes Destacados</h3>
-        <blockquote><strong>Dr. Laura Gómez:</strong>Experta en Inteligencia Artificial con más de 15 años de experiencia.</blockquote>
-        <blockquote><strong>Ing. Juan Pérez:</strong>Especialista en ciberseguridad, ponente internacional.</blockquote>
-        <blockquote><strong>Lic. Ana Ruiz:</strong>Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
-        <blockquote><strong>MSc. Pedro León:</strong>Investigador en hardware de alto rendimiento.</blockquote>
-        <!--Registros-->
-        <h3 id = "Registros">Registro al Evento</h3>
-        <h5>¡Registrate para asistir!</h5>
-        <p>Los campos marcados con * son obligatorios.</p>
-        <form>
-            <fieldset>
-                <legend>Formulario de Registro</legend>
-                <Label for = "Nombre">Nombre Completo*:</Label><br>
-                <input type="text" id = "Nombre" name = "Nombre"required><br><br>
+        <div style="background-color: white; min-width: 750px;">
+        <!--Conferencia Tech 2025-->
+            <h1 id = "Inicio" style="background-color: #180067; padding: 50px; color: white; border-left: solid 40px #e08d1a;">Conferencia Tech 2025</h1>
+            <div style="padding-left: 5%; padding-right: 5%;">
+                <div style="border: #180067 2px solid ;border-left: 20px solid #180067; margin-left: 10px; margin-right: 10px;">
+                    <ol>
+                    <li><a href="#Inicio">Inicio</a></li>
+                        <li><a href="#Agenda">Agenda</a></li>
+                        <li><a href="#Ponentes">Ponentes</a></li>
+                        <li><a href="#Registros">Registros</a></li>
+                    </ol> 
+                </div>
+            <!--Sobre la conferencia-->
+                <h3>Sobre la Conferencia</h3>
+                <p>¡Bienvenido a la Conferencia Internacional de Tecnología 2025!<p>
+                <p>La conferencia abordará temas como:</p>
+                <div style="border: #180067 2px solid ;border-left: 20px solid #180067; margin-left: 10px; margin-right: 10px;">
+                    <ul>
+                        <li>Inteligencia Artificial</li>
+                        <ul>
+                            <li>Machine Learning</li>
+                            <li>Deep Learning</li>
+                        </ul>
+                        <li>Desarrollo Web</li>
+                        <ul>
+                            <li>Frontend</li>
+                            <li>Backend</li>
+                        </ul>
+                        <li>Seguridad Informática</li>
+                        <li>Innovación en Hardware</li>
+                    </ul>
+                </div>    
+                <!--Agenda del Evento-->
+                <h3 id = "Agenda">Agenda del Evento</h3> 
+                <table border = "1">
+                    <tr style="color: white;">
+                        <th>Día</th>
+                        <th>Hora</th>
+                        <th>Tema</th>
+                        <th>Ponente</th>
+                    </tr>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>09:00 - 10:30</td>
+                        <td>Inteligencia Artificial</td>
+                        <td>Dr. Laura Gómez</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>11:00 - 12:30</td>
+                        <td>Seguridad Informática</td>
+                        <td>Ing. Juan Pérez</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>09:00 - 10:30</td>
+                        <td>Desarrollo Web</td>
+                        <td>Lic. Ana Ruiz</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2025</td>
+                        <td>11:00 - 12:30</td>
+                        <td>Hardware Innovador</td>
+                        <td>MSc. Pedro León</td>
+                    </tr>
+                </table>
+                <!--Ponentes-->
+                <h3 id = "Ponentes">Ponentes Destacados</h3>
+                <div style="border: #180067 2px solid ;border-left: 20px solid #180067; margin-left: 10px; margin-right: 10px;">
+                    <blockquote><strong>Dr. Laura Gómez:</strong> Experta en Inteligencia Artificial con más de 15 años de experiencia.</blockquote>
+                    <blockquote><strong>Ing. Juan Pérez:</strong> Especialista en ciberseguridad, ponente internacional.</blockquote>
+                    <blockquote><strong>Lic. Ana Ruiz:</strong> Desarrolladora full-stack, fundadora de TechWeb.</blockquote>
+                    <blockquote><strong>MSc. Pedro León:</strong> Investigador en hardware de alto rendimiento.</blockquote>
+                </div>
+                <!--Registros-->
+                <h3 id = "Registros">Registro al Evento</h3>
+                <div style="text-align: center;">
+                    <h5>¡Registrate para asistir!</h5>
+                    <p>Los campos marcados con * son obligatorios.</p>
+                </div>
+                <form>
+                    <fieldset>
+                        <legend>Formulario de Registro</legend>
+                        <Label for = "Nombre">Nombre Completo*:</Label><br>
+                        <input type="text" id = "Nombre" name = "Nombre"required><br><br>
 
-                <label for = "Edad">Edad*:</label><br>
-                <input type="number" id = "Edad" name = "Edad" required><br><br>
+                        <label for = "Edad">Edad*:</label><br>
+                        <input type="number" id = "Edad" name = "Edad" required><br><br>
 
-                <Label for = "Correo">Correo Electrónico*:</Label><br>
-                <input type="email" id = "Correo" name = "Correo" required><br><br>
+                        <Label for = "Correo">Correo Electrónico*:</Label><br>
+                        <input type="email" id = "Correo" name = "Correo" required><br><br>
 
-                <Label for = "Telefono">Teléfono(opcional):</Label><br>
-                <input type="tel" id="Telefono" name = "Telefono"><br><br>
+                        <Label for = "Telefono">Teléfono(opcional):</Label><br>
+                        <input type="tel" id="Telefono" name = "Telefono"><br><br>
 
-                <Label for = "Genero">Género:</Label><br>
-                <input type = "radio" value = "Masculino" name = "Genero" id = "Genero">
-                <label for = "Genero">Masculino</label><br>
-                <input type = "radio" value = "Femenino" name = "Genero" id = "Genero">
-                <label for = "Genero">Femenino</label><br>
-                <input type = "radio" value = "Otro" name = "Genero" id = "Genero">
-                <label for = "Genero">Otro</label><br><br>
+                        <Label for = "Genero">Género:</Label><br>
+                        <input type = "radio" value = "Masculino" name = "Genero" id = "Genero">
+                        <label for = "Genero">Masculino</label><br>
+                        <input type = "radio" value = "Femenino" name = "Genero" id = "Genero">
+                        <label for = "Genero">Femenino</label><br>
+                        <input type = "radio" value = "Otro" name = "Genero" id = "Genero">
+                        <label for = "Genero">Otro</label><br><br>
 
-                <label>Selecciona las conferencias a las que deseas asistir*:</label><br><br>
-                <input type= "checkbox" value = "IA" name = "conferencias" id = "conferencias1">
-                <label for = "conferencias">IA</label><br>
-                <input type= "checkbox" value = "Desarrollo web" name = "conferencias" id = "conferencias2">
-                <label for = "conferencias">Desarrollo Web</label><br>
-                <input type= "checkbox" value = "Seguridad Informática" name = "conferencias" id = "conferencias3">
-                <label for = "conferencias">Seguridad Informática</label><br>
-                <input type= "checkbox" value = "Hardware Innovador" name = "conferencias" id = "conferencias4">
-                <label for = "conferencias">Hardware Innovador</label><br><br>
+                        <label>Selecciona las conferencias a las que deseas asistir*:</label><br><br>
+                        <input type= "checkbox" value = "IA" name = "conferencias" id = "conferencias1">
+                        <label for = "conferencias">IA</label><br>
+                        <input type= "checkbox" value = "Desarrollo web" name = "conferencias" id = "conferencias2">
+                        <label for = "conferencias">Desarrollo Web</label><br>
+                        <input type= "checkbox" value = "Seguridad Informática" name = "conferencias" id = "conferencias3">
+                        <label for = "conferencias">Seguridad Informática</label><br>
+                        <input type= "checkbox" value = "Hardware Innovador" name = "conferencias" id = "conferencias4">
+                        <label for = "conferencias">Hardware Innovador</label><br><br>
 
-                <label for = "Experiencia">Nivel de experiencia en tecnología:</label><br>
-                <select name = "Experiencia" id = "Experiencia" name = "Experiencia">
-                    <option value="Principiante">Principiante</option>
-                    <option value="Intermedio">Intermedio</option>
-                    <option value="Avanzado">Avanzado</option>
-                </select><br><br>
+                        <label for = "Experiencia">Nivel de experiencia en tecnología:</label><br>
+                        <select name = "Experiencia" id = "Experiencia" name = "Experiencia">
+                            <option value="Principiante">Principiante</option>
+                            <option value="Intermedio">Intermedio</option>
+                            <option value="Avanzado">Avanzado</option>
+                        </select><br><br>
 
-                <label for = "Comentarios">Comentarios adicionales (máx. 300 caracteres): </label><br>
-                <textarea rows = "5" cols = "50" placeholder = "Comentarios..." name = "Comentarios" id = "Comentarios">  </textarea><br>
+                        <label for = "Comentarios">Comentarios adicionales (máx. 300 caracteres): </label><br>
+                        <textarea rows = "5" cols = "50" placeholder = "Comentarios..." name = "Comentarios" id = "Comentarios">  </textarea><br>
 
-                <label for = "Archivo">Adjuntar CV o Portafolio (PDF):</label><br>
-                <input type = "file" accept=".PDF" name = "Archivo id = "Archivo"><br><br>
+                        <label for = "Archivo">Adjuntar CV o Portafolio (PDF):</label><br>
+                        <input type = "file" accept=".PDF" name = "Archivo id = "Archivo"><br><br>
 
-                <input type= "checkbox" value = "IA" name = "Aceptar" id = "Aceptar" required>
-                <label for = "Aceptar">Acepto los términos y condiciones *</label><br><br>
+                        <input type= "checkbox" value = "IA" name = "Aceptar" id = "Aceptar" required>
+                        <label for = "Aceptar">Acepto los términos y condiciones *</label><br><br>
 
-                <input type ="submit" value = "Enviar Registro">
-            </fieldset>
-        </form>
+                        <input type ="submit" value = "Enviar Registro" style="border: 0px; padding: 10px; border-radius: 5px; color: white; background-color: #180067; cursor: pointer;">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

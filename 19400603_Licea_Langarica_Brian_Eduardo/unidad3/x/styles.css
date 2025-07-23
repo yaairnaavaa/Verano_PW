@@ -1,0 +1,91 @@
+body{
+    background: black;
+    color: white;
+}
+.titulo{
+    font-size: 30px;
+    display: flex;
+}
+.left{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    height: 600px;
+    width: 400px;
+    /*background: blue;*/
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.right{
+    position: fixed;
+    text-align: center;
+    top: 50px;
+    left: 550px;
+    height: 500px;
+    background: red;
+}
+h1{
+    font-size: 40px;
+}
+.btn1{
+    background: white;
+    border-radius: 45px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.btn2{
+    background: white;
+    border-radius: 45px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.btn3{
+    background: rgb(73, 73, 255);
+    color: white;
+    border-radius: 45px;
+    border: none;
+    padding: 10px;
+    width: fit-content;
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.btn4{
+    background: rgb(0, 0, 0);
+    color: rgb(66, 165, 231);
+    box-shadow: white;
+    border-radius: 45px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: fit-content;
+    margin: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+.div3{
+    height: 60px;/*height y widht son para ajustar los tamaños de los divs*/
+    width: 300px;
+    /*background: green;*/
+}
+@media (max-width: 1250px){
+.right{
+    top:400px;
+    position:fixed;
+    left: 50%;   
+}
+.left{
+    top: 1px;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+}
+}

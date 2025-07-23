@@ -1,0 +1,316 @@
+.contenedor-todo {
+  margin: 0;
+  padding: 2rem 6rem;
+  /* gap: 1rem; */
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 28rem;
+  height: 28rem;
+  object-fit: cover;
+}
+
+.titulo {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.unete {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.imagen {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+
+.botonera-1 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boton {
+  width: 50%;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 0.4rem;
+  color: #424242;
+  background-color: white;
+  /* font-family: monospace; */
+}
+
+.cuenta {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 0.7rem;
+
+  font-weight: 700;
+  width: 50%;
+  border-radius: 3rem;
+  font-size: 1rem;
+  border: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  height: 1rem;
+  object-fit: cover;
+  width: 1rem;
+}
+
+.barra-cont {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linea {
+  background-color: #424242;
+  width: 8.5rem;
+  height: 1px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(29, 155, 240);
+}
+
+.politicas * {
+  font-size: 11px;
+  width: 51%;
+}
+
+.politicas p {
+  color: #71767b;
+}
+
+.mensajes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tienes-cuenta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.iniciar {
+  color: rgb(29, 155, 240);
+  border-color: rgb(83, 100, 113);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.7rem;
+  font-weight: 700;
+  width: 50%;
+  border-radius: 3rem;
+  font-size: 1rem;
+}
+
+.parte2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.4rem 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  height: fit-content;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+.uno {
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  justify-content: center;
+  padding: 0 2rem;
+  gap: 0.5rem;
+}
+.dos {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* background-color: red; */
+  font-size: 11px;
+  justify-content: center;
+  padding: 0 1rem;
+  gap: 0.5rem;
+}
+
+.line {
+  border-right: 1px solid #71767b;
+  width: 1px;
+  height: 100%;
+}
+
+.elemento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.elemento a {
+  color: #71767b;
+}
+
+@media (max-width: 1200px) {
+  p {
+    font-size: 0.2rem;
+    text-align: center;
+  }
+  .contenedor-todo {
+    margin: 0;
+    padding: 1rem 1rem;
+    /* gap: 1rem; */
+    /* background-color: blue; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+ .parte2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    padding: 1.4rem 0;
+    justify-content: center;
+     align-items: center;
+    width: fit-content;
+  }
+
+  .botonera-1 {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    flex: 1;
+  }
+
+  .boton {
+    width: 100%;
+  }
+  .cuenta {
+    width: 100%;
+  }
+
+  .politicas {
+    font-size: 11px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 22rem;
+  }
+
+
+.politicas p {
+  font-size: 11px;
+  width: 100%;
+}
+
+  .tienes-cuenta {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex: 1;
+    width: fit-content;
+    align-items: center;
+  }
+
+  .tienes-cuenta p {
+    font-size: 1rem;
+  }
+  .uno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 11px;
+    justify-content: center;
+    padding: 0 0.5rem;
+    gap: 0.5rem;
+  }
+  .dos {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    justify-content: center;
+    padding: 0 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .elemento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .barra-cont {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea {
+    background-color: #424242;
+    width: 60%;
+    height: 1px;
+    border-radius: 50%;
+  }
+  .titulo {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .iniciar {
+width: 100%;
+}
+}

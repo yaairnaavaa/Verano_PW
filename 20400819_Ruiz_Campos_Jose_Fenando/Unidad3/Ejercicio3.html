@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3</title>
+  </head>
+
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Articulo</legend>
+        <label for="search">Nombre</label>
+        <input type="text" id="Nombre" placeholder="" required />
+        <br /><br />
+        <label for="search">Precio</label>
+        <input type="number" id="Precio" placeholder="" required />
+        <br /><br />
+        <label for="imagen">imagen</label>
+        <input type="file" id="imagen" required accept="image/*" />
+        <br />
+        <br />
+        <label for="color">Color</label>
+        <input type="color" inputmode="color" required />
+        <br />
+        <br />
+        <label for="descripcion">Descripcion</label><br />
+        <textarea id="descripcion" cols="40" rows="15" required></textarea>
+        <br />
+        <br />
+        <label for="cantidad">Cantidad</label>
+        <input type="number" id="cantidad" min="1" max="100" placeholder="" />
+        <br />
+        <label for="Nuevo">Nuevo</label>
+        <input type="radio" id="nuevo" required name="used" checked />
+        <br />
+        <label for="Usado">Usado</label>
+        <input type="radio" id="usado" required name="used" />
+        <br />
+        <input type="submit" value="Publicar" />
+        <input type="reset" value="Restablecer" />
+      </fieldset>
+    </form>
+    <p>Realizo: Ruiz Campos Jose Fernando.</p>
+  </body>
+</html>
