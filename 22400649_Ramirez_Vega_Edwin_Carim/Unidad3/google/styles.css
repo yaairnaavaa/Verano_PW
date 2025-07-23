@@ -1,0 +1,168 @@
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.top-right button {
+    background-color: #0A56D0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.top-right button:hover {
+    background-color: #0849A0;
+}
+
+.top-right a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.logo {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+}
+
+.logo h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.g {
+    font-weight: bold;
+    color: #4285F4;
+    margin: 0;
+    padding: 0;
+}
+
+.o {
+    font-weight: bold;
+    color: #EA4335;
+    margin: 0;
+    padding: 0;
+}
+
+.o2 {
+    font-weight: bold;
+    color: #FBBC05;
+}
+
+.g2 {
+    font-weight: bold;
+    color: #4285F4;
+}
+
+.l {
+    font-weight: bold;
+    color: #FBBC05;
+}
+
+.e {
+    font-weight: bold;
+    color: #34A853;
+}
+
+.search-box {
+    position: fixed;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+#btn1 {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #F8F9FB;
+    color: #3A3B3D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn2 {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 210px;
+    background-color: #F8F9FB;
+    color: #3A3B3D;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+
+.mexico{
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    padding: 20px;
+    padding-right: 100%;
+    background-color: #f1f1f1;
+    font-size: 14px;    
+}
+
+.footer-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+
+.footer-left label {
+    margin-right: 20px;
+}
+
+.footer-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+
+.footer-right label {
+    margin-left: 20px;
+}
