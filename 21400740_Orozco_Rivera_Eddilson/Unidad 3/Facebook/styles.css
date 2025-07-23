@@ -1,4 +1,3 @@
-/*Por etiquetas*/
 body{
     margin: 0;
     padding: 0;
@@ -94,6 +93,15 @@ hr{
     box-sizing: border-box;
 }
 
+.login-box form input[type="password"]{
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 17px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .create-page{
     font-size: 14px;
     text-align: center;
@@ -136,4 +144,3 @@ input + input {
     color: #1877f2;
     text-decoration: none;
 }
-
