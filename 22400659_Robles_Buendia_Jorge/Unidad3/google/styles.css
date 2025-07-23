@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Menu {
+  display: flex;              /* Todo en un solo renglón */
+  justify-content: flex-end; /* Alineado a la derecha */
+  align-items: center;        /* Centrado verticalmente */
+  gap: 20px;                  /* Espacio entre elementos */
+  padding: 10px 20px;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.Menu form {
+  display: flex;              /* Botones dentro del form en línea */
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.puntos {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.btnAcceder {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Titulo{
+    display: flex;                
+    justify-content: center;     
+    align-items: center;         
+    gap: 5px;                     
+    margin-top: 40px;
+
+}
+p{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#btnAcceder{
+  border-radius: 15px;
+}
+
+#g {color: rgb(56, 56, 255);} #o{color: rgb(255, 56, 56);} #o2{color: rgb(242, 255, 56);}
+#g2{color: rgb(56, 56, 255);} #l{color: green} #e {color: rgb(255, 56, 56); }
+
+
+main{
+  height: 30vh;
+  padding-top: 10%;
+  justify-items: center;
+  align-items: center;
+}
+.barraBuscar{
+    justify-items: center;
+    align-items: center;
+    width: 70vh;
+}
+
+
+#barraBuscar{
+    background-color: #f0f0f0; /* Cambia el fondo */
+    color: #333;               /* Cambia el texto */
+    border: 1px solid #ccd0d5;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50vh;
+}
+
+.botonesAbajo {
+  display: flex;
+  justify-content: center;  /* Centra horizontalmente */
+  align-items: center;      /* Centra verticalmente */
+  gap: 10px;                /* Espacio entre los botones */
+  margin-top: 20px;         /* Separación desde el input de búsqueda */
+}
+
+.subTexto{
+  margin-top: 10px;
+}
+
+footer{
+  background-color: rgb(219, 219, 219);
+  margin-top: 30%;
+  color: #676767;
+  padding-left: 10px;
+}
+.enlaces > a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+hr{
+  color: aliceblue;
+}
+
+
+
+
+  
+

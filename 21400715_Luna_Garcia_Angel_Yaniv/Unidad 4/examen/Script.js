@@ -87,6 +87,13 @@ function Ejercicio4(){
         console.log(empleado);
         opcion=prompt('Escriba ´si´ en caso de querer añadir un nuevo empleado, ´no´  para terminar');
       }while(opcion=='si');
+
+   let prom = empleado.reduce((acumulador,n) =>
+   (acumulador+n.salario),0);
+   prom= prom/empleado.length;
+   console.log("Promedio de salario:", prom);
+
+  
    const mayores = empleado.filter( sal => sal.edad > 30);
    console.log('Empleados mayores de 30 años');
    mayores.forEach(emp => {

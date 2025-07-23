@@ -1,0 +1,105 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seccion1 {
+    background-image: url("C:/Users/edwin/Desktop/EjerciciosU2_PW/U3/Netflix/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo-container {
+    display: flex;
+    align-items:flex-start;
+    width: 200px;
+    height: 100px;
+}
+.seccion2 {
+    background-color: black;
+}
+
+.seccion3 {
+    background-color: black;
+}
+.seccion4 {
+    background-color: black;
+}
+.titulo-preguntas {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.preguntas {
+    list-style-type: none;
+    margin: 0 auto;
+}
+.preguntas li {
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 3%;
+    margin-left: 350px;
+    width: 50%;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    background-color: #42414195;
+}
+.titulo-preguntas {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.input-email{
+    background-color: black;
+    margin-left: 500px;
+    border: #42414195 solid 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    padding-right: 300px;
+
+}
+.btn-comenzar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+
+}
+.for-seection44 {
+s
+
+}
+.p-seccion4{
+    margin-left: 450px;
+
+}
+.mas1{
+    margin-left: 500px; 
+
+
+}
+.mas2{
+    margin-left: 430px; 
+}
+.mas3{
+ margin-left: 410px;
+
+}
+.mas4{
+    margin-left: 360px; 
+
+
+}
+.mas5{
+    margin-left: 410px; 
+
+
+}
+.mas6{
+    margin-left: 350px; 
+
+
+}
