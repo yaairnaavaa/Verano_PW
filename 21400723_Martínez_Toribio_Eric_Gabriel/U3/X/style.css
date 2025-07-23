@@ -1,21 +1,159 @@
-body{
-    background-color: black;
-    color: white;
-} 
+body {
+  background-color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
 
-.LadoIzquierdo{
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-    margin-right: 500px;
-} 
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
 
-.LadoDerecho{
-    display: flex;
-    justify-content: center;
-    margin-left: 600px;
-} 
+.area-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.contenedor{
-    margin-left: 600px;
+.logo-img {
+  width: 40%;
+}
+
+.area-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.texto-entrada h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.texto-entrada h2 {
+  font-size: 26px;
+  color: #ccc;
+  margin-top: 0;
+}
+
+.contenedor-botones {
+  margin-top: 30px;
+  max-width: 300px;
+}
+
+.btn-social,
+.btn-principal,
+.btn-secundario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-social {
+  background-color: #fff;
+  color: #222;
+}
+
+.btn-principal {
+  background-color: #7c7cee;
+  color: #fff;
+}
+
+.btn-secundario {
+  background-color: transparent;
+  border: 1px solid #666;
+  color: #7c7cee;
+  padding: 12px;
+}
+
+.icono {
+  width: 20px;
+}
+
+.separador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+  color: #fff;
+}
+
+.linea {
+  flex: 1;
+  height: 1px;
+  background-color: #444;
+}
+
+.texto-legal {
+  font-size: 10px;
+  color: #777;
+  line-height: 1.3;
+}
+
+.texto-legal a {
+  color: #7c7cee;
+  text-decoration: none;
+}
+
+.texto-secundario {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.pie {
+  text-align: center;
+  padding: 20px;
+  font-size: 11px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.pie a {
+  color: #777;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logo-img {
+    width: 30%;
+  }
+
+  .texto-entrada h1 {
+    font-size: 32px;
+  }
+
+  .texto-entrada h2 {
+    font-size: 20px;
+  }
+
+  .area-formulario {
+    align-items: center;
+  }
+
+  .contenedor-botones {
+    width: 100%;
+    max-width: 300px;
+  }
 }
