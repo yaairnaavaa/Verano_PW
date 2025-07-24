@@ -105,6 +105,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px;
+   
 }
 
 
@@ -125,17 +126,20 @@ body{
 .motivos{
     color: white;
     background-color: black;
-
+    margin: 0;
 }
 
-.motivos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,100px);
+.Cabezera{
+    display: flex;
+}
+
+.cajas{
+    display: flex;
+    margin-left: 35px;
 }
 
 .box{
-    background-color: purple;
+    background: linear-gradient(to right, #3810ec, #cf3f2c);;
     display: flex;
     height: 320px;
     width: 300px;
@@ -146,6 +150,127 @@ body{
 
 
 
+/*Preguntas frecuentes*/
+.faq-section {
+    padding: 50px 5%;
+    background-color: #141414;
+    border-top: 8px solid #222;
+    text-align: center;
+    color: white;
+}
+
+
+.preguntas {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.pregunta {
+    background-color: #303030;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pregunta:hover {
+    background-color: #404040;
+}
+
+.pregunta h3 {
+    font-size: 1.625rem;
+    margin: 0;
+}
+
+.plus-icon {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.faq-section .email-signup {
+    margin-top: 30px;
+}
+
+.main-footer {
+    padding: 50px 5%;
+    background-color: #000;
+    border-top: 8px solid #222;
+    color: #8c8c8c;
+    font-size: 0.85rem;
+}
+
+.main-footer p {
+    margin-bottom: 20px;
+}
+
+.main-footer p a {
+    color: #8c8c8c;
+    text-decoration: underline;
+}
+
+.footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-links-grid ul {
+    list-style: none;
+}
+
+.footer-links-grid ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links-grid ul li a {
+    color: #8c8c8c;
+}
+
+.footer-links-grid ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-language {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #8c8c8c;
+    border: 1px solid #8c8c8c;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}
+
+.correo{
+    display: flex;
+}
+
+.correo input{
+    background-color: rgba(0, 0, 0, 0.668);
+    height: 40px;
+    width: 50%;
+    color: white;
+    margin-left: 270px;
+}
+
+.correo button{
+    background-color: red;
+    color:white;
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 4px;
+    padding: 20px;
+}
 
 
 
