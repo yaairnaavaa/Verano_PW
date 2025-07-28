@@ -63,3 +63,22 @@ async function obtenerLibros() {
     }
 }
 obtenerLibros() 
+
+async function eliminarLibro(id) {
+    if (!confirm('¿Estás seguro de que deseas eliminar este libro?')) return;
+    try {
+        const res = await fetch(`${apiURL}/deleteBooks/${id}`, {
+            method: 'DELETE',
+        });
+        const data = await res.json();
+        if (res.ok) {
+            alert(data.message || 'Libro eliminado con éxito');
+            obtenerLibros();
+        } else {
+            alert(data.message || 'Error al eliminar libro');
+        }
+    } catch (error) {
+        alert('Error al eliminar libro');
+        console.error(error);
+    }
+}
