@@ -1,13 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb+srv://ruilo:1499@root.pyt06wv.mongodb.net/books-db?retryWrites=true&w=majority&appName=Books')
+mongoose.connect('mongodb+srv://root:1234567890@books.8bcr4g7.mongodb.net/books-db?retryWrites=true&w=majority&appName=Books')
 .then(() => console.log("MongoDB Conectado"))
 .catch(error => console.log(error.message));
 
 app.use(express.json()); //permite al servidor leer archivos .json
+app.use(cors());
 
 const BooksSchema = new mongoose.Schema({
     titulo: {type: String},
@@ -34,7 +36,7 @@ app.get('/getBooks', async(req,res) =>{ //async permite que sea una funcion así
 
 app.post('/newBook/', async(req,res) =>{ //async permite que sea una funcion asíncrona /getBooks es una extension de la URL
     try{
-        const { titulo, autor, stock } = req.query; // cambia entre body por query segun postman
+        const { titulo, autor, stock } = req.body; // cambia entre body por query segun postman
         const newBook = new Book({titulo, autor, stock});
         await newBook.save();
 
