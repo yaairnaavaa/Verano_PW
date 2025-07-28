@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Libros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Biblioteca Virtual</h1>
+
+        <section class="form-section">
+            <h2>➕ Agregar Libro</h2>
+            <div class="form">
+                <input type="text" id="titulo" placeholder="Título del libro">
+                <input type="text" id="autor" placeholder="Autor">
+                <input type="number" id="stock" placeholder="Stock">
+                <input type="text" id="imagen" placeholder="URL de la imagen">
+                <button onclick="crearLibro()">Crear Libro</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>📖 Lista de Libros</h2>
+            <div id="libros" class="card-container"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
