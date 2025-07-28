@@ -1,0 +1,306 @@
+body{
+    background-color: #1e1e1e;
+}
+h1{
+    position:relative;
+    top: 70px;
+    text-align: center;  
+    color: azure; 
+    filter: brightness(100%); 
+}
+h4{
+    position:relative;
+    top: 70px;        
+    text-align: center;  
+    color: azure;     
+    filter: brightness(100%); 
+}
+input.boton{
+    position: relative;
+    top: 70px;
+    right: -30%;
+    margin: 5px;
+    width: 10%;
+    padding: 14px;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: rgb(201, 33, 33);
+    color: aliceblue;
+    align-items: center;
+    margin: none;
+    font-size: 16px;    
+}
+input.email{
+    position: relative;
+    top: 70px;
+    right: -30%;
+    margin: 5px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: rgb(38, 33, 33);
+    align-items: center;
+    
+    filter: brightness(100%);
+}
+div.contenedor{
+    position: relative;
+    height: 500px;
+}
+div.contImagen{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("hero-background.jpg");
+    filter: brightness(40%);
+    height: 500px; 
+    width: 100%;
+}
+
+div.logo{    
+    position: absolute;
+    left: 3%;
+    top:2%;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+img{
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.usuario{    
+    position: absolute;
+    right: 3%;
+    top:2%;
+    width: 100px;
+    height: 15px;
+    z-index: 10;
+}
+.boton2{
+    position: relative;
+    right: 0px;
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: rgb(201, 33, 33);
+    color: aliceblue;
+    align-items: left;
+    margin: none;
+    font-size: 12px;  
+}
+.eleccion{
+   position: relative;
+    right: 0px;
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 2px;    
+    background-color: rgba(25, 20, 20, 0.5);  
+    color: rgb(245, 245, 245);
+    align-items: right;
+    margin: none;
+    font-size: 12px;   
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: transparent;
+}
+
+.cabeza-derecha {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.btn-iniciar {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-iniciar:hover {
+    background-color: #f40612;
+}
+
+.tendencias {
+    background-color: #000;
+    padding: 40px 20px;
+    position: relative;
+    top: 20vh;
+}
+
+.tendencias h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.carrusel {
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.pelicula {
+    min-width: 200px;
+    height: 300px;
+    border-radius: 0%;
+    overflow: hidden;
+}
+
+.motivos {
+    background-color: #000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.motivos h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.motivos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.motivo-card {
+    background: #2c2c5a;
+    padding: 30px 20px;
+    border-radius: 5px;
+    text-align: left;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.motivo-card h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.motivo-card p {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.preguntas {
+    background-color: #000;
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.letras {
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.mensaje {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.boton-final {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-comenzar {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+select {
+    padding: 8px;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 1px solid #333;
+    border-radius: 4px;
+}

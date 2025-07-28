@@ -1,0 +1,133 @@
+p{
+text-align: center;    
+}
+.g{
+    color: blue;
+}
+.o{
+    color: red;
+}
+.o2{
+    color: yellow;
+}
+.g{
+    color: blue;
+}
+.l{
+    color: lawngreen;
+}
+.e{
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabecera */
+.cont {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 20px;
+    gap: 15px;
+    align-items: center;
+}
+
+.cont a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 14px;
+}
+
+.btn-acceder {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Cuerpo principal */
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+/* Logo con letras individuales */
+.logo span {
+    font-size: 80px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Barra de navegacion*/ 
+.busqueda {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 90vh;
+}
+
+.busqueda input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #dcdcdc;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+/* Botones */
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 15px;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
