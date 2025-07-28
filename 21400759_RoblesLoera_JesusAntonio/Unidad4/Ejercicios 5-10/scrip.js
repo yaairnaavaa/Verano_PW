@@ -48,8 +48,7 @@ Pelicula();
 //Ejercicio 8
 function registroVentas(){
   let ventas = [];
-  for (let i = 0; i < 6; i++) {
-         
+  for (let i = 0; i < 6; i++) {     
 }
 
-//registroVentas();
+}
