@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    font-family: 'Product', sans-serif;
+}
+
+.google-logo h1{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:30px;
+    font-size:50px;
+    font-weight: 300px;
+}
+
+.G{
+    color:#4285F4;
+
+}
+
+.o{
+    color:#EA4335;
+}
+
+.o2{
+
+    color:#FBBC05;
+}
+
+.g{
+    color:#4285F4;
+}
+
+.l{
+    color:#34A853;
+}
+
+
+.footer {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:6%;
+    width:100%;
+    background:rgb(225, 225, 225);
+}
+
+.country {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content:space-between;
+    border-bottom: 1px solid #bcbcbd;
+    padding-left:40px;
+    padding-bottom:8px;
+    padding-top:8px;
+    font-size:10px;
+    background:rgb(225, 225, 225);
+}
+
+
+.rotate-e{
+    display: inline-block; 
+    padding-left:6px;
+    transform: rotate(-12deg); 
+    transform-origin: center bottom; /* Mejor punto de rotación */
+    color: #EA4335;
+}
+
+.container {
+    display: flex;
+    width:800px;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    margin:0 auto;
+}
+
+.busqueda {
+    height: 25px;
+    width: 330px;
+    border:2px solid rgb(241, 241, 241);
+    box-shadow: 0 2px 9px rgb(0,0,0, 0.10);
+    border-radius:20px;
+    text-align:left;
+    padding-left:14px;
+    font-size:10px;
+    margin-bottom:18px;
+}
+
+.btn-container {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-top {
+    display:flex;
+    position:absolute;
+    top: 15px;
+    right: 20px;
+    display: flex; /* Cambia de inline-block a flex */
+    gap: 10px; 
+}
+
+.search, .luck {
+    height:23px;
+    width:110px;
+    font-size:9px;
+    text-align:center;
+    margin:5px;
+    border:none;
+    border-radius: 3px;
+    background-color:rgb(245, 245, 245);
+    cursor:pointer;
+}
+
+.search:hover, .luck:hover{
+    background-color:rgb(255, 255, 255);
+}
+
+.gmail, .imagen, .acceder {
+    background: none;
+    border: none;
+    color: rgba(0,0,0,.87);
+    font-size: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gmail:hover, .imagen:hover {
+    text-decoration: underline;
+}
+
+.acceder {
+    background-color: #4285f4;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    border-radius:50px;
+}
+
+.acceder:hover {
+    background-color: #3367d6;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,.3);
+}

@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+
+    <style>
+
+        body {
+            background: rgb(34, 34, 109);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            color: white;
+            font-size:70px;
+            padding-top: 20px;      
+            padding-bottom: 20px;
+            border-top: 2px double;
+            border-bottom: 2px double;
+        }
+        
+        ul, ol {
+            list-style: none;
+            padding: 0;
+            max-width: 800pc;
+            margin: auto;
+        }
+
+        /* Estilo solo para el menú de navegación (primer ul) */
+        body > ul:first-of-type > li {
+            background: rgb(34, 34, 109);
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Estilo para enlaces del menú de navegación */
+        body > ul:first-of-type > li > a {
+            color: rgb(127, 169, 228);
+            text-decoration: none; /*Quitar subrayado*/
+            text-transform: uppercase; /*Poner en mayúsculas*/
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Hover para el menú de navegación */
+        body > ul:first-of-type > li:hover {
+            background: rgb(122, 158, 255);
+            cursor: pointer;
+        }
+
+        body > ul:first-of-type > li > a:hover {
+            color: rgb(255, 0, 81);
+        }
+
+        ul,ol:not(:first-of-type) > li, ol > li {
+            margin: 5px 0;
+            text-align: left;
+            color: white;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h2, h3, p, label, strong {
+            color: white;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin: 30px 0 20px 0;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+            line-height: 1.5;
+        }
+
+        /* Tabla */
+        table {
+            background: rgb(255, 255, 255);
+            border-radius: 15px;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 20px auto;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border: none;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: none;
+            color: rgb(34, 34, 109);
+        }
+
+        th {
+            background: rgb(122, 158, 255);
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        td {
+            background: white;
+            font-size: 14px;
+        }
+
+        tr:nth-child(even) td {
+            background: rgb(240, 245, 255);
+        }
+
+        /* Formulario */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            color: white;
+        }
+
+        fieldset {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        legend {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        input, select, textarea {
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background: rgb(122, 158, 255);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background: rgb(255, 0, 81);
+        }
+
+        ul label {
+            display: block;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            margin: 10px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h1>Conferencia Tech 2025</h1>
+    <ul>
+        <li> <a href="#sobre">Inicio </a></li>
+        <li> <a href="#agenda">Agenda </a></li>
+        <li> <a href="#ponentes">Ponentes </a></li>
+        <li> <a href="#registro">Registro </a></li>
+        <li> <a href="#contacto">Contacto </a></li>
+    </ul>
+    <h2 id="sobre">Sobre la Conferencia</h2>
+    <p>¡Bienvenido a la Conferencia Internacional de Tecnologia 2025!</p>
+    <p>La conferencia abordara temas como</p>
+
+    <ul>
+        <li>
+            Inteligencia Artificial
+            <ul>
+                <li>
+                    Machine Learning
+                </li>
+                <li>
+                    Deep Learning
+                </li>
+            </ul>
+        </li>
+        <li>
+            Desarrollo Web
+        </li>
+            <ul>
+                <li>
+                    Frontend
+                </li>
+                <li>
+                    Backend
+                </li>
+            </ul>
+        <li>
+            Seguridad Informática
+        </li>
+        <li>
+            Innovación en Hardware
+        </li>
+    </ul>
+
+    <h2 id="agenda">Agenda del evento</h2>
+
+    <table>
+        <tr>
+            <th>
+                Fecha
+            </th>
+            <th>
+                Hora
+            </th>
+            <th>
+                Tema
+            </th>
+            <th>
+                Ponente
+            </th>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Inteligencia Artificial</td>
+            <td>Dr. Laura Gomez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Seguridad Informática</td>
+            <td>Ing. Juan Perez</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>09:00 - 10:30</td>
+            <td>Desarrollo Web</td>
+            <td>Lic. Ana Ruiz</td>
+        </tr>
+        <tr>
+            <td>10/10/2025</td>
+            <td>11:00 - 12:30</td>
+            <td>Hardware Innovador</td>
+            <td>MSc. Pedro Leon</td>
+        </tr>
+    </table>
+
+    <h2 id="ponentes">Ponentes Destacados</h2>
+    <ul>
+        <label>
+            <strong>Dr. Laura Gomez:</strong> Experta en Inteligencia Artificial con mas de 15 años de experiencia.
+        </label> <br>
+        <label>
+            <strong>Ing. Juan Perez:</strong> Especialista en ciberseguridad, ponente internacional.
+        </label> <br>
+        <label>
+            <strong>Lic. Ana Ruiz:</strong> Desarrolladora full-stack, fundadora de TechWeb.
+        </label> <br>
+        <label>
+            <strong>MSc. Pedo Leon:</strong> Investigador de hardware de alto rendimiento.
+        </label>
+    </ul>
+
+    <h2 id="registro">Registro al Evento</h2>
+    <h3>Registrate para asistir</h3>
+    <p>Los campos marcados con * son obligatorios.</p>
+    <form>
+        <fieldset>
+            <legend>Formulario de registro</legend>
+        
+            <label for="nombre">Nombre Completo *:</label> <br>
+            <input id="nombre" type="text" required> <br> <br>
+
+            <label for="edad" type="number" >Edad *:</label> <br>
+            <input id="edad" type="text" required> <br> <br>
+
+            <label for="email">Correo Electrónico *:</label> <br>
+            <input id="email" type="email" required> <br> <br>
+
+            <label for="telefono">Teléfono (opcional):</label> <br>
+            <input id="telefono" type="tel"> <br> <br>
+
+            <label for="genero">Genero</label> <br>
+            <input id="genero" type="radio" name="genero" value="masculino"> Masculino <br>
+            <input id="genero" type="radio" name="genero" value="femenino"> Femenino <br> <br> <br>
+
+            <label for="conferencia">Selecciona las conferencias a las que desea asistir*:</label> <br>
+            <input id="conferencia" type="checkbox"> IA <br>
+            <input id="desarrollo" type="checkbox"> Desarrollo Web <br>
+            <input id="conferencia" type="checkbox"> Seguridad Informática <br>
+            <input id="conferencia" type="checkbox"> Hardware Innovador <br> <br>
+
+            <label>Nivel de experiencia en tecnologia:</label> <br>
+            <select id="experiencia" required>
+                <option value="principiante">Principiante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="avanzado">Avanzado</option>
+            </select> <br> <br>
+
+            <label id="comentarios">Comentarios adicionales (max. 300 caracteres):</label> <br>
+            <textarea id="comentarios" type="texto" placeholder="Escribe" rows="4" cols="60" maxlength="300"></textarea> <br> <br>
+            
+            <label id="archivo">Adjuntar CV o Portafolio (PDF):</label> <br>
+            <input id="archivo" type="file" accept=".pdf"> <br> <br>
+
+            <input type="checkbox" required> Acepto los términos y condiciones.* <br> <br>
+            <input type="submit" value="Enviar Registro">
+        </fieldset>
+    </form>
+</body>
+</html> 
+

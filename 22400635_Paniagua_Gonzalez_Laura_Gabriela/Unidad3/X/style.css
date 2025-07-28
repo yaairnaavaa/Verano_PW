@@ -1,0 +1,196 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    align-items:center;
+    background-color:black;
+    color:white;
+    font-family:'Courier New', Courier, monospace; 
+    flex-direction:column;
+    display:flex;
+    min-height:100vh;
+}
+
+
+p{
+    font-size:8px;
+    text-align:left;
+    width:250px;
+    color:grey;
+}
+
+a{
+    text-decoration:none;
+    color:rgb(56, 142, 255);;
+}
+
+.foot {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:end;
+    min-height:60px;
+    width:100%;
+    background:rgb(0, 0, 0);
+    text-align:center;
+    color:grey;
+    font-size:8px;
+    flex-wrap:wrap;
+    position:relative;
+}
+
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+}
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:500px;
+    height:100%;
+    padding-right:300px; 
+}
+
+.X{
+    margin:0;
+    text-align:center;
+    font-size:350px;
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', sans-serif;
+}
+
+.container > .sign {
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+} 
+
+
+.sign {
+    max-width:320px;
+}
+
+.msj {
+    font-size:40px;
+    font-weight:bold;
+}
+
+.msj2 {
+    margin-bottom: 12px;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.msj3 {
+    font-size: 15px;
+    font-weight:bold;
+    margin-top:50px;
+    color:white;
+}
+
+.or-container{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    margin-left:4px;
+    width:250px;
+}
+
+.line {
+    height:1px;
+    width:100%;
+    background:rgb(80, 80, 80);
+}
+
+.btn-google, .btn-apple, .btn-crear, .btn-sesion {
+    width:250px;
+    padding:10px;
+    margin:5px;
+    border-radius:40px;
+}
+
+.btn-google {
+    border:1px solid rgb(204, 203, 203);
+}
+
+.btn-apple {
+    border:1px solid rgb(50, 50, 50);
+}
+
+
+.btn-crear{
+    background:rgb(56, 142, 255);
+    border:none;
+    color:white;
+}
+
+.btn-sesion{
+    background:black;
+    border:1px solid rgb(104, 134, 139);
+    color:rgb(56, 142, 255);
+    font-weight:bold;
+}
+
+.google-logo {
+    padding-right:10px;
+}
+
+.apple-logo {
+    padding-right:10px;
+}
+
+ @media (max-width:800px){
+    body{
+        font-size:1.2rem;
+        align-items:stretch;
+    } 
+
+     h1{
+        padding:0px;
+    }
+
+    .container {
+        flex-direction:column;
+        justify-content:flex-start;
+        padding:20px;
+    }
+
+
+    .logo{ 
+        width:100%;
+        margin:0;
+        padding-right:0;
+    }
+
+    .X{
+        align-content:center;
+        text-align:center;
+        font-size:10.5rem;
+    }
+
+    .foot {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:5px;
+        font-size:7px;
+        background:rgb(0, 0, 0);
+    }
+
+    .sign {
+        justify-content:center;
+        max-width:280px;
+        margin:0 auto;
+        align-content:center;
+        text-align:center;
+    }
+
+    .sign h3{
+        font-size:1.8rem;
+    }
+
+ }
