@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "12345678-1234-1234-1234-123456789abc",
+		"name": "Videoteca API",
+		"description": "API para gestión de videoteca de películas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear Película",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"titulo\": \"Inception\",\n  \"director\": \"Christopher Nolan\",\n  \"anio\": 2010,\n  \"genero\": \"Ciencia Ficción\",\n  \"duracion\": 148\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/post",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"post"
+					]
+				},
+				"description": "Crear una nueva película en la base de datos"
+			}
+		},
+		{
+			"name": "Obtener Todas las Películas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/get",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"get"
+					]
+				},
+				"description": "Obtener listado completo de todas las películas"
+			}
+		},
+		{
+			"name": "Obtener Película por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/get/{{movieId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"get",
+						"{{movieId}}"
+					]
+				},
+				"description": "Obtener una película específica por su ID"
+			}
+		},
+		{
+			"name": "Filtrar Películas por Género - Drama",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/genero/Drama",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"genero",
+						"Drama"
+					]
+				},
+				"description": "Filtrar películas por género Drama"
+			}
+		},
+		{
+			"name": "Filtrar Películas por Género - Acción",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/genero/Acción",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"genero",
+						"Acción"
+					]
+				},
+				"description": "Filtrar películas por género Acción"
+			}
+		},
+		{
+			"name": "Filtrar Películas por Género - Comedia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/genero/Comedia",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"genero",
+						"Comedia"
+					]
+				},
+				"description": "Filtrar películas por género Comedia"
+			}
+		},
+		{
+			"name": "Filtrar Películas por Género - Ciencia Ficción",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/genero/Ciencia Ficción",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"genero",
+						"Ciencia Ficción"
+					]
+				},
+				"description": "Filtrar películas por género Ciencia Ficción"
+			}
+		},
+		{
+			"name": "Actualizar Película",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"titulo\": \"El Padrino II\",\n  \"director\": \"Francis Ford Coppola\",\n  \"anio\": 1974,\n  \"genero\": \"Drama\",\n  \"duracion\": 202\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/put/{{movieId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"put",
+						"{{movieId}}"
+					]
+				},
+				"description": "Actualizar los datos de una película existente"
+			}
+		},
+		{
+			"name": "Eliminar Película",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/peliculas/delete/{{movieId}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"peliculas",
+						"delete",
+						"{{movieId}}"
+					]
+				},
+				"description": "Eliminar una película de la base de datos"
+			}
+		},
+		{
+			"name": "Ruta de Prueba (Raíz)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				},
+				"description": "Verificar que la API esté funcionando correctamente"
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000/api",
+			"type": "string"
+		},
+		{
+			"key": "movieId",
+			"value": "REPLACE_WITH_ACTUAL_ID",
+			"type": "string"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
