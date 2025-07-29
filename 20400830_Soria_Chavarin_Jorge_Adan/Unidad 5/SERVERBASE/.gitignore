@@ -1,0 +1,8 @@
+node_modules/
+
+backend/.env
+backend/npm-debug.log
+backend/.env.local
+
+package-lock.json
+yarn.lock
