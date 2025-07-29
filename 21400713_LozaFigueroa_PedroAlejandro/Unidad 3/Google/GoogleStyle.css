@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Por clase */
+
+.btn-search {
+    background-color: #f0f2f5;
+    color: #454545;
+    font-weight:normal;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 68%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+.btn-feeling-lucky {
+    background-color: #f0f2f5;
+    color: #454545;
+    font-weight:normal;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 68%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Layout general */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.search-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
