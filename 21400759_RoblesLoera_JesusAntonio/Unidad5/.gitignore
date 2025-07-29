@@ -1,0 +1,20 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+build/
+
+# Entornos
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+Unidad5/
+e
