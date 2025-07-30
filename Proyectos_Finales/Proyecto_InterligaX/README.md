@@ -5,3 +5,6 @@ Interliga X es un proyecto web enfocado en la creación de una plataforma digita
 El proyecto ha sido diseñado con una estética moderna y dinámica, con énfasis en la experiencia del usuario. Su interfaz incluye un fondo en video, botones de acceso personalizados, secciones interactivas como carruseles de resultados, paneles de información y galerías de imágenes. Además, está optimizada para distintos dispositivos gracias a la implementación de media queries, garantizando una navegación fluida tanto en computadoras como en móviles.
 
 El objetivo principal de esta plataforma es ofrecer un entorno visualmente atractivo y funcional que centralice todo lo relacionado con esta liga de eSports de F1, facilitando el acceso a la comunidad de jugadores, espectadores y organizadores. La página se actualiza de forma dinámica y busca integrar, estadísticas y compatibilidad con transmisiones.
+
+
+ENLACE: https://github.com/StevenGS4/InterligaX
