@@ -4,3 +4,6 @@
 
 #Link:
 https://github.com/SoyJuanGlez/Programacion-WEB.git
+
+#Video:
+https://drive.google.com/drive/folders/113vizr4lSc3Ij-yb0StpISILX_DdjzIO?usp=sharing
