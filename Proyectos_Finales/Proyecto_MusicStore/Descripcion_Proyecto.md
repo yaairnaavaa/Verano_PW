@@ -147,4 +147,7 @@ MusicStore/
 
 **Clonar el repositorio:**
    git clone https://github.com/DemonsamG/MusicStore.git
+
+   **Video **
+   https://youtu.be/e8Wx4UT4Q7E?si=FcYBzjC7JM-Acmu8
   
