@@ -18,7 +18,8 @@ hacer una venta y ver el historial de venta
 
 ##  🔗 Enlaces
 Repertorio:
-    https://github.com/JorgeRoblesBuendia/ProyectoWebFinal.git
+https://github.com/JorgeRoblesBuendia/ProyectoWebFinal.git
+
+
 Video de Evidencia:
-    https://drive.google.com/file/d/15C7R6aVlUEPsFG1UsL974t7ggRLsq4Ku/view?usp=sharing
- 
+https://drive.google.com/file/d/15C7R6aVlUEPsFG1UsL974t7ggRLsq4Ku/view?usp=sharing
