@@ -8,3 +8,5 @@ BOOK-HUB es una plataforma digital innovadora que conecta a lectores y escritore
 
 # Link
 https://github.com/rojasaguilar/book-hub.git
+
+https://drive.google.com/file/d/1iyjpgFpqzdwNdlkNkZhUhIusCJ8RisDz/view?usp=sharing
