@@ -1,6 +1,7 @@
 # TociTech - Tienda de Componentes de PC
 
 LINK: https://github.com/PaulinaMartinezS/Tocitec
+LINK a videos: https://drive.google.com/drive/folders/1kFEXrM5tVwiR_SRidpe1gn7fwpfqtmCh?usp=sharing
 
 **TociTech** es una página web de comercio electrónico moderna, completamente funcional y responsiva, diseñada para una tienda especializada en componentes de computadora y periféricos. El sitio ofrece una experiencia de usuario dinámica e interactiva, desde la exploración de productos hasta la finalización de la compra.
 
