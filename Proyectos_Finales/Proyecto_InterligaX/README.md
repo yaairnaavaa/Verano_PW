@@ -8,3 +8,6 @@ El objetivo principal de esta plataforma es ofrecer un entorno visualmente atrac
 
 
 ENLACE: https://github.com/StevenGS4/InterligaX
+
+
+Video: https://drive.google.com/file/d/1MVFt3zFInyg-vSbQKIbh2QHnISDUFOlx/view?usp=sharing
